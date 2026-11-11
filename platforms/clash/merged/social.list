@@ -1,6 +1,7 @@
 # clash/merged/social.list — 由 surge-rules 自动转换（源：rules/merged/social.list）
 
-# ── Telegram（57 条）──
+# ── Telegram（58 条）──
+DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-KEYWORD,nicegram

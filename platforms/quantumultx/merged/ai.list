@@ -135,6 +135,9 @@ HOST-SUFFIX,sora.com,AI
 HOST-SUFFIX,x.ai,AI
 IP-CIDR,129.146.3.78/32,AI
 
+# ── Sukka 精选（1 条）──
+HOST-KEYWORD,alkalimakersuite-pa.clients6.google.com,AI
+
 # ── 仓内补充（14 条）──
 HOST-SUFFIX,bolt.new,AI
 HOST-SUFFIX,cdn-lfs.huggingface.co,AI

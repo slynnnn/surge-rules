@@ -132,6 +132,10 @@ domain:smoot.apple.com
 domain:sora.com
 domain:x.ai
 
+# ── Sukka 精选（2 条）──
+keyword:alkalimakersuite-pa.clients6.google.com
+regexp:https://www\.google\.com/.*continue=https://gemini\.google\.com.+
+
 # ── 仓内补充（14 条）──
 domain:bolt.new
 domain:cdn-lfs.huggingface.co

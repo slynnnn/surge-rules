@@ -137,6 +137,9 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
 IP-CIDR,129.146.3.78/32
 
+# ── Sukka 精选（1 条）──
+DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+
 # ── 仓内补充（14 条）──
 DOMAIN-SUFFIX,bolt.new
 DOMAIN-SUFFIX,cdn-lfs.huggingface.co

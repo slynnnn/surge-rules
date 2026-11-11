@@ -1,10 +1,10 @@
-# 四源清单（机器可读）—— 本仓的合并来源与许可证
+# 来源清单（机器可读）—— 本仓的合并来源、扩展集来源与只索引来源及许可证
 sources:
   - name: blackmatrix7/ios_rule_script
     url: https://github.com/blackmatrix7/ios_rule_script
     license: GPL-2.0
     role: 主力分应用规则（rule/Surge）与去广告域名集、重写模块索引
-    usage: typed 规则并入 rules/merged；Advertising_Domain 清洗为 rules/merged/ads.txt（DOMAIN-SET）
+    usage: typed 规则并入 rules/merged；Advertising_Domain 与 anti-AD、Cats-Team 合并为 rules/merged/ads.txt（DOMAIN-SET）
   - name: Loyalsoldier/surge-rules
     url: https://github.com/Loyalsoldier/surge-rules
     license: GPL-3.0
@@ -20,6 +20,123 @@ sources:
     license: none-stated
     role: 自用配置参考、Rules 补充（AIGC/GlobalMedia/China 大集）、Module 模块库
     usage: 仅 Rules/*.list 并入合并（已署名）；模块只做索引直引、不复制其文件
+  - name: SukkaW/Surge
+    url: https://github.com/SukkaW/Surge
+    license: AGPL-3.0
+    role: 高质量精选规则集（ruleset.skk.moe 官方分发）
+    usage: non_ip/ai、stream、global、domestic 与 telegram（non_ip+ip）并入 rules/merged 对应分类尾部小节，只取增量
+  - name: privacy-protection-tools/anti-AD
+    url: https://github.com/privacy-protection-tools/anti-AD
+    license: MIT
+    role: 中文区去广告大表（命中率导向）
+    usage: anti-ad-domains.txt 域名并入 rules/merged/ads.txt
+  - name: Cats-Team/AdRules
+    url: https://github.com/Cats-Team/AdRules
+    license: 0BSD
+    role: 中国区去广告（含 HTTPDNS/PCDN 拦截）
+    usage: adrules_surge_domainset.txt 并入 rules/merged/ads.txt；adrules.list 全量 typed 进 rules/extended/cats-adrules.list
+  - name: app2smile/rules
+    url: https://github.com/app2smile/rules
+    license: MIT
+    role: 分应用模块/插件（Spotify/Bilibili/贴吧/起点等）与 QX 规则
+    usage: 模块与 Loon 插件只索引（modules.yaml）；其规则与 blackmatrix7 高度重叠，不并入
+  - name: Maasea/sgmodule
+    url: https://github.com/Maasea/sgmodule
+    license: Apache-2.0
+    role: Surge 模块画廊（YouTube Enhance/WeRead/URLRewrite 等）
+    usage: 模块只索引（modules.yaml）
+  - name: NobyDa/Script
+    url: https://github.com/NobyDa/Script
+    license: GPL-3.0
+    role: 老牌脚本/模块库（签到、比价等）
+    usage: 模块只索引（modules.yaml）
+
+extended_sources:
+  # 全量/数据库型大表：产出 rules/extended/，不进主配置默认引用链
+  - name: StevenBlack/hosts
+    url: https://github.com/StevenBlack/hosts
+    license: MIT
+    usage: hosts 大表抽域名 -> rules/extended/stevenblack.txt
+  - name: jerryn70/GoodbyeAds
+    url: https://github.com/jerryn70/GoodbyeAds
+    license: MIT
+    usage: Hosts/GoodbyeAds.txt 抽域名 -> rules/extended/goodbyeads.txt（注：上游更新节奏放缓，2024-11 后低频）
+  - name: AdguardTeam/AdguardSDNSFilter
+    url: https://github.com/AdguardTeam/AdguardSDNSFilter
+    license: GPL-3.0
+    usage: 编译版 filter.txt 只抽 ||domain^ 域名级规则（元素隐藏类弃）-> rules/extended/adguard-sdns.txt
+  - name: 217heidai/adblockfilters
+    url: https://github.com/217heidai/adblockfilters
+    license: GPL-3.0
+    usage: rules/adblockdomain.txt 域名集 -> rules/extended/heidai-domains.txt
+  - name: gfwlist/gfwlist
+    url: https://github.com/gfwlist/gfwlist
+    license: LGPL-2.1
+    usage: base64 正文解码抽域名 -> rules/extended/gfwlist.txt（与 Loyalsoldier gfw 直引互为对照）
+  - name: Johnshall/Shadowrocket-ADBlock-Rules-Forever
+    url: https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever
+    license: CC-BY-SA-4.0
+    usage: sr_adb.conf 的 [Rule] 段 -> rules/extended/johnshall-adblock.list（Shadowrocket 原生去广告正典源）
+  - name: ACL4SSR/ACL4SSR
+    url: https://github.com/ACL4SSR/ACL4SSR
+    license: CC-BY-SA-4.0
+    usage: Clash/BanAD.list + BanProgramAD.list -> rules/extended/acl4ssr-banad.list（其余分流集与 Loyalsoldier/BM7 高度同源，不重复并）
+  - name: MetaCubeX/meta-rules-dat
+    url: https://github.com/MetaCubeX/meta-rules-dat
+    license: GPL-3.0
+    usage: sing 分支 sing-box JSON 规则集转换 12 个 geosite 分类 -> rules/extended/geosite-*.list（domain_regex 无 Surge 对应类型，丢弃并计数）
+
+indexed_only:
+  # 无许可证/许可证不明或形态不适合落内容：只在 README/modules.yaml 给链接，不复制内容
+  - name: KOP-XIAO/QuantumultX
+    url: https://github.com/KOP-XIAO/QuantumultX
+    license: none-stated
+    note: QX 生态最大资源库之一（规则/重写/脚本），活跃；模块索引收录其仓入口
+  - name: zqzess/rule_for_quantumultx
+    url: https://github.com/zqzess/rule_for_quantumultx
+    license: none-stated
+    note: QX 规则与重写集合，活跃；模块索引收录其仓入口
+  - name: LOWERTOP/Shadowrocket
+    url: https://github.com/LOWERTOP/Shadowrocket
+    license: none-stated
+    note: Shadowrocket 模块/配置聚合导航，模块索引收录
+  - name: luestr/ShuntRules
+    url: https://github.com/luestr/ShuntRules
+    license: none-stated
+    note: Loon 分流规则集（★1835，活跃），形态为 Loon 专用分流片段
+  - name: SagerNet/sing-geosite
+    url: https://github.com/SagerNet/sing-geosite
+    license: unclear (NOASSERTION，多上游数据混合)
+    note: sing-box geosite 数据库；文本转换改走同源数据的 MetaCubeX sing 分支（许可证明确）
+  - name: SagerNet/sing-geoip
+    url: https://github.com/SagerNet/sing-geoip
+    license: unclear (NOASSERTION)
+    note: sing-box geoip 数据库，二进制形态（.srs/.db），代理规则层以 IP-CIDR 集形式由 Loyalsoldier cncidr/telegramcidr 覆盖
+  - name: DandelionSprout/adfilt
+    url: https://github.com/DandelionSprout/adfilt
+    license: unclear (NOASSERTION)
+    note: 个人维护的 AdGuard 补充表，活跃但许可证不明
+  - name: easylist/easylist
+    url: https://github.com/easylist/easylist
+    license: unclear-in-repo（仓内无 LICENSE 文件、GitHub 未识别）
+    note: EasyList/EasyPrivacy 本体；其域名级内容与 AdGuard SDNS 表高度重叠，扩展集已由后者覆盖
+
+skipped:
+  # 核过但决定不收，留理由备查
+  - name: Hackl0us/SS-Rule-Snippet
+    reason: AGPL-3.0 可用，但已停更逾 2 年（末次推送 2024-03），内容老化，跳过
+  - name: lhie1/Rules
+    reason: 仓已被 GitHub 以 TOS 原因封存（access blocked），不可达，跳过
+  - name: DivineEngine/Profiles（及 DivineEngine 名下模块仓）
+    reason: 原作者仓已删除（404），现存均为第三方 fork、来源不可考，跳过；其 Surge 配置生态影响由 Sukka/Rabbit 等在营源覆盖
+  - name: GeQ1an/Rules
+    reason: 无许可证且 2024-12 后未更新，跳过
+  - name: RuCu6 / Yu9191 的插件仓
+    reason: 原插件仓（Loon/QuanX 名下）已删除（404），仅存 fork，不收；两作者的在营入口以 fork 质量存疑为由不索引
+  - name: yichahucha（一只鱼）
+    reason: 其脚本仓已不可见（账号下仅存无关仓），跳过
+
 build:
   script: scripts/build.py
-  outputs: rules/merged/*.list + rules/merged/ads.txt + BUILD-LOG.md
+  outputs: rules/merged/*.list + rules/merged/ads.txt + rules/extended/* + BUILD-LOG.md
+  modules_index: modules.yaml -> scripts/build_modules.py -> modules/INDEX.md

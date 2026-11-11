@@ -15,6 +15,13 @@ for f in sorted((ROOT / "rules" / "service").glob("*.list")):
     SOURCES[f"service/{f.stem}"] = f
 for f in sorted((ROOT / "rules" / "company").glob("*.list")):
     SOURCES[f"company/{f.stem}"] = f
+for f in sorted((ROOT / "rules" / "extended").glob("*.list")):
+    SOURCES[f"extended/{f.stem}"] = f
+
+# 域名集型文件（纯域名行）：merged/ads + extended/*.txt，转换时按 DOMAIN/DOMAIN-SUFFIX 处理
+DOM_FILES = {"merged/ads": ROOT / "rules" / "merged" / "ads.txt"}
+for f in sorted((ROOT / "rules" / "extended").glob("*.txt")):
+    DOM_FILES[f"extended/{f.stem}"] = f
 
 QX_POLICY = {"merged/ai": "AI", "merged/streaming": "Streaming", "merged/social": "Social",
              "merged/global": "Global", "merged/china": "DIRECT", "merged/ads": "REJECT"}
@@ -34,14 +41,17 @@ def parse(path):
             out.append((section, parts[0].strip().upper(), parts[1].strip()))
     return out
 
-def parse_ads():
+def parse_domfile(path):
     out = []
-    for ln in (ROOT / "rules" / "merged" / "ads.txt").read_text(encoding="utf-8").splitlines():
+    for ln in path.read_text(encoding="utf-8").splitlines():
         s = ln.strip()
         if not s or s.startswith("#"):
             continue
-        out.append(("广告域名", "DOMAIN-SUFFIX" if s.startswith(".") else "DOMAIN", s.lstrip(".")))
+        out.append(("域名集", "DOMAIN-SUFFIX" if s.startswith(".") else "DOMAIN", s.lstrip(".")))
     return out
+
+def parse_ads():
+    return parse_domfile(ROOT / "rules" / "merged" / "ads.txt")
 
 def group_sections(rows):
     g = collections.OrderedDict()
@@ -78,7 +88,8 @@ def make_qx(policy):
 def build():
     log = ["# PLATFORM-LOG", "", "各平台由 Surge canonical 列表转换；丢弃数 = 该平台不支持的规则类型。", ""]
     all_rows = {name: parse(f) for name, f in SOURCES.items()}
-    all_rows["merged/ads"] = parse_ads()
+    for name, f in DOM_FILES.items():
+        all_rows[name] = parse_domfile(f)
     for name, rows in all_rows.items():
         grouped = group_sections(rows)
         rel = name + ".list"
@@ -92,7 +103,9 @@ def build():
             # write_grouped 需要 (t,v) 形式，这里直接写已格式化行
             p = OUT / platform / rel
             p.parent.mkdir(parents=True, exist_ok=True)
-            lines = [f"# {platform}/{rel} — 由 surge-rules 自动转换（源：rules/{rel}）"]
+            src_path = SOURCES.get(name) or DOM_FILES.get(name)
+            src_rel = src_path.relative_to(ROOT / "rules") if src_path else rel
+            lines = [f"# {platform}/{rel} — 由 surge-rules 自动转换（源：rules/{src_rel}）"]
             total = 0
             for sec, rs in grouped.items():
                 out = [c for t, v in rs if (c := conv(t, v)) is not None]

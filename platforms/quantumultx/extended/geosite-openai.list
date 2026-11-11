@@ -1,0 +1,27 @@
+# quantumultx/extended/geosite-openai.list — 由 surge-rules 自动转换（源：rules/extended/geosite-openai.list）
+
+# ── 默认（24 条）──
+HOST,browser-intake-datadoghq.com,Geosite-openai
+HOST,o33249.ingest.sentry.io,Geosite-openai
+HOST,o33249.ingest.us.sentry.io,Geosite-openai
+HOST,openai.qualtrics.com,Geosite-openai
+HOST,openaiapi-site.azureedge.net,Geosite-openai
+HOST,openaiassets.blob.core.windows.net,Geosite-openai
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Geosite-openai
+HOST,openaicom.imgix.net,Geosite-openai
+HOST,openaicomproductionae4b.blob.core.windows.net,Geosite-openai
+HOST,production-openaicom-storage.azureedge.net,Geosite-openai
+HOST-SUFFIX,chat.com,Geosite-openai
+HOST-SUFFIX,chatgpt.com,Geosite-openai
+HOST-SUFFIX,chatgpt.livekit.cloud,Geosite-openai
+HOST-SUFFIX,chatgpt.site,Geosite-openai
+HOST-SUFFIX,crixet.com,Geosite-openai
+HOST-SUFFIX,host.livekit.cloud,Geosite-openai
+HOST-SUFFIX,oaistatic.com,Geosite-openai
+HOST-SUFFIX,oaistatsig.com,Geosite-openai
+HOST-SUFFIX,oaiusercontent.com,Geosite-openai
+HOST-SUFFIX,openai.com,Geosite-openai
+HOST-SUFFIX,openai.com.cdn.cloudflare.net,Geosite-openai
+HOST-SUFFIX,openai.org,Geosite-openai
+HOST-SUFFIX,sora.com,Geosite-openai
+HOST-SUFFIX,turn.livekit.cloud,Geosite-openai

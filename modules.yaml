@@ -1,0 +1,272 @@
+# 模块索引（机器可读）—— modules/INDEX.md 由 scripts/build_modules.py 从本文件生成，勿手改 INDEX.md
+# 口径：模块一律只索引、直引原仓链接，不复制脚本本体（模块按 URL 导入使用，索引即成品）。
+# mitm 字段：已知的主机名写实值；模块自带 [MITM] 声明的写「随模块声明」。
+categories:
+  ads: 去广告
+  rewrite: 重写增强
+  unlock: 应用解锁
+  other: 其他
+modules:
+  # ── 去广告 ──
+  - name: 广告拦截（完整）
+    desc: blackmatrix7 全量去广告重写（MITM）
+    software: Surge
+    mitm: 模块自带大名单
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/Advertising/Advertising.sgmodule
+    source: blackmatrix7/ios_rule_script
+    category: ads
+  - name: 广告拦截（轻量）
+    desc: blackmatrix7 轻量去广告，规则量小、误杀少
+    software: Surge
+    mitm: 模块自带名单
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AdvertisingLite/AdvertisingLite.sgmodule
+    source: blackmatrix7/ios_rule_script
+    category: ads
+  - name: Sukka 增强去广告
+    desc: Sukka 的去广告增强模块，配合其 reject 规则集
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/SukkaW/Surge/master/Modules/sukka_enhance_adblock.sgmodule
+    source: SukkaW/Surge
+    category: ads
+  - name: 通用去广告（adsense）
+    desc: app2smile 通用广告清理模块
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.sgmodule
+    source: app2smile/rules
+    category: ads
+  - name: Bilibili 去广告/增强
+    desc: app2smile 哔哩哔哩去广告与功能增强
+    software: Surge
+    mitm: app.bilibili.com, grpc.biliapi.net
+    url: https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili.sgmodule
+    source: app2smile/rules
+    category: ads
+  - name: Bilibili Helper
+    desc: Maasea 的 B 站辅助模块（去广告/增强）
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Bilibili.Helper.sgmodule
+    source: Maasea/sgmodule
+    category: ads
+  - name: 微博去广告
+    desc: Rabbit-Spec 微博去广告模块
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/Weibo/Moore/Weibo.sgmodule
+    source: Rabbit-Spec/Surge
+    category: ads
+  - name: 知乎去广告（Loon 插件）
+    desc: app2smile 知乎去广告插件（Rabbit-Spec 的 Surge 版已被上游删除，改收此条）
+    software: Loon
+    mitm: 随插件声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/plugin/zhihu.plugin
+    source: app2smile/rules
+    category: ads
+  - name: 贴吧去广告
+    desc: Rabbit-Spec 百度贴吧去广告模块
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/Tieba/Moore/Tieba.sgmodule
+    source: Rabbit-Spec/Surge
+    category: ads
+  - name: 贴吧 Mini
+    desc: app2smile 贴吧精简去广告
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-mini.sgmodule
+    source: app2smile/rules
+    category: ads
+  - name: QQ 新闻去广告
+    desc: app2smile 腾讯新闻去广告
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/module/qqnews.sgmodule
+    source: app2smile/rules
+    category: ads
+  - name: YouTube 去广告（Loon 插件）
+    desc: app2smile 的 YouTube 去广告插件
+    software: Loon
+    mitm: 随插件声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/plugin/youtube.plugin
+    source: app2smile/rules
+    category: ads
+  # ── 重写增强 ──
+  - name: 通用重写
+    desc: blackmatrix7 通用 URL 重写集合
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/General/General.sgmodule
+    source: blackmatrix7/ios_rule_script
+    category: rewrite
+  - name: URL Rewrite 增强
+    desc: Maasea 的常用重写合集
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/URLRewrite.sgmodule
+    source: Maasea/sgmodule
+    category: rewrite
+  - name: Google CN 307 跳转
+    desc: Sukka：google.cn/g.cn 强制 307 到国际版
+    software: Surge
+    mitm: g.cn, www.g.cn, google.cn, www.google.cn
+    url: https://raw.githubusercontent.com/SukkaW/Surge/master/Modules/google_cn_307.sgmodule
+    source: SukkaW/Surge
+    category: rewrite
+  - name: 百度不重定向
+    desc: app2smile：百度搜索结果去跳转跟踪
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/module/baidu-no-redirect.sgmodule
+    source: app2smile/rules
+    category: rewrite
+  - name: Google 重写
+    desc: Rabbit-Spec 的 Google 相关重写
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/GoogleRewrite/Moore/GoogleRewrite.sgmodule
+    source: Rabbit-Spec/Surge
+    category: rewrite
+  # ── 应用解锁 ──
+  - name: Spotify 解锁
+    desc: app2smile：Spotify 功能解锁（.module 版）
+    software: Shadowrocket / Stash
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module
+    source: app2smile/rules
+    category: unlock
+  - name: Spotify 解锁（Loon 插件）
+    desc: app2smile：Spotify 解锁的 Loon 版
+    software: Loon
+    mitm: 随插件声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin
+    source: app2smile/rules
+    category: unlock
+  - name: YouTube Enhance
+    desc: Maasea：YouTube 功能增强/解锁
+    software: Surge
+    mitm: "*.googlevideo.com, youtubei.googleapis.com"
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/YouTube.Enhance.sgmodule
+    source: Maasea/sgmodule
+    category: unlock
+  - name: 微信读书解锁
+    desc: Maasea：WeRead 解锁/增强
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/WeRead.sgmodule
+    source: Maasea/sgmodule
+    category: unlock
+  - name: 起点读书
+    desc: app2smile：起点读书去广告/解锁
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.sgmodule
+    source: app2smile/rules
+    category: unlock
+  - name: 百度地图
+    desc: app2smile：百度地图去广告/增强
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/app2smile/rules/master/module/baidumap.sgmodule
+    source: app2smile/rules
+    category: unlock
+  # ── 其他 ──
+  - name: Sub-Store
+    desc: Rabbit-Spec：订阅管理前端模块
+    software: Surge
+    mitm: 不需要
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/Sub-Store/Moore/Sub-Store.sgmodule
+    source: Rabbit-Spec/Surge
+    category: other
+  - name: TestFlight 管理
+    desc: Rabbit-Spec：TestFlight 相关增强
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/TestFlight/Moore/TestFlight.sgmodule
+    source: Rabbit-Spec/Surge
+    category: other
+  - name: 京东比价
+    desc: Rabbit-Spec：京东历史价格显示
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/JD_Price/Moore/JD_Price.sgmodule
+    source: Rabbit-Spec/Surge
+    category: other
+  - name: DoH 增强
+    desc: Rabbit-Spec：加密 DNS 模块（Ali-DoH 版）
+    software: Surge
+    mitm: 不需要
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/DoH/Moore/Ali-DoH.sgmodule
+    source: Rabbit-Spec/Surge
+    category: other
+  - name: DNS over QUIC
+    desc: Rabbit-Spec：DoQ 支持模块（Ali-DoQ 版）
+    software: Surge
+    mitm: 不需要
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/DNS-QUIC/Moore/Ali-DoQ.sgmodule
+    source: Rabbit-Spec/Surge
+    category: other
+  - name: 隐藏 VPN 图标
+    desc: Rabbit-Spec：状态栏 VPN 图标隐藏
+    software: Surge
+    mitm: 不需要
+    url: https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/Hide-VPN-Icon/Moore/Hide-VPN-Icon.sgmodule
+    source: Rabbit-Spec/Surge
+    category: other
+  - name: Alidns
+    desc: Maasea：阿里 DNS 相关模块
+    software: Surge
+    mitm: 不需要
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Alidns.sgmodule
+    source: Maasea/sgmodule
+    category: other
+  - name: SRSS
+    desc: Maasea：RSS 订阅提醒脚本模块
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/SRSS.sgmodule
+    source: Maasea/sgmodule
+    category: other
+  - name: 网易云更新检查禁用
+    desc: Sukka：禁止网易云音乐检查更新弹窗
+    software: Surge
+    mitm: 随模块声明
+    url: https://raw.githubusercontent.com/SukkaW/Surge/master/Modules/sukka_disable_netease_music_v2_update_check.sgmodule
+    source: SukkaW/Surge
+    category: other
+  - name: MITM 全主机名（工具）
+    desc: Sukka：调试用，一键放行全部 MITM 主机名
+    software: Surge
+    mitm: "*"
+    url: https://raw.githubusercontent.com/SukkaW/Surge/master/Modules/sukka_mitm_all_hostnames.sgmodule
+    source: SukkaW/Surge
+    category: other
+  - name: NobyDa 脚本模块库
+    desc: NobyDa 的 Surge 脚本/模块目录（签到、比价等，GPL-3.0）
+    software: Surge
+    mitm: 随模块声明
+    url: https://github.com/NobyDa/Script/tree/master/Surge
+    source: NobyDa/Script
+    category: other
+  - name: Shadowrocket 模块/配置聚合
+    desc: LOWERTOP 的小火箭模块与配置导航页（无许可证，仅索引）
+    software: Shadowrocket
+    mitm: 随模块声明
+    url: https://github.com/LOWERTOP/Shadowrocket
+    source: LOWERTOP/Shadowrocket
+    category: other
+  - name: Quantumult X 资源库
+    desc: KOP-XIAO 的 QX 规则/重写/脚本资源库（无许可证，仅索引）
+    software: Quantumult X
+    mitm: 随资源声明
+    url: https://github.com/KOP-XIAO/QuantumultX
+    source: KOP-XIAO/QuantumultX
+    category: other
+  - name: QX 规则与重写库
+    desc: zqzess 的 Quantumult X 规则/重写集合（无许可证，仅索引）
+    software: Quantumult X
+    mitm: 随资源声明
+    url: https://github.com/zqzess/rule_for_quantumultx
+    source: zqzess/rule_for_quantumultX
+    category: other

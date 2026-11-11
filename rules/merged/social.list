@@ -1,8 +1,9 @@
-# social.list — 四源合一（blackmatrix7 + LceAn + Rabbit-Spec）
-# 规则数：704
+# social.list — 多源合一（blackmatrix7 + LceAn + Rabbit-Spec + Sukka）
+# 规则数：705
 # 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
-# ── Telegram（57 条）──
+# ── Telegram（58 条）──
+DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-KEYWORD,nicegram

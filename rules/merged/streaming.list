@@ -1,5 +1,5 @@
-# streaming.list — 四源合一（blackmatrix7 + LceAn + Rabbit-Spec）
-# 规则数：4993
+# streaming.list — 多源合一（blackmatrix7 + LceAn + Rabbit-Spec + Sukka）
+# 规则数：5099
 # 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
 # ── Netflix（1630 条）──
@@ -5006,3 +5006,111 @@ USER-AGENT,TVer-Release*
 USER-AGENT,WeMusic*
 USER-AGENT,discovery+*
 USER-AGENT,mytv*
+
+# ── Sukka 精选（106 条）──
+DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
+DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
+DOMAIN,ana.video.friday.tw
+DOMAIN,apm-misaka.biliapi.net
+DOMAIN,athome.fandango.com
+DOMAIN,bbc.mp-pxcdn.com
+DOMAIN,cache.video.iqiyi.com
+DOMAIN,cbsi.live.ott.irdeto.com
+DOMAIN,cbsplaylistserver.aws.syncbak.com
+DOMAIN,cbsservice.aws.syncbak.com
+DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
+DOMAIN,d184dfn36gombl.cloudfront.net
+DOMAIN,dashasiafox.akamaized.net
+DOMAIN,ds-linear-abematv.akamaized.net
+DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,hls.itunes.apple.com
+DOMAIN,linear.tv.apple.com
+DOMAIN,manifest.prod.boltdns.net
+DOMAIN,ocvideo.apple.com
+DOMAIN,prod-api.crackle.com
+DOMAIN,staticasiafox.akamaized.net
+DOMAIN,tubi.tv
+DOMAIN,tubitv.com
+DOMAIN,upos-bstar-mirrorakam.akamaized.net
+DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN,uts-api.itunes.apple.com
+DOMAIN,video.friday.tw
+DOMAIN,vudu.com
+DOMAIN,www.tubi.tv
+DOMAIN,www.tubitv.com
+DOMAIN,youtube.googleapis.com
+DOMAIN-KEYWORD,tvbanywhere
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN-SUFFIX,abema-tv.com
+DOMAIN-SUFFIX,amazonvideodirect.cc
+DOMAIN-SUFFIX,ani.gamer.com.tw
+DOMAIN-SUFFIX,api.gamer.com.tw
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biliintl.com
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,dmm-extension.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,fanfox.net
+DOMAIN-SUFFIX,hbogoasia.id
+DOMAIN-SUFFIX,hbogoasia.ph
+DOMAIN-SUFFIX,hbogoasia.sg
+DOMAIN-SUFFIX,hbogoasia.tw
+DOMAIN-SUFFIX,himalaya.com
+DOMAIN-SUFFIX,location-plus.nhk.jp
+DOMAIN-SUFFIX,mangafox.me
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,overcast.fm
+DOMAIN-SUFFIX,production-public.tubi.io
+DOMAIN-SUFFIX,psg.cdn.hgc.com.hk
+DOMAIN-SUFFIX,sho.com
+DOMAIN-SUFFIX,tiktok.us
+DOMAIN-SUFFIX,tiktokw.com
+DOMAIN-SUFFIX,tv.naver.com
+DOMAIN-SUFFIX,tvlicensing.co.uk
+DOMAIN-SUFFIX,twitchsvc.net
+DOMAIN-SUFFIX,viblast.com
+PROCESS-NAME,com.amazon.avod.thirdpartyclient
+PROCESS-NAME,com.bstar.intl
+PROCESS-NAME,com.hktve.viutv
+PROCESS-NAME,com.hulu.plus
+PROCESS-NAME,com.linecorp.linetv
+PROCESS-NAME,com.tencent.ibg.joox
+PROCESS-NAME,com.twgood.android
+PROCESS-NAME,music
+PROCESS-NAME,tv
+PROCESS-NAME,tv.twitch.android.app
+USER-AGENT,*Spotify*
+USER-AGENT,AbemaTV*
+USER-AGENT,All4*
+USER-AGENT,Anime*
+USER-AGENT,AppleTV*
+USER-AGENT,Deezer*
+USER-AGENT,FOX NOW*
+USER-AGENT,FOXPlus*
+USER-AGENT,HBO NOW*
+USER-AGENT,HWTVMobile*
+USER-AGENT,Himalaya*
+USER-AGENT,Hulu*
+USER-AGENT,ITV_Player*
+USER-AGENT,InstantVideo.US*
+USER-AGENT,KKTV*
+USER-AGENT,LINE TV*
+USER-AGENT,My5*
+USER-AGENT,Naver TV*
+USER-AGENT,Niconico*
+USER-AGENT,Overcast*
+USER-AGENT,PBS*
+USER-AGENT,Pandora*
+USER-AGENT,PeacockMobile*
+USER-AGENT,Prime Video*
+USER-AGENT,SoundCloud*
+USER-AGENT,TIDAL*
+USER-AGENT,TaiwanGood*
+USER-AGENT,Viu*
+USER-AGENT,WeTV*
+USER-AGENT,com.apple.tv*
+USER-AGENT,com.kktv.ios.kktv*
+USER-AGENT,encoreTVB*

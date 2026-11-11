@@ -93,7 +93,33 @@ def check_format():
             t = s.split(",", 1)[0].strip().upper()
             if t not in RULE_TYPES or "," not in s:
                 bad.append(f"{f.relative_to(ROOT)}:{i} {s[:60]}")
+    # 域名集型 .txt（ads.txt + extended/*.txt）：每行须是合法域名形态
+    dom_re = re.compile(r"\.?[A-Za-z0-9_-]+(\.[A-Za-z0-9_-]+)+$")
+    for f in (ROOT / "rules").rglob("*.txt"):
+        files.append(f)
+        for i, ln in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            s = ln.strip()
+            if not s or s.startswith("#"):
+                continue
+            if not dom_re.fullmatch(s):
+                bad.append(f"{f.relative_to(ROOT)}:{i} {s[:60]}")
     return files, bad
+
+def check_module_links():
+    """modules.yaml 索引链接存活：失效只警告记账，不硬失败（上游模块下线不该拖垮规则构建）。"""
+    text = (ROOT / "modules.yaml").read_text(encoding="utf-8")
+    urls = sorted(set(re.findall(r"url:\s*(https://\S+)", text)))
+    dead = []
+    for u in urls:
+        try:
+            req = urllib.request.Request(u, headers=UA, method="GET")
+            with urllib.request.urlopen(req, timeout=20) as r:
+                r.read(64)
+                if r.status != 200:
+                    dead.append((u, r.status))
+        except Exception as e:
+            dead.append((u, type(e).__name__))
+    return urls, dead
 
 def main():
     lines = ["# VERIFY-LOG", "",
@@ -124,6 +150,10 @@ def main():
         lines.append(f"| {domain} | {expect} | {actual} {'✓' if ok else '✗'} | {', '.join(hits) if len(hits) > 1 else '—'} |")
     lines += ["", f"抽样 {len(SAMPLES)} 个，落点不符 {miss} 个"]
     if miss: hard_fail = True
+
+    murls, mdead = check_module_links()
+    lines += ["", f"## 模块索引链接存活（软巡检）：{len(murls)} 个，失效 {len(mdead)}", ""]
+    lines += [f"- ⚠ {u}（{c}）" for u, c in mdead] or ["- 全部可达"]
 
     (ROOT / "VERIFY-LOG.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"links: {len(urls)} urls, {len(dead)} dead | format: {len(files)} files, {len(bad)} bad | samples: {len(SAMPLES)}, {miss} miss")

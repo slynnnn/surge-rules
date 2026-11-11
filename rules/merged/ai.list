@@ -1,5 +1,5 @@
-# ai.list — 四源合一（blackmatrix7 + LceAn + Rabbit-Spec）
-# 规则数：141
+# ai.list — 多源合一（blackmatrix7 + LceAn + Rabbit-Spec + Sukka）
+# 规则数：143
 # 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
 # ── OpenAI / ChatGPT / Sora（35 条）──
@@ -138,6 +138,10 @@ DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
 IP-CIDR,129.146.3.78/32
+
+# ── Sukka 精选（2 条）──
+DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
+URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
 
 # ── 仓内补充（四源未覆盖）（14 条）──
 DOMAIN-SUFFIX,bolt.new

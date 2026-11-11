@@ -54,3 +54,6 @@ IP-CIDR,95.161.64.0/20
 IP-CIDR,2001:b28:f23c::/48
 IP-CIDR,2001:b28:f23d::/48
 IP-CIDR,2a0a:f280::/32
+
+# ── Sukka（1 条）──
+DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe

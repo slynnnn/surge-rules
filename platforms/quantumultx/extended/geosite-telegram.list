@@ -1,0 +1,24 @@
+# quantumultx/extended/geosite-telegram.list — 由 surge-rules 自动转换（源：rules/extended/geosite-telegram.list）
+
+# ── 默认（21 条）──
+HOST-SUFFIX,cdn-telegram.org,Geosite-telegram
+HOST-SUFFIX,comments.app,Geosite-telegram
+HOST-SUFFIX,contest.com,Geosite-telegram
+HOST-SUFFIX,fragment.com,Geosite-telegram
+HOST-SUFFIX,graph.org,Geosite-telegram
+HOST-SUFFIX,quiz.directory,Geosite-telegram
+HOST-SUFFIX,t.me,Geosite-telegram
+HOST-SUFFIX,tdesktop.com,Geosite-telegram
+HOST-SUFFIX,telega.one,Geosite-telegram
+HOST-SUFFIX,telegra.ph,Geosite-telegram
+HOST-SUFFIX,telegram-cdn.org,Geosite-telegram
+HOST-SUFFIX,telegram.dog,Geosite-telegram
+HOST-SUFFIX,telegram.me,Geosite-telegram
+HOST-SUFFIX,telegram.org,Geosite-telegram
+HOST-SUFFIX,telegram.space,Geosite-telegram
+HOST-SUFFIX,telesco.pe,Geosite-telegram
+HOST-SUFFIX,tg.dev,Geosite-telegram
+HOST-SUFFIX,ton.org,Geosite-telegram
+HOST-SUFFIX,toncenter.com,Geosite-telegram
+HOST-SUFFIX,tx.me,Geosite-telegram
+HOST-SUFFIX,usercontent.dev,Geosite-telegram

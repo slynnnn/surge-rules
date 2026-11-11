@@ -1,0 +1,24 @@
+# v2ray/extended/geosite-telegram.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
+
+# ── 默认（21 条）──
+domain:cdn-telegram.org
+domain:comments.app
+domain:contest.com
+domain:fragment.com
+domain:graph.org
+domain:quiz.directory
+domain:t.me
+domain:tdesktop.com
+domain:telega.one
+domain:telegra.ph
+domain:telegram-cdn.org
+domain:telegram.dog
+domain:telegram.me
+domain:telegram.org
+domain:telegram.space
+domain:telesco.pe
+domain:tg.dev
+domain:ton.org
+domain:toncenter.com
+domain:tx.me
+domain:usercontent.dev
