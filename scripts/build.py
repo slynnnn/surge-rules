@@ -17,7 +17,7 @@ RAB = "https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Rules"
 # 类目 -> 上游文件清单
 CATEGORIES = {
     "ai": [
-        f"{BM7}/OpenAI/OpenAI.list", f"{BM7}/Claude/Claude.list", f"{BM7}/Gemini/Gemini.list",
+        f"{BM7}/OpenAI/OpenAI.list", f"{BM7}/Claude/Claude.list", f"{BM7}/Gemini/Gemini.list", f"{BM7}/Copilot/Copilot.list", f"{BM7}/BardAI/BardAI.list",
         f"{LCE}/AI.list", f"{LCE}/OpenAI.list", f"{LCE}/Claude.list", f"{LCE}/Gemini.list",
         f"{RAB}/AIGC.list",
     ],
@@ -46,6 +46,26 @@ CATEGORIES = {
         f"{RAB}/China.list", f"{RAB}/BiliBili.list", f"{RAB}/ChinaMedia.list",
     ],
     # 广告不用 typed 合并：BM7 Advertising 全集约 29 万条，走 DOMAIN-SET（见 main 末尾 ads.txt）
+}
+
+# 四源未覆盖的 AI 服务补充（仓内自维护，构建时并入 ai）
+EXTRA = {
+    "ai": [
+        "DOMAIN-SUFFIX,mistral.ai",
+        "DOMAIN-SUFFIX,huggingface.co",
+        "DOMAIN-SUFFIX,cdn-lfs.huggingface.co",
+        "DOMAIN-SUFFIX,cohere.com",
+        "DOMAIN-SUFFIX,cohere.ai",
+        "DOMAIN-SUFFIX,midjourney.com",
+        "DOMAIN-SUFFIX,you.com",
+        "DOMAIN-SUFFIX,phind.com",
+        "DOMAIN-SUFFIX,character.ai",
+        "DOMAIN-SUFFIX,v0.dev",
+        "DOMAIN-SUFFIX,bolt.new",
+        "DOMAIN-SUFFIX,replit.com",
+        "DOMAIN-SUFFIX,codeium.com",
+        "DOMAIN-SUFFIX,windsurf.com",
+    ],
 }
 
 RULE_RE = re.compile(r"^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|IP-CIDR|IP-CIDR6|IP-ASN|USER-AGENT|URL-REGEX|HOSTNAME-TYPE|PROCESS-NAME|DEST-PORT|SRC-IP-CIDR|GEOIP|AND|OR|NOT|IP-ASN)\s*,\s*(.+)$", re.I)
@@ -98,6 +118,8 @@ def main():
                 if v:
                     seen.add(v)
             per_src.append(f"- ✓ {u} （累计去重后 {len(seen)}，本源新增 {len(seen)-n0}）")
+        for extra in EXTRA.get(cat, []):
+            seen.add(extra)
         rules = sorted(seen)
         header = [
             f"# {cat}.list — 四源合一（blackmatrix7 + LceAn + Rabbit-Spec）",

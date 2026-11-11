@@ -1,18 +1,20 @@
 # BUILD-LOG
 
-构建时间：2026-11-11 04:45 UTC
-总计：19181 条（去重后）
+构建时间：2026-11-11 04:53 UTC
+总计：19215 条（去重后）
 
-## ai.list：107 条
+## ai.list：141 条
 
 - ✓ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list （累计去重后 35，本源新增 35）
 - ✓ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list （累计去重后 38，本源新增 3）
 - ✓ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list （累计去重后 51，本源新增 13）
-- ✓ https://raw.githubusercontent.com/LceAn/proxy-filter-rules/main/rules/AI.list （累计去重后 52，本源新增 1）
-- ✓ https://raw.githubusercontent.com/LceAn/proxy-filter-rules/main/rules/OpenAI.list （累计去重后 52，本源新增 0）
-- ✓ https://raw.githubusercontent.com/LceAn/proxy-filter-rules/main/rules/Claude.list （累计去重后 52，本源新增 0）
-- ✓ https://raw.githubusercontent.com/LceAn/proxy-filter-rules/main/rules/Gemini.list （累计去重后 52，本源新增 0）
-- ✓ https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Rules/AIGC.list （累计去重后 107，本源新增 55）
+- ✓ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Copilot/Copilot.list （累计去重后 71，本源新增 20）
+- ✓ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BardAI/BardAI.list （累计去重后 72，本源新增 1）
+- ✓ https://raw.githubusercontent.com/LceAn/proxy-filter-rules/main/rules/AI.list （累计去重后 73，本源新增 1）
+- ✓ https://raw.githubusercontent.com/LceAn/proxy-filter-rules/main/rules/OpenAI.list （累计去重后 73，本源新增 0）
+- ✓ https://raw.githubusercontent.com/LceAn/proxy-filter-rules/main/rules/Claude.list （累计去重后 73，本源新增 0）
+- ✓ https://raw.githubusercontent.com/LceAn/proxy-filter-rules/main/rules/Gemini.list （累计去重后 73，本源新增 0）
+- ✓ https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Rules/AIGC.list （累计去重后 127，本源新增 54）
 
 ## streaming.list：4993 条
 
