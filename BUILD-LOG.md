@@ -1,6 +1,6 @@
 # BUILD-LOG
 
-构建时间：2026-11-11 04:53 UTC
+构建时间：2026-11-11 04:58 UTC
 总计：19215 条（去重后）
 
 ## ai.list：141 条
@@ -79,6 +79,11 @@
 - ✓ https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Rules/China.list （累计去重后 6609，本源新增 6352）
 - ✓ https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Rules/BiliBili.list （累计去重后 6613，本源新增 4）
 - ✓ https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Rules/ChinaMedia.list （累计去重后 6803，本源新增 190）
+
+
+## 细分类
+
+按服务：youtube 195、netflix 1630、disney 251、spotify 43、tiktok 67、bilibili 140、telegram 57、twitter 33、facebook 593、instagram 76、whatsapp 30、google 1201、apple 4172、microsoft 856、github 31、paypal 249、steam 69、openai 35、claude 3、gemini 14、copilot 51
 
 ## ads.txt（DOMAIN-SET）：290392 个域名
 

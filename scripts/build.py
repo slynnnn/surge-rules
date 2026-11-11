@@ -68,6 +68,42 @@ EXTRA = {
     ],
 }
 
+
+# ===== 细分类一：按服务（单个产品一份） =====
+SERVICES = {
+    "youtube":   [f"{BM7}/YouTube/YouTube.list", f"{LCE}/YouTube.list", f"{RAB}/YouTube.list"],
+    "netflix":   [f"{BM7}/Netflix/Netflix.list", f"{LCE}/Netflix.list", f"{RAB}/Netflix.list"],
+    "disney":    [f"{BM7}/Disney/Disney.list", f"{LCE}/Disney.list", f"{RAB}/Disney.list"],
+    "spotify":   [f"{BM7}/Spotify/Spotify.list", f"{LCE}/Spotify.list", f"{RAB}/Spotify.list"],
+    "tiktok":    [f"{BM7}/TikTok/TikTok.list", f"{RAB}/TikTok.list"],
+    "bilibili":  [f"{BM7}/BiliBili/BiliBili.list", f"{LCE}/BiliBili.list", f"{RAB}/BiliBili.list"],
+    "telegram":  [f"{BM7}/Telegram/Telegram.list", f"{LCE}/Telegram.list", f"{RAB}/Telegram.list"],
+    "twitter":   [f"{BM7}/Twitter/Twitter.list", f"{LCE}/Twitter.list"],
+    "facebook":  [f"{BM7}/Facebook/Facebook.list", f"{LCE}/Facebook.list", f"{RAB}/Facebook.list"],
+    "instagram": [f"{BM7}/Instagram/Instagram.list", f"{LCE}/Instagram.list", f"{RAB}/Instagram.list"],
+    "whatsapp":  [f"{RAB}/Whatsapp.list"],
+    "google":    [f"{BM7}/Google/Google.list", f"{LCE}/Google.list", f"{RAB}/Google.list"],
+    "apple":     [f"{BM7}/Apple/Apple.list", f"{RAB}/Apple.list"],
+    "microsoft": [f"{BM7}/Microsoft/Microsoft.list", f"{LCE}/Microsoft.list", f"{RAB}/Microsoft.list"],
+    "github":    [f"{BM7}/GitHub/GitHub.list", f"{LCE}/GitHub.list"],
+    "paypal":    [f"{BM7}/PayPal/PayPal.list", f"{LCE}/PayPal.list", f"{RAB}/PayPal.list"],
+    "steam":     [f"{BM7}/Steam/Steam.list", f"{LCE}/Steam.list"],
+    "openai":    [f"{BM7}/OpenAI/OpenAI.list", f"{LCE}/OpenAI.list"],
+    "claude":    [f"{BM7}/Claude/Claude.list", f"{LCE}/Claude.list"],
+    "gemini":    [f"{BM7}/Gemini/Gemini.list", f"{LCE}/Gemini.list", f"{BM7}/BardAI/BardAI.list"],
+    "copilot":   [f"{BM7}/Copilot/Copilot.list"],
+}
+
+# ===== 细分类二：按企业（旗下服务打包） =====
+COMPANIES = {
+    "google":    {"services": ["google", "youtube", "gemini"], "literals": []},
+    "meta":      {"services": ["facebook", "instagram", "whatsapp"],
+                  "literals": ["DOMAIN-SUFFIX,threads.net", "DOMAIN-SUFFIX,threads.com",
+                               "DOMAIN-SUFFIX,meta.ai", "DOMAIN-SUFFIX,oculus.com", "DOMAIN-SUFFIX,meta.com"]},
+    "microsoft": {"services": ["microsoft", "copilot"], "literals": []},
+    "apple":     {"services": ["apple"], "literals": []},
+}
+
 RULE_RE = re.compile(r"^(DOMAIN|DOMAIN-SUFFIX|DOMAIN-KEYWORD|IP-CIDR|IP-CIDR6|IP-ASN|USER-AGENT|URL-REGEX|HOSTNAME-TYPE|PROCESS-NAME|DEST-PORT|SRC-IP-CIDR|GEOIP|AND|OR|NOT|IP-ASN)\s*,\s*(.+)$", re.I)
 
 def fetch(url):
@@ -131,6 +167,38 @@ def main():
         log += [f"## {cat}.list：{len(rules)} 条", ""] + per_src + [""]
         total += len(rules)
         print(f"{cat}: {len(rules)}")
+
+    # ---- 细分类生成：按服务 / 按企业 ----
+    svc_dir = ROOT / "rules" / "service"; svc_dir.mkdir(parents=True, exist_ok=True)
+    comp_dir = ROOT / "rules" / "company"; comp_dir.mkdir(parents=True, exist_ok=True)
+    svc_rules = {}
+    for name, urls in SERVICES.items():
+        seen = set()
+        for u in urls:
+            try:
+                text = fetch(u)
+            except Exception:
+                continue
+            for raw in text.splitlines():
+                v = normalize(raw)
+                if v:
+                    seen.add(v)
+        svc_rules[name] = sorted(seen)
+        (svc_dir / f"{name}.list").write_text(
+            f"# service/{name}.list — 按服务细分类（四源合并去重）\n# 规则数：{len(seen)}\n# 由 scripts/build.py 生成\n\n"
+            + "\n".join(svc_rules[name]) + "\n", encoding="utf-8")
+        print(f"service/{name}: {len(seen)}")
+    for name, spec in COMPANIES.items():
+        seen = set(spec["literals"])
+        for svc in spec["services"]:
+            seen.update(svc_rules.get(svc, []))
+        rules = sorted(seen)
+        (comp_dir / f"{name}.list").write_text(
+            f"# company/{name}.list — 按企业细分类（旗下服务打包）\n# 规则数：{len(rules)}\n# 由 scripts/build.py 生成\n\n"
+            + "\n".join(rules) + "\n", encoding="utf-8")
+        print(f"company/{name}: {len(rules)}")
+    log += ["", "## 细分类", "",
+            "按服务：" + "、".join(f"{k} {len(v)}" for k, v in svc_rules.items()), ""]
     # 广告 DOMAIN-SET：原样清洗 BM7 Advertising_Domain（去注释/空行、去重排序）
     try:
         raw = fetch(f"{BM7}/Advertising/Advertising_Domain.list")

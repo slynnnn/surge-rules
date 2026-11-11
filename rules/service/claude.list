@@ -1,0 +1,7 @@
+# service/claude.list — 按服务细分类（四源合并去重）
+# 规则数：3
+# 由 scripts/build.py 生成
+
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
