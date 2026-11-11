@@ -136,69 +136,116 @@ def normalize(line):
         value = parts[1]  # 保持原值，掩码在 parts[1] 内或独立段
     return f"{rtype},{value}"
 
+
+def emit_grouped(path, title, sections):
+    """sections: [(小节名, set[规则])]，按顺序先到先得去重，每节带注释头，方便人读。
+    返回总条数。"""
+    seen, blocks, total = set(), [], 0
+    for name, rules in sections:
+        fresh = sorted(r for r in rules if r not in seen)
+        seen.update(fresh)
+        if not fresh:
+            continue
+        total += len(fresh)
+        blocks.append(f"\n# ── {name}（{len(fresh)} 条）──\n" + "\n".join(fresh))
+    path.write_text(f"# {title}\n# 规则数：{total}\n# 由 scripts/build.py 生成，勿手改；改源请改 build.py\n"
+                    + "\n".join(blocks) + "\n", encoding="utf-8")
+    return total
+
+def fetch_set(urls, log_src=None):
+    out = set()
+    for u in urls:
+        try:
+            text = fetch(u)
+        except Exception:
+            continue
+        for raw in text.splitlines():
+            v = normalize(raw)
+            if v:
+                out.add(v)
+    return out
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     log = [f"# BUILD-LOG", f"", f"构建时间：{datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}", ""]
     total = 0
-    for cat, urls in CATEGORIES.items():
-        seen, per_src = set(), []
-        for u in urls:
-            try:
-                text = fetch(u)
-            except Exception as e:
-                per_src.append(f"- ✗ {u} （{type(e).__name__}）")
-                continue
-            n0 = len(seen)
-            for raw in text.splitlines():
-                v = normalize(raw)
-                if v:
-                    seen.add(v)
-            per_src.append(f"- ✓ {u} （累计去重后 {len(seen)}，本源新增 {len(seen)-n0}）")
-        for extra in EXTRA.get(cat, []):
-            seen.add(extra)
-        rules = sorted(seen)
-        header = [
-            f"# {cat}.list — 四源合一（blackmatrix7 + LceAn + Rabbit-Spec）",
-            f"# 规则数：{len(rules)}",
-            f"# 由 scripts/build.py 生成，勿手改；改源请改 build.py 的 CATEGORIES",
-            "",
-        ]
-        (OUT / f"{cat}.list").write_text("\n".join(header + rules) + "\n", encoding="utf-8")
-        log += [f"## {cat}.list：{len(rules)} 条", ""] + per_src + [""]
-        total += len(rules)
-        print(f"{cat}: {len(rules)}")
 
-    # ---- 细分类生成：按服务 / 按企业 ----
+    GROUPS = {
+        "ai": [
+            ("OpenAI / ChatGPT / Sora", [f"{BM7}/OpenAI/OpenAI.list", f"{LCE}/OpenAI.list"]),
+            ("Claude", [f"{BM7}/Claude/Claude.list", f"{LCE}/Claude.list"]),
+            ("Gemini / Bard", [f"{BM7}/Gemini/Gemini.list", f"{BM7}/BardAI/BardAI.list", f"{LCE}/Gemini.list"]),
+            ("Copilot", [f"{BM7}/Copilot/Copilot.list"]),
+            ("其他 AI（Grok / Perplexity / Poe / Meta AI / Cursor 等聚合）", [f"{RAB}/AIGC.list", f"{LCE}/AI.list"]),
+            ("仓内补充（四源未覆盖）", []),
+        ],
+        "streaming": [
+            ("Netflix", [f"{BM7}/Netflix/Netflix.list", f"{LCE}/Netflix.list", f"{RAB}/Netflix.list"]),
+            ("YouTube", [f"{BM7}/YouTube/YouTube.list", f"{LCE}/YouTube.list", f"{RAB}/YouTube.list"]),
+            ("Disney", [f"{BM7}/Disney/Disney.list", f"{LCE}/Disney.list", f"{RAB}/Disney.list"]),
+            ("Spotify", [f"{BM7}/Spotify/Spotify.list", f"{LCE}/Spotify.list", f"{RAB}/Spotify.list"]),
+            ("TikTok", [f"{BM7}/TikTok/TikTok.list", f"{RAB}/TikTok.list"]),
+            ("其他流媒体（GlobalMedia 聚合）", [f"{RAB}/GlobalMedia.list"]),
+        ],
+        "social": [
+            ("Telegram", [f"{BM7}/Telegram/Telegram.list", f"{LCE}/Telegram.list", f"{RAB}/Telegram.list"]),
+            ("Twitter / X", [f"{BM7}/Twitter/Twitter.list", f"{LCE}/Twitter.list"]),
+            ("Facebook", [f"{BM7}/Facebook/Facebook.list", f"{LCE}/Facebook.list", f"{RAB}/Facebook.list"]),
+            ("Instagram", [f"{BM7}/Instagram/Instagram.list", f"{LCE}/Instagram.list", f"{RAB}/Instagram.list"]),
+            ("WhatsApp", [f"{RAB}/Whatsapp.list"]),
+        ],
+        "global": [
+            ("Google", [f"{BM7}/Google/Google.list", f"{LCE}/Google.list", f"{RAB}/Google.list"]),
+            ("Apple", [f"{BM7}/Apple/Apple.list", f"{RAB}/Apple.list"]),
+            ("Microsoft", [f"{BM7}/Microsoft/Microsoft.list", f"{LCE}/Microsoft.list", f"{RAB}/Microsoft.list"]),
+            ("GitHub", [f"{BM7}/GitHub/GitHub.list", f"{LCE}/GitHub.list"]),
+            ("PayPal", [f"{BM7}/PayPal/PayPal.list", f"{LCE}/PayPal.list", f"{RAB}/PayPal.list"]),
+            ("Steam", [f"{BM7}/Steam/Steam.list", f"{LCE}/Steam.list"]),
+        ],
+        "china": [
+            ("Bilibili", [f"{BM7}/BiliBili/BiliBili.list", f"{LCE}/BiliBili.list", f"{RAB}/BiliBili.list"]),
+            ("微信", [f"{LCE}/WeChat.list"]),
+            ("小红书", [f"{LCE}/XiaoHongShu.list"]),
+            ("知乎", [f"{LCE}/Zhihu.list"]),
+            ("国内媒体", [f"{RAB}/ChinaMedia.list"]),
+            ("国内站点", [f"{BM7}/China/China.list", f"{LCE}/China.list", f"{RAB}/China.list"]),
+        ],
+    }
+    for cat, sections in GROUPS.items():
+        built = []
+        for name, urls in sections:
+            rules = fetch_set(urls)
+            if cat == "ai" and name.startswith("仓内补充"):
+                rules = set(EXTRA.get("ai", []))
+            built.append((name, rules))
+        n = emit_grouped(OUT / f"{cat}.list", f"{cat}.list — 四源合一（blackmatrix7 + LceAn + Rabbit-Spec）", built)
+        log += [f"## {cat}.list：{n} 条（分 {len([b for b in built if b[1]])} 节）", ""]
+        total += n
+        print(f"{cat}: {n}")
+
+    # ---- 细分类生成：按服务 / 按企业（同样分组写出，服务内按来源分节） ----
     svc_dir = ROOT / "rules" / "service"; svc_dir.mkdir(parents=True, exist_ok=True)
     comp_dir = ROOT / "rules" / "company"; comp_dir.mkdir(parents=True, exist_ok=True)
     svc_rules = {}
     for name, urls in SERVICES.items():
-        seen = set()
-        for u in urls:
-            try:
-                text = fetch(u)
-            except Exception:
-                continue
-            for raw in text.splitlines():
-                v = normalize(raw)
-                if v:
-                    seen.add(v)
-        svc_rules[name] = sorted(seen)
-        (svc_dir / f"{name}.list").write_text(
-            f"# service/{name}.list — 按服务细分类（四源合并去重）\n# 规则数：{len(seen)}\n# 由 scripts/build.py 生成\n\n"
-            + "\n".join(svc_rules[name]) + "\n", encoding="utf-8")
-        print(f"service/{name}: {len(seen)}")
+        by_src = [("blackmatrix7", [u for u in urls if "blackmatrix7" in u]),
+                  ("LceAn", [u for u in urls if "LceAn" in u]),
+                  ("Rabbit-Spec", [u for u in urls if "Rabbit-Spec" in u])]
+        built = [(src, fetch_set(us)) for src, us in by_src if us]
+        n = emit_grouped(svc_dir / f"{name}.list", f"service/{name}.list — 按服务细分类（四源合并去重）", built)
+        svc_rules[name] = set()
+        for _, rs in built:
+            svc_rules[name].update(rs)
+        print(f"service/{name}: {n}")
     for name, spec in COMPANIES.items():
-        seen = set(spec["literals"])
-        for svc in spec["services"]:
-            seen.update(svc_rules.get(svc, []))
-        rules = sorted(seen)
-        (comp_dir / f"{name}.list").write_text(
-            f"# company/{name}.list — 按企业细分类（旗下服务打包）\n# 规则数：{len(rules)}\n# 由 scripts/build.py 生成\n\n"
-            + "\n".join(rules) + "\n", encoding="utf-8")
-        print(f"company/{name}: {len(rules)}")
+        built = [(svc, set(svc_rules.get(svc, []))) for svc in spec["services"]]
+        if spec["literals"]:
+            built.append(("仓内补充", set(spec["literals"])))
+        n = emit_grouped(comp_dir / f"{name}.list", f"company/{name}.list — 按企业细分类（旗下服务打包）", built)
+        print(f"company/{name}: {n}")
     log += ["", "## 细分类", "",
             "按服务：" + "、".join(f"{k} {len(v)}" for k, v in svc_rules.items()), ""]
+
     # 广告 DOMAIN-SET：原样清洗 BM7 Advertising_Domain（去注释/空行、去重排序）
     try:
         raw = fetch(f"{BM7}/Advertising/Advertising_Domain.list")

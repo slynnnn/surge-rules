@@ -1,7 +1,8 @@
 # service/telegram.list — 按服务细分类（四源合并去重）
 # 规则数：57
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── blackmatrix7（46 条）──
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-KEYWORD,nicegram
@@ -35,27 +36,29 @@ IP-ASN,62041
 IP-CIDR,109.239.140.0/24
 IP-CIDR,139.59.210.98/32
 IP-CIDR,149.154.160.0/20
-IP-CIDR,185.76.151.0/24
-IP-CIDR,194.221.250.50/32
 IP-CIDR,196.55.216.167/32
 IP-CIDR,5.28.192.0/18
-IP-CIDR,91.105.192.0/23
 IP-CIDR,91.108.0.0/16
-IP-CIDR,91.108.16.0/21
-IP-CIDR,91.108.4.0/22
-IP-CIDR,91.108.56.0/22
-IP-CIDR,91.108.8.0/21
-IP-CIDR,95.161.64.0/20
 IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23c::/47
-IP-CIDR6,2001:b28:f23c::/48
-IP-CIDR6,2001:b28:f23d::/48
 IP-CIDR6,2001:b28:f23f::/48
 IP-CIDR6,2a0a:f280::/29
-IP-CIDR6,2a0a:f280::/32
 OR,((IP-ASN,44907,no-resolve),(IP-ASN,59930,no-resolve),(IP-ASN,62014,no-resolve),(IP-ASN,62041,no-resolve),(IP-ASN,211157,no-resolve))
 PROCESS-NAME,nekox.messenger
 PROCESS-NAME,org.telegram.messenger
 PROCESS-NAME,telegram-desktop
 PROCESS-NAME,tw.nekomimi.nekogram
 PROCESS-NAME,xyz.nextalone.nagram
+
+# ── Rabbit-Spec（11 条）──
+IP-CIDR,185.76.151.0/24
+IP-CIDR,194.221.250.50/32
+IP-CIDR,91.105.192.0/23
+IP-CIDR,91.108.16.0/21
+IP-CIDR,91.108.4.0/22
+IP-CIDR,91.108.56.0/22
+IP-CIDR,91.108.8.0/21
+IP-CIDR,95.161.64.0/20
+IP-CIDR6,2001:b28:f23c::/48
+IP-CIDR6,2001:b28:f23d::/48
+IP-CIDR6,2a0a:f280::/32

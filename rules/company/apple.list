@@ -1,7 +1,8 @@
 # company/apple.list — 按企业细分类（旗下服务打包）
 # 规则数：4172
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── apple（4172 条）──
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com

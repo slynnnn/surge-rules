@@ -1,8 +1,8 @@
 # service/facebook.list — 按服务细分类（四源合并去重）
 # 规则数：593
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
-DOMAIN,fbcdn-a.akamaihd.net
+# ── blackmatrix7（570 条）──
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-SUFFIX,aboutfacebook.com
@@ -15,7 +15,6 @@ DOMAIN-SUFFIX,acheter-followers-instagram.com
 DOMAIN-SUFFIX,acheterdesfollowersinstagram.com
 DOMAIN-SUFFIX,acheterfollowersinstagram.com
 DOMAIN-SUFFIX,advancediddetection.com
-DOMAIN-SUFFIX,analytics.facebook.com
 DOMAIN-SUFFIX,askfacebook.net
 DOMAIN-SUFFIX,askfacebook.org
 DOMAIN-SUFFIX,atdmt2.com
@@ -40,7 +39,6 @@ DOMAIN-SUFFIX,como-hackearfacebook.com
 DOMAIN-SUFFIX,componentkit.org
 DOMAIN-SUFFIX,crowdtangle.com
 DOMAIN-SUFFIX,dacebook.com
-DOMAIN-SUFFIX,developers.facebook.com
 DOMAIN-SUFFIX,dlfacebook.com
 DOMAIN-SUFFIX,dotfacebook.com
 DOMAIN-SUFFIX,dotfacebook.net
@@ -301,9 +299,7 @@ DOMAIN-SUFFIX,favebook.com
 DOMAIN-SUFFIX,faycbok.com
 DOMAIN-SUFFIX,fb.careers
 DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.gg
 DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fb.watch
 DOMAIN-SUFFIX,fbacebook.com
 DOMAIN-SUFFIX,fbaddins.com
 DOMAIN-SUFFIX,fbbmarket.com
@@ -332,7 +328,6 @@ DOMAIN-SUFFIX,fbthirdpartypixel.com
 DOMAIN-SUFFIX,fbthirdpartypixel.net
 DOMAIN-SUFFIX,fbthirdpartypixel.org
 DOMAIN-SUFFIX,fburl.com
-DOMAIN-SUFFIX,fbwat.ch
 DOMAIN-SUFFIX,fbworkmail.com
 DOMAIN-SUFFIX,fcacebook.com
 DOMAIN-SUFFIX,fcaebook.com
@@ -362,7 +357,6 @@ DOMAIN-SUFFIX,flow.dev
 DOMAIN-SUFFIX,flow.org
 DOMAIN-SUFFIX,flowtype.org
 DOMAIN-SUFFIX,fmcebook.com
-DOMAIN-SUFFIX,fna.fbcdn.net
 DOMAIN-SUFFIX,fnacebook.com
 DOMAIN-SUFFIX,fosebook.com
 DOMAIN-SUFFIX,fpacebook.com
@@ -508,7 +502,6 @@ DOMAIN-SUFFIX,opencreate.org
 DOMAIN-SUFFIX,opengraphprotocol.com
 DOMAIN-SUFFIX,opengraphprotocol.org
 DOMAIN-SUFFIX,parse.com
-DOMAIN-SUFFIX,pixel.facebook.com
 DOMAIN-SUFFIX,powersunitedvr.com
 DOMAIN-SUFFIX,pyrobot.org
 DOMAIN-SUFFIX,reachtheworldonfacebook.com
@@ -525,7 +518,6 @@ DOMAIN-SUFFIX,sportsfacebook.com
 DOMAIN-SUFFIX,sportstream.com
 DOMAIN-SUFFIX,supportfacebook.com
 DOMAIN-SUFFIX,terragraph.com
-DOMAIN-SUFFIX,tfbnw.net
 DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,thefacebook.net
 DOMAIN-SUFFIX,thefind.com
@@ -558,7 +550,6 @@ DOMAIN-SUFFIX,yogalayout.com
 DOMAIN-SUFFIX,zuckerberg.com
 DOMAIN-SUFFIX,zuckerberg.net
 IP-ASN,32934
-IP-CIDR,103.4.96.0/22
 IP-CIDR,108.168.176.192/26
 IP-CIDR,108.168.177.0/27
 IP-CIDR,108.168.180.96/27
@@ -569,28 +560,40 @@ IP-CIDR,108.177.8.0/21
 IP-CIDR,119.235.224.0/24
 IP-CIDR,119.235.232.0/24
 IP-CIDR,119.235.236.0/23
-IP-CIDR,119.235.236.0/24
-IP-CIDR,119.235.237.0/24
 IP-CIDR,129.134.0.0/17
 IP-CIDR,157.240.0.0/17
 IP-CIDR,169.45.248.118/32
 IP-CIDR,173.252.64.0/18
-IP-CIDR,173.252.64.0/19
-IP-CIDR,173.252.96.0/19
-IP-CIDR,179.60.192.0/22
-IP-CIDR,185.60.216.0/22
-IP-CIDR,204.15.20.0/22
 IP-CIDR,3.123.36.126/32
-IP-CIDR,31.13.24.0/21
 IP-CIDR,31.13.64.0/18
 IP-CIDR,35.157.215.84/32
 IP-CIDR,35.157.217.255/32
-IP-CIDR,45.64.40.0/22
 IP-CIDR,52.58.209.134/32
 IP-CIDR,54.162.243.80/32
 IP-CIDR,54.173.34.141/32
 IP-CIDR,54.235.23.242/32
 IP-CIDR,54.93.124.31/32
+
+# ── Rabbit-Spec（23 条）──
+DOMAIN,fbcdn-a.akamaihd.net
+DOMAIN-SUFFIX,analytics.facebook.com
+DOMAIN-SUFFIX,developers.facebook.com
+DOMAIN-SUFFIX,fb.gg
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fbwat.ch
+DOMAIN-SUFFIX,fna.fbcdn.net
+DOMAIN-SUFFIX,pixel.facebook.com
+DOMAIN-SUFFIX,tfbnw.net
+IP-CIDR,103.4.96.0/22
+IP-CIDR,119.235.236.0/24
+IP-CIDR,119.235.237.0/24
+IP-CIDR,173.252.64.0/19
+IP-CIDR,173.252.96.0/19
+IP-CIDR,179.60.192.0/22
+IP-CIDR,185.60.216.0/22
+IP-CIDR,204.15.20.0/22
+IP-CIDR,31.13.24.0/21
+IP-CIDR,45.64.40.0/22
 IP-CIDR,66.220.144.0/20
 IP-CIDR,69.171.224.0/19
 IP-CIDR,69.63.176.0/20

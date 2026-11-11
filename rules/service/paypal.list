@@ -1,8 +1,8 @@
 # service/paypal.list — 按服务细分类（四源合并去重）
 # 规则数：249
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
-DOMAIN,venmo.s3.amazonaws.com
+# ── blackmatrix7（248 条）──
 DOMAIN-KEYWORD,paypal
 DOMAIN-SUFFIX,account-paypal.info
 DOMAIN-SUFFIX,account-paypal.net
@@ -251,3 +251,6 @@ DOMAIN-SUFFIX,xoom.net.cn
 DOMAIN-SUFFIX,xoom.us
 DOMAIN-SUFFIX,xoomcom.com
 USER-AGENT,PayPal*
+
+# ── Rabbit-Spec（1 条）──
+DOMAIN,venmo.s3.amazonaws.com

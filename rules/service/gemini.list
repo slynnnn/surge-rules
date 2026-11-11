@@ -1,7 +1,8 @@
 # service/gemini.list — 按服务细分类（四源合并去重）
 # 规则数：14
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── blackmatrix7（14 条）──
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com

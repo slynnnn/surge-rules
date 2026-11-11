@@ -1,7 +1,8 @@
 # service/github.list — 按服务细分类（四源合并去重）
 # 规则数：31
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── blackmatrix7（31 条）──
 DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,dependabot.com

@@ -1,7 +1,8 @@
 # service/claude.list — 按服务细分类（四源合并去重）
 # 规则数：3
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── blackmatrix7（3 条）──
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai

@@ -1,13 +1,11 @@
 # company/meta.list — 按企业细分类（旗下服务打包）
 # 规则数：617
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── facebook（593 条）──
 DOMAIN,fbcdn-a.akamaihd.net
-DOMAIN,graph.facebook.com
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,aboutfacebook.com
 DOMAIN-SUFFIX,accessfacebookfromschool.com
 DOMAIN-SUFFIX,accountkit.com
@@ -26,7 +24,6 @@ DOMAIN-SUFFIX,atlasdmt.com
 DOMAIN-SUFFIX,atlasonepoint.com
 DOMAIN-SUFFIX,atscaleconference.com
 DOMAIN-SUFFIX,binoculus.com
-DOMAIN-SUFFIX,bintray.com
 DOMAIN-SUFFIX,bookstagram.com
 DOMAIN-SUFFIX,botorch.org
 DOMAIN-SUFFIX,buck.build
@@ -396,8 +393,6 @@ DOMAIN-SUFFIX,futureofbusinesssurvey.org
 DOMAIN-SUFFIX,gacebook.com
 DOMAIN-SUFFIX,gameroom.com
 DOMAIN-SUFFIX,gfacecbook.com
-DOMAIN-SUFFIX,graph-fallback.instagram.com
-DOMAIN-SUFFIX,graph.instagram.com
 DOMAIN-SUFFIX,groups.com
 DOMAIN-SUFFIX,hackerfacebook.com
 DOMAIN-SUFFIX,hackfacebook.com
@@ -483,7 +478,6 @@ DOMAIN-SUFFIX,mcrouter.net
 DOMAIN-SUFFIX,mcrouter.org
 DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,messengerdevelopers.com
-DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,midentsolutions.com
 DOMAIN-SUFFIX,mobilefacebook.com
@@ -537,8 +531,6 @@ DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,thefacebook.net
 DOMAIN-SUFFIX,thefind.com
 DOMAIN-SUFFIX,theinstagramhack.com
-DOMAIN-SUFFIX,threads.com
-DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,toplayerserver.com
 DOMAIN-SUFFIX,viewpointsfromfacebook.com
 DOMAIN-SUFFIX,wa.me
@@ -568,7 +560,6 @@ DOMAIN-SUFFIX,zuckerberg.com
 DOMAIN-SUFFIX,zuckerberg.net
 IP-ASN,32934
 IP-CIDR,103.4.96.0/22
-IP-CIDR,108.168.174.0/16
 IP-CIDR,108.168.176.192/26
 IP-CIDR,108.168.177.0/27
 IP-CIDR,108.168.180.96/27
@@ -583,39 +574,55 @@ IP-CIDR,119.235.236.0/24
 IP-CIDR,119.235.237.0/24
 IP-CIDR,129.134.0.0/17
 IP-CIDR,157.240.0.0/17
-IP-CIDR,158.85.224.160/27
-IP-CIDR,158.85.46.128/27
-IP-CIDR,158.85.5.192/27
 IP-CIDR,169.45.248.118/32
-IP-CIDR,173.192.222.160/27
-IP-CIDR,173.192.231.32/27
 IP-CIDR,173.252.64.0/18
 IP-CIDR,173.252.64.0/19
 IP-CIDR,173.252.96.0/19
-IP-CIDR,174.37.243.0/16
 IP-CIDR,179.60.192.0/22
-IP-CIDR,18.194.0.0/15
-IP-CIDR,184.173.128.0/17
 IP-CIDR,185.60.216.0/22
 IP-CIDR,204.15.20.0/22
-IP-CIDR,208.43.122.128/27
 IP-CIDR,3.123.36.126/32
 IP-CIDR,31.13.24.0/21
 IP-CIDR,31.13.64.0/18
-IP-CIDR,34.224.0.0/12
 IP-CIDR,35.157.215.84/32
 IP-CIDR,35.157.217.255/32
 IP-CIDR,45.64.40.0/22
-IP-CIDR,50.22.198.204/30
 IP-CIDR,52.58.209.134/32
 IP-CIDR,54.162.243.80/32
 IP-CIDR,54.173.34.141/32
 IP-CIDR,54.235.23.242/32
-IP-CIDR,54.242.0.0/15
 IP-CIDR,54.93.124.31/32
 IP-CIDR,66.220.144.0/20
 IP-CIDR,69.171.224.0/19
-IP-CIDR,69.171.235.0/16
 IP-CIDR,69.63.176.0/20
 IP-CIDR,74.119.76.0/22
+
+# ── instagram（3 条）──
+DOMAIN-KEYWORD,instagram
+DOMAIN-SUFFIX,graph-fallback.instagram.com
+DOMAIN-SUFFIX,graph.instagram.com
+
+# ── whatsapp（18 条）──
+DOMAIN,graph.facebook.com
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-SUFFIX,bintray.com
+IP-CIDR,108.168.174.0/16
+IP-CIDR,158.85.224.160/27
+IP-CIDR,158.85.46.128/27
+IP-CIDR,158.85.5.192/27
+IP-CIDR,173.192.222.160/27
+IP-CIDR,173.192.231.32/27
+IP-CIDR,174.37.243.0/16
+IP-CIDR,18.194.0.0/15
+IP-CIDR,184.173.128.0/17
+IP-CIDR,208.43.122.128/27
+IP-CIDR,34.224.0.0/12
+IP-CIDR,50.22.198.204/30
+IP-CIDR,54.242.0.0/15
+IP-CIDR,69.171.235.0/16
 IP-CIDR,75.126.150.0/16
+
+# ── 仓内补充（3 条）──
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net

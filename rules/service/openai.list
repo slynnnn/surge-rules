@@ -1,7 +1,8 @@
 # service/openai.list — 按服务细分类（四源合并去重）
 # 规则数：35
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── blackmatrix7（35 条）──
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com

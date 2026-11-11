@@ -1,26 +1,18 @@
 # service/spotify.list — 按服务细分类（四源合并去重）
 # 规则数：43
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
-DOMAIN,adeventtracker.spotify.com
-DOMAIN,adstudio-assets.scdn.co
-DOMAIN,audio-ak-spotify-com.akamaized.net
+# ── blackmatrix7（31 条）──
 DOMAIN,audio4-ak-spotify-com.akamaized.net
-DOMAIN,bloodhound.spotify.com
 DOMAIN,cdn-spotify-experiments.conductrics.com
 DOMAIN,heads-ak-spotify-com.akamaized.net
-DOMAIN,heads4-ak-spotify-com.akamaized.net
 DOMAIN,spotify.com.edgesuite.net
 DOMAIN,spotify.map.fastly.net
 DOMAIN,spotify.map.fastlylb.net
-DOMAIN-KEYWORD,-spotify-
-DOMAIN-KEYWORD,-spotify-com
 DOMAIN-KEYWORD,spotify
-DOMAIN-KEYWORD,spotify.com
 DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
 DOMAIN-SUFFIX,byspotify.com
 DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
-DOMAIN-SUFFIX,lifeatspotify.com
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
@@ -28,15 +20,12 @@ DOMAIN-SUFFIX,spotify-com.akamaized.net
 DOMAIN-SUFFIX,spotify-everywhere.com
 DOMAIN-SUFFIX,spotify.app.link
 DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotify.com.edgesuite.net
 DOMAIN-SUFFIX,spotify.design
-DOMAIN-SUFFIX,spotify.link
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,spotifycdn.net
 DOMAIN-SUFFIX,spotifycharts.com
 DOMAIN-SUFFIX,spotifycodes.com
 DOMAIN-SUFFIX,spotifyforbrands.com
-DOMAIN-SUFFIX,spotifyforvendors.com
 DOMAIN-SUFFIX,spotifyjobs.com
 DOMAIN-SUFFIX,spotifynewsroom.jp
 DOMAIN-SUFFIX,spotilocal.com
@@ -45,3 +34,17 @@ IP-CIDR,104.154.127.126/32
 IP-CIDR,35.186.224.47/32
 PROCESS-NAME,com.spotify.music
 USER-AGENT,Spotify*
+
+# ── Rabbit-Spec（12 条）──
+DOMAIN,adeventtracker.spotify.com
+DOMAIN,adstudio-assets.scdn.co
+DOMAIN,audio-ak-spotify-com.akamaized.net
+DOMAIN,bloodhound.spotify.com
+DOMAIN,heads4-ak-spotify-com.akamaized.net
+DOMAIN-KEYWORD,-spotify-
+DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,spotify.com
+DOMAIN-SUFFIX,lifeatspotify.com
+DOMAIN-SUFFIX,spotify.com.edgesuite.net
+DOMAIN-SUFFIX,spotify.link
+DOMAIN-SUFFIX,spotifyforvendors.com

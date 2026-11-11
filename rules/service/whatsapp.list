@@ -1,7 +1,8 @@
 # service/whatsapp.list — 按服务细分类（四源合并去重）
 # 规则数：30
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── Rabbit-Spec（30 条）──
 DOMAIN,graph.facebook.com
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,bintray.com

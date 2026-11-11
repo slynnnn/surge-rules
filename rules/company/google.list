@@ -1,7 +1,8 @@
 # company/google.list — 按企业细分类（旗下服务打包）
 # 规则数：1399
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── google（1201 条）──
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
 DOMAIN,admob-cn.com
@@ -84,7 +85,6 @@ DOMAIN,g2.gstatic.com
 DOMAIN,g3.gstatic.com
 DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
-DOMAIN,generativelanguage.googleapis.com
 DOMAIN,gonglchuangl.net
 DOMAIN,gongyichuangyi.net
 DOMAIN,google-analytics-cn.com
@@ -113,7 +113,6 @@ DOMAIN,gtm.oasisfeng.com
 DOMAIN,i.pki.goog
 DOMAIN,imasdk.googleapis.com
 DOMAIN,lens.l.google.com
-DOMAIN,makersuite.google.com
 DOMAIN,mtalk-dev.google.com
 DOMAIN,mtalk-staging.google.com
 DOMAIN,mtalk.google.com
@@ -245,19 +244,12 @@ DOMAIN,www.gstatic.com
 DOMAIN,www.pxcc.com
 DOMAIN,www.recaptcha-cn.net
 DOMAIN,www.recaptcha.net
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
-DOMAIN,yt3.googleusercontent.com
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,googlesource
 DOMAIN-KEYWORD,recaptcha
-DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
@@ -271,7 +263,6 @@ DOMAIN-SUFFIX,adgoogle.net
 DOMAIN-SUFFIX,admeld.com
 DOMAIN-SUFFIX,admob-cn.com
 DOMAIN-SUFFIX,admob.com
-DOMAIN-SUFFIX,ads.youtube.com
 DOMAIN-SUFFIX,adsense.com
 DOMAIN-SUFFIX,adsensecustomsearchads.com
 DOMAIN-SUFFIX,adsenseformobileapps.com
@@ -301,7 +292,6 @@ DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-SUFFIX,antigravity.google
 DOMAIN-SUFFIX,api.ai
 DOMAIN-SUFFIX,apigee.com
-DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,app-ads-services.com
 DOMAIN-SUFFIX,app-analytics-services-att.com
 DOMAIN-SUFFIX,app-analytics-services.com
@@ -562,8 +552,6 @@ DOMAIN-SUFFIX,getbumptop.com
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,ggoogle.com
-DOMAIN-SUFFIX,ggpht.cn
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gipscorp.com
 DOMAIN-SUFFIX,gkecnapps.cn
 DOMAIN-SUFFIX,gle
@@ -845,7 +833,6 @@ DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googlevads-cn.com
 DOMAIN-SUFFIX,googleventures.com
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,googlr.com
 DOMAIN-SUFFIX,goolge.com
@@ -864,9 +851,7 @@ DOMAIN-SUFFIX,guge
 DOMAIN-SUFFIX,gv.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1-cn.com
-DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2-cn.com
-DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,gvt5.com
 DOMAIN-SUFFIX,gvt6.com
@@ -1164,7 +1149,6 @@ DOMAIN-SUFFIX,verilylifesciences.com
 DOMAIN-SUFFIX,verilystudyhub.com
 DOMAIN-SUFFIX,verilystudywatch.com
 DOMAIN-SUFFIX,verilystudywatch.org
-DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,vn
 DOMAIN-SUFFIX,wallet.com
 DOMAIN-SUFFIX,waveprotocol.org
@@ -1180,10 +1164,8 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,weltweitwachsen.de
 DOMAIN-SUFFIX,whatbrowser.org
 DOMAIN-SUFFIX,whats.new
-DOMAIN-SUFFIX,wide-youtube.l.google.com
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,womenwill.com
 DOMAIN-SUFFIX,womenwill.com.br
 DOMAIN-SUFFIX,womenwill.id
@@ -1207,6 +1189,36 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
 DOMAIN-SUFFIX,xn--qcka1pmc
 DOMAIN-SUFFIX,xplr.co
+DOMAIN-SUFFIX,zukunftswerkstatt.de
+DOMAIN-SUFFIX,zynamics.com
+IP-CIDR,172.110.32.0/21
+IP-CIDR,173.194.0.0/16
+IP-CIDR,216.73.80.0/20
+IP-CIDR,74.125.0.0/16
+IP-CIDR6,2620:120:e000::/40
+PROCESS-NAME,BackupandSync
+PROCESS-NAME,com.android.vending
+PROCESS-NAME,com.google.android.gms
+PROCESS-NAME,com.google.android.gsf
+PROCESS-NAME,com.google.android.play.games
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
+
+# ── youtube（192 条）──
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+DOMAIN,yt3.googleusercontent.com
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,ads.youtube.com
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,wide-youtube.l.google.com
+DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube
 DOMAIN-SUFFIX,youtube-nocookie.com
@@ -1379,25 +1391,18 @@ DOMAIN-SUFFIX,youtubemobilesupport.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,yt3.ggpht.com
 DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,zukunftswerkstatt.de
-DOMAIN-SUFFIX,zynamics.com
-IP-CIDR,172.110.32.0/21
-IP-CIDR,173.194.0.0/16
-IP-CIDR,216.73.80.0/20
-IP-CIDR,74.125.0.0/16
-IP-CIDR6,2620:120:e000::/40
-PROCESS-NAME,BackupandSync
-PROCESS-NAME,com.android.vending
-PROCESS-NAME,com.google.android.gms
-PROCESS-NAME,com.google.android.gsf
-PROCESS-NAME,com.google.android.play.games
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
 USER-AGENT,*YouTubeMusic*
-USER-AGENT,*com.google.Drive*
 USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,*youtube*
-USER-AGENT,Google.Drive*
 USER-AGENT,YouTube*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
+
+# ── gemini（6 条）──
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,makersuite.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,apis.google.com

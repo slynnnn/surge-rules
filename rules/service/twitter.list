@@ -1,7 +1,8 @@
 # service/twitter.list — 按服务细分类（四源合并去重）
 # 规则数：33
-# 由 scripts/build.py 生成
+# 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
+# ── blackmatrix7（33 条）──
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
