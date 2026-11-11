@@ -1,0 +1,17 @@
+# v2ray/service/gemini.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
+
+# ── blackmatrix7（14 条）──
+full:ai.google.dev
+full:alkalimakersuite-pa.clients6.google.com
+full:generativelanguage.googleapis.com
+full:makersuite.google.com
+keyword:colab
+keyword:developerprofiles
+keyword:generativelanguage
+domain:apis.google.com
+domain:bard.google.com
+domain:deepmind.com
+domain:deepmind.google
+domain:gemini.google.com
+domain:generativeai.google
+domain:proactivebackend-pa.googleapis.com

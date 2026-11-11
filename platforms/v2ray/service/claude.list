@@ -1,0 +1,6 @@
+# v2ray/service/claude.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
+
+# ── blackmatrix7（3 条）──
+full:cdn.usefathom.com
+domain:anthropic.com
+domain:claude.ai

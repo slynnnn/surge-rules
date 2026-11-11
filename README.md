@@ -52,6 +52,10 @@ https://raw.githubusercontent.com/slynnnn/surge-rules/main/Surge/Ochiai-Detailed
 
 Loyalsoldier 的基础集不在本地合并：其 release 分支每日自动更新，配置里直引原仓地址，新鲜度更好。
 
+## 分平台版本
+
+除 Surge 外，另有 Clash(mihomo) / Loon / Shadowrocket / Quantumult X / v2ray(v2rayN·NG) / sing-box 六个平台的转换版，目录在 `platforms/`，同一数据源自动转换、每周同步更新。导入方法与 Windows 客户端选型见 [platforms/README.md](platforms/README.md)。
+
 ## 模块
 
 见 [modules/INDEX.md](modules/INDEX.md)：精选 blackmatrix7 重写模块与 Rabbit-Spec 模块库，按需逐个在 Surge 里添加（直引上游，跟随上游修复）。

@@ -1,0 +1,18 @@
+# v2ray/service/whatsapp.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
+
+# ── Rabbit-Spec（15 条）──
+full:graph.facebook.com
+keyword:whatsapp
+domain:bintray.com
+domain:wa.me
+domain:whatsapp-plus.info
+domain:whatsapp-plus.me
+domain:whatsapp-plus.net
+domain:whatsapp.biz
+domain:whatsapp.cc
+domain:whatsapp.com
+domain:whatsapp.info
+domain:whatsapp.net
+domain:whatsapp.org
+domain:whatsapp.tv
+domain:whatsappbrand.com

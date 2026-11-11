@@ -1,0 +1,6 @@
+# loon/service/claude.list — 由 surge-rules 自动转换（源：rules/service/claude.list）
+
+# ── blackmatrix7（3 条）──
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
