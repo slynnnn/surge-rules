@@ -1,0 +1,25 @@
+# 四源清单（机器可读）—— 本仓的合并来源与许可证
+sources:
+  - name: blackmatrix7/ios_rule_script
+    url: https://github.com/blackmatrix7/ios_rule_script
+    license: GPL-2.0
+    role: 主力分应用规则（rule/Surge）与去广告域名集、重写模块索引
+    usage: typed 规则并入 rules/merged；Advertising_Domain 清洗为 rules/merged/ads.txt（DOMAIN-SET）
+  - name: Loyalsoldier/surge-rules
+    url: https://github.com/Loyalsoldier/surge-rules
+    license: GPL-3.0
+    role: 基础分流骨架（reject/icloud/apple/google/proxy/direct/private/gfw DOMAIN-SET + telegramcidr/cncidr RULE-SET）
+    usage: release 分支每日更新，配置中直引、不并入本地文件
+  - name: LceAn/proxy-filter-rules
+    url: https://github.com/LceAn/proxy-filter-rules
+    license: Apache-2.0
+    role: 细分应用规则补充（与 blackmatrix7 高度同源，国内应用细分有增量）
+    usage: typed 规则并入 rules/merged
+  - name: Rabbit-Spec/Surge
+    url: https://github.com/Rabbit-Spec/Surge
+    license: none-stated
+    role: 自用配置参考、Rules 补充（AIGC/GlobalMedia/China 大集）、Module 模块库
+    usage: 仅 Rules/*.list 并入合并（已署名）；模块只做索引直引、不复制其文件
+build:
+  script: scripts/build.py
+  outputs: rules/merged/*.list + rules/merged/ads.txt + BUILD-LOG.md
