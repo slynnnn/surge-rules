@@ -1,6 +1,6 @@
 # v2ray/extended/geosite-apple.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
 
-# ── 默认（1792 条）──
+# ── 默认（1796 条）──
 full:a1.mzstatic.com
 full:a2.mzstatic.com
 full:a3.mzstatic.com
@@ -73,6 +73,7 @@ full:communities.apple.com
 full:configuration-lb.ls-apple.com.akadns.net
 full:configuration.apple.com
 full:configuration.apple.com.akadns.net
+full:configuration.ls.apple.com
 full:crl-lb.apple.com.akadns.net
 full:crl.apple.com
 full:cstat.apple.com
@@ -158,9 +159,11 @@ full:mesu.apple.com
 full:misc-assets.itunes.apple.com
 full:ml.cdn-apple.com
 full:music.apple.com
+full:musicstatus.itunes.apple.com
 full:musicstatus.music.apple.com
 full:mvod.itunes.apple.com
 full:myapp.itunes.apple.com
+full:mzstorekit.itunes.apple.com
 full:notary-submissions-prod.s3-accelerate.amazonaws.com
 full:notary-submissions-prod.s3.us-west-2.amazonaws.com
 full:np-edge.itunes.apple.com
@@ -982,6 +985,7 @@ domain:calendarserver.org
 domain:camelphat.com
 domain:camelspaceeffect.com
 domain:canada-beatsbydre.com
+domain:captive.apple.com
 domain:carbon.com
 domain:carekit.org
 domain:casque-fr.com

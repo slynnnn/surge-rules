@@ -432,12 +432,10 @@ USER-AGENT,TencentMidasConnect*,DIRECT
 USER-AGENT,iQiyi*,DIRECT
 USER-AGENT,youku*,DIRECT
 
-# ── 国内站点（6374 条）──
-HOST,api.alibabacloud.com,DIRECT
+# ── 国内站点（6355 条）──
 HOST,api.blipsandchitz.me,DIRECT
 HOST,cdp.cloud.unity3d.com,DIRECT
 HOST,client.amplifi.com,DIRECT
-HOST,cn.alibabacloud.com,DIRECT
 HOST,cn.download.nvidia.com,DIRECT
 HOST,config.ubnt.com,DIRECT
 HOST,config.uca.cloud.unity3d.com,DIRECT
@@ -453,8 +451,6 @@ HOST,kms.03k.org,DIRECT
 HOST,media.cdn.queniuqe.com,DIRECT
 HOST,ocsp.globalsign.com,DIRECT
 HOST,ocsp2.globalsign.com,DIRECT
-HOST,status.alibabacloud.com,DIRECT
-HOST,steamcommunity-a.akamaihd.net,DIRECT
 HOST,time.izatcloud.net,DIRECT
 HOST,time.xtracloud.net,DIRECT
 HOST,umami.mao.fan,DIRECT
@@ -1198,7 +1194,6 @@ HOST-SUFFIX,baozou.com,DIRECT
 HOST-SUFFIX,baozoumanhua.com,DIRECT
 HOST-SUFFIX,baseopendev.com,DIRECT
 HOST-SUFFIX,batchat.com,DIRECT
-HOST-SUFFIX,battle.net,DIRECT
 HOST-SUFFIX,battlecare.net,DIRECT
 HOST-SUFFIX,baydn.com,DIRECT
 HOST-SUFFIX,bayescom.com,DIRECT
@@ -2194,7 +2189,6 @@ HOST-SUFFIX,didapinche.com,DIRECT
 HOST-SUFFIX,didialift.com,DIRECT
 HOST-SUFFIX,didichuxing.com,DIRECT
 HOST-SUFFIX,didistatic.com,DIRECT
-HOST-SUFFIX,digicert.com,DIRECT
 HOST-SUFFIX,digitalcnzz.com,DIRECT
 HOST-SUFFIX,digitaling.com,DIRECT
 HOST-SUFFIX,dili360.com,DIRECT
@@ -2698,8 +2692,6 @@ HOST-SUFFIX,funmob.top,DIRECT
 HOST-SUFFIX,funnycore.com,DIRECT
 HOST-SUFFIX,funshion.com,DIRECT
 HOST-SUFFIX,funshion.net,DIRECT
-HOST-SUFFIX,futu5.com,DIRECT
-HOST-SUFFIX,futunn.com,DIRECT
 HOST-SUFFIX,fuwai.com,DIRECT
 HOST-SUFFIX,fuwj.com,DIRECT
 HOST-SUFFIX,fxbaogao.com,DIRECT
@@ -2739,7 +2731,6 @@ HOST-SUFFIX,game234.com,DIRECT
 HOST-SUFFIX,gameabc.com,DIRECT
 HOST-SUFFIX,gamebonfire.com,DIRECT
 HOST-SUFFIX,gameitop.com,DIRECT
-HOST-SUFFIX,gameloft.com,DIRECT
 HOST-SUFFIX,gameloop.com,DIRECT
 HOST-SUFFIX,gamemei.com,DIRECT
 HOST-SUFFIX,gamepp.com,DIRECT
@@ -3037,7 +3028,6 @@ HOST-SUFFIX,hisensekf.com,DIRECT
 HOST-SUFFIX,hisilicon.com,DIRECT
 HOST-SUFFIX,hismarttv.com,DIRECT
 HOST-SUFFIX,hitevision-solutions.com,DIRECT
-HOST-SUFFIX,hiwifi.com,DIRECT
 HOST-SUFFIX,hiyd.com,DIRECT
 HOST-SUFFIX,hjapi.com,DIRECT
 HOST-SUFFIX,hkgcloudcs.com,DIRECT
@@ -3996,7 +3986,6 @@ HOST-SUFFIX,liblib.art,DIRECT
 HOST-SUFFIX,liblib.cloud,DIRECT
 HOST-SUFFIX,liblib.tv,DIRECT
 HOST-SUFFIX,libvideo.com,DIRECT
-HOST-SUFFIX,licdn.com,DIRECT
 HOST-SUFFIX,liepin.com,DIRECT
 HOST-SUFFIX,lietou-static.com,DIRECT
 HOST-SUFFIX,lietou.com,DIRECT
@@ -4028,8 +4017,6 @@ HOST-SUFFIX,liulishuo.com,DIRECT
 HOST-SUFFIX,liunn.com,DIRECT
 HOST-SUFFIX,liuxiaoer.com,DIRECT
 HOST-SUFFIX,liuxing.com,DIRECT
-HOST-SUFFIX,live.com,DIRECT
-HOST-SUFFIX,live.net,DIRECT
 HOST-SUFFIX,live800.com,DIRECT
 HOST-SUFFIX,livecdnstatic.com,DIRECT
 HOST-SUFFIX,livesaascdn.com,DIRECT
@@ -4334,11 +4321,9 @@ HOST-SUFFIX,msanjia.com,DIRECT
 HOST-SUFFIX,msauth.net,DIRECT
 HOST-SUFFIX,mscbsc.com,DIRECT
 HOST-SUFFIX,msecnd.net,DIRECT
-HOST-SUFFIX,msedge.net,DIRECT
 HOST-SUFFIX,mshare.cc,DIRECT
 HOST-SUFFIX,mslmc.net,DIRECT
 HOST-SUFFIX,msmartlife.com,DIRECT
-HOST-SUFFIX,msn.com,DIRECT
 HOST-SUFFIX,msocdn.com,DIRECT
 HOST-SUFFIX,msstatic.com,DIRECT
 HOST-SUFFIX,mszdld.com,DIRECT
@@ -4458,6 +4443,7 @@ HOST-SUFFIX,nfoservers.com,DIRECT
 HOST-SUFFIX,nfpeople.com,DIRECT
 HOST-SUFFIX,ngabbs.com,DIRECT
 HOST-SUFFIX,ngacn.cc,DIRECT
+HOST-SUFFIX,nia-teams.com,DIRECT
 HOST-SUFFIX,nic.xin,DIRECT
 HOST-SUFFIX,nicaifu.com,DIRECT
 HOST-SUFFIX,nicezhuanye.com,DIRECT
@@ -4524,7 +4510,6 @@ HOST-SUFFIX,oncdp.com,DIRECT
 HOST-SUFFIX,oneapm.com,DIRECT
 HOST-SUFFIX,onedns.net,DIRECT
 HOST-SUFFIX,onegreen.net,DIRECT
-HOST-SUFFIX,onenote.com,DIRECT
 HOST-SUFFIX,onenote.net,DIRECT
 HOST-SUFFIX,oneplus.com,DIRECT
 HOST-SUFFIX,oneplus.net,DIRECT
@@ -5261,7 +5246,6 @@ HOST-SUFFIX,sxsimg.com,DIRECT
 HOST-SUFFIX,sxtvs.com,DIRECT
 HOST-SUFFIX,sxyygh.com,DIRECT
 HOST-SUFFIX,sydw8.com,DIRECT
-HOST-SUFFIX,symcd.com,DIRECT
 HOST-SUFFIX,sys321.com,DIRECT
 HOST-SUFFIX,syxlgame.com,DIRECT
 HOST-SUFFIX,sz-jlc.com,DIRECT
@@ -5595,7 +5579,6 @@ HOST-SUFFIX,tr-testboe.net,DIRECT
 HOST-SUFFIX,tracup.com,DIRECT
 HOST-SUFFIX,trademessenger.com,DIRECT
 HOST-SUFFIX,trae.guru,DIRECT
-HOST-SUFFIX,trello.com,DIRECT
 HOST-SUFFIX,trellocdn.com,DIRECT
 HOST-SUFFIX,tripcdn.com,DIRECT
 HOST-SUFFIX,tritoninfo.net,DIRECT
@@ -6306,7 +6289,6 @@ HOST-SUFFIX,xqymuy.com,DIRECT
 HOST-SUFFIX,xsa239.com,DIRECT
 HOST-SUFFIX,xsgtvacct.com,DIRECT
 HOST-SUFFIX,xslb.net,DIRECT
-HOST-SUFFIX,xteko.com,DIRECT
 HOST-SUFFIX,xuanchuanyi.com,DIRECT
 HOST-SUFFIX,xue51.com,DIRECT
 HOST-SUFFIX,xueche.com,DIRECT
@@ -6706,7 +6688,6 @@ HOST-SUFFIX,znds.com,DIRECT
 HOST-SUFFIX,znnu.com,DIRECT
 HOST-SUFFIX,znztv.com,DIRECT
 HOST-SUFFIX,zofund.com,DIRECT
-HOST-SUFFIX,zoho.com,DIRECT
 HOST-SUFFIX,zol.com,DIRECT
 HOST-SUFFIX,zongheng.com,DIRECT
 HOST-SUFFIX,zpb365.com,DIRECT
@@ -6808,14 +6789,16 @@ USER-AGENT,hearthstone*,DIRECT
 USER-AGENT,hide*,DIRECT
 USER-AGENT,ting_en,DIRECT
 
-# ── Sukka 国内（177 条）──
+# ── Sukka 国内（182 条）──
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,DIRECT
 HOST,acg.tv,DIRECT
+HOST,app.jianguoyun.com,DIRECT
 HOST,app.viayoo.com,DIRECT
 HOST,assets1.xboxlive.cn,DIRECT
 HOST,assets2.xboxlive.cn,DIRECT
 HOST,b23.tv,DIRECT
 HOST,cdnstatic.tencentcs.com,DIRECT
+HOST,comet.jianguoyun.com,DIRECT
 HOST,dns.pub,DIRECT
 HOST,doh.pub,DIRECT
 HOST,dot.pub,DIRECT
@@ -6861,6 +6844,7 @@ HOST-SUFFIX,baiducontent.com,DIRECT
 HOST-SUFFIX,baidupcs.com,DIRECT
 HOST-SUFFIX,baidustatic.com,DIRECT
 HOST-SUFFIX,baishancdnx.cn,DIRECT
+HOST-SUFFIX,battle.net,DIRECT
 HOST-SUFFIX,blzstatic.cn,DIRECT
 HOST-SUFFIX,boc.cn,DIRECT
 HOST-SUFFIX,bytecdn.cn,DIRECT
@@ -6895,6 +6879,8 @@ HOST-SUFFIX,email.cn,DIRECT
 HOST-SUFFIX,feelgood.cn,DIRECT
 HOST-SUFFIX,feishu.cn,DIRECT
 HOST-SUFFIX,flyme.cn,DIRECT
+HOST-SUFFIX,futu5.com,DIRECT
+HOST-SUFFIX,futunn.com,DIRECT
 HOST-SUFFIX,gaokao.cn,DIRECT
 HOST-SUFFIX,gov.cn,DIRECT
 HOST-SUFFIX,gtimg.cn,DIRECT

@@ -1,6 +1,6 @@
 # v2ray/company/google.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
 
-# ── google（1188 条）──
+# ── google（1147 条）──
 full:2mdn-cn.net
 full:2mdn.net
 full:admob-cn.com
@@ -281,7 +281,6 @@ domain:ampproject.com
 domain:ampproject.net
 domain:ampproject.org
 domain:analytics-alv.google.com
-domain:android
 domain:android.com
 domain:androidify.com
 domain:androidtv.com
@@ -302,10 +301,8 @@ domain:appbridge.it
 domain:apps5.oingo.com
 domain:appspot.com
 domain:apture.com
-domain:ar
 domain:area120.com
 domain:asp-cc.com
-domain:au
 domain:autodraw.com
 domain:avail.googleflights.net
 domain:bandpage.com
@@ -397,8 +394,6 @@ domain:blogspot.td
 domain:blogspot.tw
 domain:blogspot.ug
 domain:blogspot.vn
-domain:bo
-domain:br
 domain:brocaproject.com
 domain:brotli.org
 domain:bumpshare.com
@@ -420,7 +415,6 @@ domain:certificate-transparency.org
 domain:charlestonroadregistry.com
 domain:chat.gle
 domain:checkin.gstatic.com
-domain:chrome
 domain:chrome.com
 domain:chromebook.com
 domain:chromecast.com
@@ -440,7 +434,6 @@ domain:cloudfunctions.net
 domain:cloudproxy.app
 domain:cloudrobotics.com
 domain:cn.widevine.com
-domain:co
 domain:cobrasearch.com
 domain:codespot.com
 domain:connectivitycheck.gstatic.com
@@ -460,7 +453,6 @@ domain:crr.com
 domain:crrev.com
 domain:cs4hs.com
 domain:csi.gstatic.com
-domain:cu
 domain:dart.dev
 domain:dartlang.org
 domain:dartpad.dev
@@ -468,7 +460,6 @@ domain:dartsearch-cn.net
 domain:dartsearch.net
 domain:data-vocabulary.org
 domain:dataliberation.org
-domain:dclk
 domain:debug.com
 domain:debugproject.com
 domain:deepmind.com
@@ -484,7 +475,6 @@ domain:digitalassetlinks.org
 domain:digitalattackmap.com
 domain:dl.google.com
 domain:dl.l.google.com
-domain:do
 domain:docs.new
 domain:doubleclick-cn.net
 domain:doubleclick.cn
@@ -493,8 +483,6 @@ domain:doubleclick.net
 domain:download.mlcc.google.com
 domain:download.qatp1.net
 domain:download.tensorflow.google.com
-domain:ec
-domain:eg
 domain:episodic.com
 domain:fastlane.ci
 domain:fastlane.tools
@@ -530,7 +518,6 @@ domain:g1.gstatic.com
 domain:g2.gstatic.com
 domain:g3.gstatic.com
 domain:gateway.dev
-domain:gbiz
 domain:gcp.gvt2.com
 domain:gcr.io
 domain:geller-pa.googleapis.com
@@ -552,9 +539,7 @@ domain:getoutline.org
 domain:ggoogle.com
 domain:gipscorp.com
 domain:gkecnapps.cn
-domain:gle
 domain:globaledu.org
-domain:gmail
 domain:gmail.com
 domain:gmodules.com
 domain:go-lang.com
@@ -570,11 +555,9 @@ domain:golang.org
 domain:gonglchuangl.net
 domain:gongyichuangyi.net
 domain:goo.gl
-domain:goog
 domain:googel.com
 domain:googil.com
 domain:googl.com
-domain:google
 domain:google-access.net
 domain:google-analytics-cn.com
 domain:google-analytics.com
@@ -843,9 +826,7 @@ domain:gstatic.com
 domain:gstaticadssl.l.google.com
 domain:gstaticcnapps.cn
 domain:gsuite.com
-domain:gt
 domain:gtm.oasisfeng.com
-domain:guge
 domain:gv.com
 domain:gvt0.com
 domain:gvt1-cn.com
@@ -856,13 +837,11 @@ domain:gvt6.com
 domain:gvt7.com
 domain:gvt9.com
 domain:gwtproject.org
-domain:hangout
 domain:haplorrhini.com
 domain:hdrplusdata.org
 domain:hey.boo
 domain:hey.gle
 domain:hindiweb.com
-domain:hk
 domain:howtogetmo.co.uk
 domain:html5rocks.com
 domain:hwgo.com
@@ -890,7 +869,6 @@ domain:labs.google.com
 domain:labstailwind.pa.googleapis.com
 domain:lanternal.com
 domain:like.com
-domain:ly
 domain:madewithcode.com
 domain:mail-ads.google.com
 domain:makersuite.google.com
@@ -903,14 +881,10 @@ domain:mobileads.google.com
 domain:mobileview.page
 domain:monitoring.qpdp1.net
 domain:moodstocks.com
-domain:mx
-domain:my
 domain:near.by
 domain:nest.com
 domain:neverware.com
 domain:new.day
-domain:nexus
-domain:ni
 domain:nomulus.foo
 domain:notebook.google
 domain:notebook.google.com
@@ -933,7 +907,6 @@ domain:openthread.io
 domain:openweave.io
 domain:openxla.org
 domain:orbitera.com
-domain:pa
 domain:page.link
 domain:pagead-googlehosted.l.google.com
 domain:pagead.l.google.com
@@ -943,9 +916,7 @@ domain:panoramio.com
 domain:partnerad.l.google.com
 domain:partylikeits1986.org
 domain:paxlicense.org
-domain:pe
 domain:performanceparameters.googleapis.com
-domain:ph
 domain:picasa.com
 domain:picasaweb.com
 domain:picasaweb.net
@@ -953,7 +924,6 @@ domain:picasaweb.org
 domain:picnik.com
 domain:pittpatt.com
 domain:pixate.com
-domain:pk
 domain:pkg.go.dev
 domain:pki-goog.l.google.com
 domain:pki.goog
@@ -966,7 +936,6 @@ domain:plus.codes
 domain:polymer-project.org
 domain:polymerproject.org
 domain:postini.com
-domain:pr
 domain:privacysandbox.com
 domain:proactivebackend-pa.googleapis.com
 domain:prod-controlbe.floonet.goog
@@ -976,7 +945,6 @@ domain:projectara.com
 domain:projectbaseline.com
 domain:pub.dev
 domain:publishproxy.com
-domain:py
 domain:qagpublic.qatp1.net
 domain:qgadmin.qcpp1.net
 domain:qiao-cn.com
@@ -1090,7 +1058,6 @@ domain:screenwisetrends.com
 domain:screenwisetrendspanel.com
 domain:service.urchin.com
 domain:services.googleapis.cn
-domain:sg
 domain:shattered.io
 domain:sheets.new
 domain:slides.new
@@ -1111,7 +1078,6 @@ domain:stxmosquito.com
 domain:stxmosquitoproject.com
 domain:stxmosquitoproject.net
 domain:stxmosquitoproject.org
-domain:sv
 domain:synergyse.com
 domain:tac.googleapis.com
 domain:teachparentstech.org
@@ -1126,11 +1092,8 @@ domain:thinkwithgoogle.com
 domain:tiltbrush.com
 domain:tools.google.com
 domain:tools.l.google.com
-domain:tr
-domain:tw
 domain:txcloud.net
 domain:txvia.com
-domain:ua
 domain:unfiltered.news
 domain:update.crashlytics.com
 domain:update.googleapis.com
@@ -1138,7 +1101,6 @@ domain:urchin.com
 domain:useplannr.com
 domain:usvimosquito.com
 domain:usvimosquitoproject.com
-domain:uy
 domain:v8.dev
 domain:v8project.org
 domain:velostrata.com
@@ -1147,7 +1109,6 @@ domain:verilylifesciences.com
 domain:verilystudyhub.com
 domain:verilystudywatch.com
 domain:verilystudywatch.org
-domain:vn
 domain:wallet.com
 domain:waveprotocol.org
 domain:waymo.com
@@ -1178,14 +1139,12 @@ domain:x.company
 domain:x.team
 domain:xn--9kr7l.com
 domain:xn--9trs65b.com
-domain:xn--flw351e
 domain:xn--flw351e.com
 domain:xn--ggle-55da.com
 domain:xn--gogl-0nd52e.com
 domain:xn--gogl-1nd42e.com
 domain:xn--ngstr-lra8j.com
 domain:xn--p8j9a0d9c9a.xn--q9jyb4c
-domain:xn--qcka1pmc
 domain:xplr.co
 domain:zukunftswerkstatt.de
 domain:zynamics.com

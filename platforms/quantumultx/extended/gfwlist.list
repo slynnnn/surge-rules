@@ -1,6 +1,6 @@
 # quantumultx/extended/gfwlist.list — 由 surge-rules 自动转换（源：rules/extended/gfwlist.txt）
 
-# ── 域名集（4380 条）──
+# ── 域名集（4381 条）──
 HOST,000webhost.com,Gfwlist
 HOST,0rz.tw,Gfwlist
 HOST,1-apple.com.tw,Gfwlist
@@ -48,6 +48,7 @@ HOST,500px.org,Gfwlist
 HOST,51.ca,Gfwlist
 HOST,51jav.org,Gfwlist
 HOST,51luoben.com,Gfwlist
+HOST,51papaya.com,Gfwlist
 HOST,5278.cc,Gfwlist
 HOST,611study.com,Gfwlist
 HOST,611study.icu,Gfwlist

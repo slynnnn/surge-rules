@@ -1,6 +1,6 @@
 # quantumultx/extended/geosite-microsoft.list — 由 surge-rules 自动转换（源：rules/extended/geosite-microsoft.list）
 
-# ── 默认（757 条）──
+# ── 默认（760 条）──
 HOST,az764295.vo.msecnd.net,Geosite-microsoft
 HOST,azure.microsoft.com,Geosite-microsoft
 HOST,azuremarketplace.microsoft.com,Geosite-microsoft
@@ -11,6 +11,7 @@ HOST,azurestackhubuat.download.prss.microsoft.com,Geosite-microsoft
 HOST,b.c2r.ts.cdn.office.net,Geosite-microsoft
 HOST,bingsettingssearch.trafficmanager.net,Geosite-microsoft
 HOST,bj1.api.bing.com,Geosite-microsoft
+HOST,builds.dotnet.microsoft.com,Geosite-microsoft
 HOST,cbdstest.download.prss.microsoft.com,Geosite-microsoft
 HOST,cn.windowssearch.com,Geosite-microsoft
 HOST,collaborate.download.prss.microsoft.com,Geosite-microsoft
@@ -26,6 +27,7 @@ HOST,dc.applicationinsights.azure.com,Geosite-microsoft
 HOST,dc.services.visualstudio.com,Geosite-microsoft
 HOST,default.exp-tas.com,Geosite-microsoft
 HOST,developer.microsoft.com,Geosite-microsoft
+HOST,dotnetcli.trafficmanager.net,Geosite-microsoft
 HOST,download.microsoft.com,Geosite-microsoft
 HOST,download.visualstudio.microsoft.com,Geosite-microsoft
 HOST,dreamspark.download.prss.microsoft.com,Geosite-microsoft
@@ -105,6 +107,7 @@ HOST,statics.teams.cdn.office.net,Geosite-microsoft
 HOST,storecorefulfillment.download.prss.microsoft.com,Geosite-microsoft
 HOST,storeedge.microsoft.com,Geosite-microsoft
 HOST,storeedgefd.dsx.mp.microsoft.com,Geosite-microsoft
+HOST,sundry-star-net-geo.trafficmanager.net,Geosite-microsoft
 HOST,surface.download.prss.microsoft.com,Geosite-microsoft
 HOST,surface.downloads.prss.microsoft.com,Geosite-microsoft
 HOST,vlportal.download.prss.microsoft.com,Geosite-microsoft

@@ -1,6 +1,6 @@
 # shadowrocket/extended/gfwlist.list — 由 surge-rules 自动转换（源：rules/extended/gfwlist.txt）
 
-# ── 域名集（4380 条）──
+# ── 域名集（4381 条）──
 DOMAIN,000webhost.com
 DOMAIN,0rz.tw
 DOMAIN,1-apple.com.tw
@@ -48,6 +48,7 @@ DOMAIN,500px.org
 DOMAIN,51.ca
 DOMAIN,51jav.org
 DOMAIN,51luoben.com
+DOMAIN,51papaya.com
 DOMAIN,5278.cc
 DOMAIN,611study.com
 DOMAIN,611study.icu

@@ -1,5 +1,5 @@
 # china.list — 多源合一（blackmatrix7 + LceAn + Rabbit-Spec + Sukka）
-# 规则数：6980
+# 规则数：6966
 # 由 scripts/build.py 生成，勿手改；改源请改 build.py
 
 # ── Bilibili（140 条）──
@@ -441,12 +441,10 @@ USER-AGENT,TencentMidasConnect*
 USER-AGENT,iQiyi*
 USER-AGENT,youku*
 
-# ── 国内站点（6374 条）──
-DOMAIN,api.alibabacloud.com
+# ── 国内站点（6355 条）──
 DOMAIN,api.blipsandchitz.me
 DOMAIN,cdp.cloud.unity3d.com
 DOMAIN,client.amplifi.com
-DOMAIN,cn.alibabacloud.com
 DOMAIN,cn.download.nvidia.com
 DOMAIN,config.ubnt.com
 DOMAIN,config.uca.cloud.unity3d.com
@@ -462,8 +460,6 @@ DOMAIN,kms.03k.org
 DOMAIN,media.cdn.queniuqe.com
 DOMAIN,ocsp.globalsign.com
 DOMAIN,ocsp2.globalsign.com
-DOMAIN,status.alibabacloud.com
-DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,time.izatcloud.net
 DOMAIN,time.xtracloud.net
 DOMAIN,umami.mao.fan
@@ -1207,7 +1203,6 @@ DOMAIN-SUFFIX,baozou.com
 DOMAIN-SUFFIX,baozoumanhua.com
 DOMAIN-SUFFIX,baseopendev.com
 DOMAIN-SUFFIX,batchat.com
-DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlecare.net
 DOMAIN-SUFFIX,baydn.com
 DOMAIN-SUFFIX,bayescom.com
@@ -2203,7 +2198,6 @@ DOMAIN-SUFFIX,didapinche.com
 DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,didichuxing.com
 DOMAIN-SUFFIX,didistatic.com
-DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,digitalcnzz.com
 DOMAIN-SUFFIX,digitaling.com
 DOMAIN-SUFFIX,dili360.com
@@ -2707,8 +2701,6 @@ DOMAIN-SUFFIX,funmob.top
 DOMAIN-SUFFIX,funnycore.com
 DOMAIN-SUFFIX,funshion.com
 DOMAIN-SUFFIX,funshion.net
-DOMAIN-SUFFIX,futu5.com
-DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,fuwai.com
 DOMAIN-SUFFIX,fuwj.com
 DOMAIN-SUFFIX,fxbaogao.com
@@ -2748,7 +2740,6 @@ DOMAIN-SUFFIX,game234.com
 DOMAIN-SUFFIX,gameabc.com
 DOMAIN-SUFFIX,gamebonfire.com
 DOMAIN-SUFFIX,gameitop.com
-DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,gameloop.com
 DOMAIN-SUFFIX,gamemei.com
 DOMAIN-SUFFIX,gamepp.com
@@ -3046,7 +3037,6 @@ DOMAIN-SUFFIX,hisensekf.com
 DOMAIN-SUFFIX,hisilicon.com
 DOMAIN-SUFFIX,hismarttv.com
 DOMAIN-SUFFIX,hitevision-solutions.com
-DOMAIN-SUFFIX,hiwifi.com
 DOMAIN-SUFFIX,hiyd.com
 DOMAIN-SUFFIX,hjapi.com
 DOMAIN-SUFFIX,hkgcloudcs.com
@@ -4005,7 +3995,6 @@ DOMAIN-SUFFIX,liblib.art
 DOMAIN-SUFFIX,liblib.cloud
 DOMAIN-SUFFIX,liblib.tv
 DOMAIN-SUFFIX,libvideo.com
-DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,liepin.com
 DOMAIN-SUFFIX,lietou-static.com
 DOMAIN-SUFFIX,lietou.com
@@ -4037,8 +4026,6 @@ DOMAIN-SUFFIX,liulishuo.com
 DOMAIN-SUFFIX,liunn.com
 DOMAIN-SUFFIX,liuxiaoer.com
 DOMAIN-SUFFIX,liuxing.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,live800.com
 DOMAIN-SUFFIX,livecdnstatic.com
 DOMAIN-SUFFIX,livesaascdn.com
@@ -4343,11 +4330,9 @@ DOMAIN-SUFFIX,msanjia.com
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,mscbsc.com
 DOMAIN-SUFFIX,msecnd.net
-DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,mshare.cc
 DOMAIN-SUFFIX,mslmc.net
 DOMAIN-SUFFIX,msmartlife.com
-DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,msocdn.com
 DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,mszdld.com
@@ -4467,6 +4452,7 @@ DOMAIN-SUFFIX,nfoservers.com
 DOMAIN-SUFFIX,nfpeople.com
 DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,ngacn.cc
+DOMAIN-SUFFIX,nia-teams.com
 DOMAIN-SUFFIX,nic.xin
 DOMAIN-SUFFIX,nicaifu.com
 DOMAIN-SUFFIX,nicezhuanye.com
@@ -4533,7 +4519,6 @@ DOMAIN-SUFFIX,oncdp.com
 DOMAIN-SUFFIX,oneapm.com
 DOMAIN-SUFFIX,onedns.net
 DOMAIN-SUFFIX,onegreen.net
-DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,onenote.net
 DOMAIN-SUFFIX,oneplus.com
 DOMAIN-SUFFIX,oneplus.net
@@ -5270,7 +5255,6 @@ DOMAIN-SUFFIX,sxsimg.com
 DOMAIN-SUFFIX,sxtvs.com
 DOMAIN-SUFFIX,sxyygh.com
 DOMAIN-SUFFIX,sydw8.com
-DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,sys321.com
 DOMAIN-SUFFIX,syxlgame.com
 DOMAIN-SUFFIX,sz-jlc.com
@@ -5604,7 +5588,6 @@ DOMAIN-SUFFIX,tr-testboe.net
 DOMAIN-SUFFIX,tracup.com
 DOMAIN-SUFFIX,trademessenger.com
 DOMAIN-SUFFIX,trae.guru
-DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
 DOMAIN-SUFFIX,tripcdn.com
 DOMAIN-SUFFIX,tritoninfo.net
@@ -6315,7 +6298,6 @@ DOMAIN-SUFFIX,xqymuy.com
 DOMAIN-SUFFIX,xsa239.com
 DOMAIN-SUFFIX,xsgtvacct.com
 DOMAIN-SUFFIX,xslb.net
-DOMAIN-SUFFIX,xteko.com
 DOMAIN-SUFFIX,xuanchuanyi.com
 DOMAIN-SUFFIX,xue51.com
 DOMAIN-SUFFIX,xueche.com
@@ -6715,7 +6697,6 @@ DOMAIN-SUFFIX,znds.com
 DOMAIN-SUFFIX,znnu.com
 DOMAIN-SUFFIX,znztv.com
 DOMAIN-SUFFIX,zofund.com
-DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zol.com
 DOMAIN-SUFFIX,zongheng.com
 DOMAIN-SUFFIX,zpb365.com
@@ -6817,14 +6798,16 @@ USER-AGENT,hearthstone*
 USER-AGENT,hide*
 USER-AGENT,ting_en
 
-# ── Sukka 国内（177 条）──
+# ── Sukka 国内（182 条）──
 DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 DOMAIN,acg.tv
+DOMAIN,app.jianguoyun.com
 DOMAIN,app.viayoo.com
 DOMAIN,assets1.xboxlive.cn
 DOMAIN,assets2.xboxlive.cn
 DOMAIN,b23.tv
 DOMAIN,cdnstatic.tencentcs.com
+DOMAIN,comet.jianguoyun.com
 DOMAIN,dns.pub
 DOMAIN,doh.pub
 DOMAIN,dot.pub
@@ -6870,6 +6853,7 @@ DOMAIN-SUFFIX,baiducontent.com
 DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,baishancdnx.cn
+DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,blzstatic.cn
 DOMAIN-SUFFIX,boc.cn
 DOMAIN-SUFFIX,bytecdn.cn
@@ -6904,6 +6888,8 @@ DOMAIN-SUFFIX,email.cn
 DOMAIN-SUFFIX,feelgood.cn
 DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,flyme.cn
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,gaokao.cn
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,gtimg.cn

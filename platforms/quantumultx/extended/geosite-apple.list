@@ -1,6 +1,6 @@
 # quantumultx/extended/geosite-apple.list — 由 surge-rules 自动转换（源：rules/extended/geosite-apple.list）
 
-# ── 默认（1792 条）──
+# ── 默认（1796 条）──
 HOST,a1.mzstatic.com,Geosite-apple
 HOST,a2.mzstatic.com,Geosite-apple
 HOST,a3.mzstatic.com,Geosite-apple
@@ -73,6 +73,7 @@ HOST,communities.apple.com,Geosite-apple
 HOST,configuration-lb.ls-apple.com.akadns.net,Geosite-apple
 HOST,configuration.apple.com,Geosite-apple
 HOST,configuration.apple.com.akadns.net,Geosite-apple
+HOST,configuration.ls.apple.com,Geosite-apple
 HOST,crl-lb.apple.com.akadns.net,Geosite-apple
 HOST,crl.apple.com,Geosite-apple
 HOST,cstat.apple.com,Geosite-apple
@@ -158,9 +159,11 @@ HOST,mesu.apple.com,Geosite-apple
 HOST,misc-assets.itunes.apple.com,Geosite-apple
 HOST,ml.cdn-apple.com,Geosite-apple
 HOST,music.apple.com,Geosite-apple
+HOST,musicstatus.itunes.apple.com,Geosite-apple
 HOST,musicstatus.music.apple.com,Geosite-apple
 HOST,mvod.itunes.apple.com,Geosite-apple
 HOST,myapp.itunes.apple.com,Geosite-apple
+HOST,mzstorekit.itunes.apple.com,Geosite-apple
 HOST,notary-submissions-prod.s3-accelerate.amazonaws.com,Geosite-apple
 HOST,notary-submissions-prod.s3.us-west-2.amazonaws.com,Geosite-apple
 HOST,np-edge.itunes.apple.com,Geosite-apple
@@ -982,6 +985,7 @@ HOST-SUFFIX,calendarserver.org,Geosite-apple
 HOST-SUFFIX,camelphat.com,Geosite-apple
 HOST-SUFFIX,camelspaceeffect.com,Geosite-apple
 HOST-SUFFIX,canada-beatsbydre.com,Geosite-apple
+HOST-SUFFIX,captive.apple.com,Geosite-apple
 HOST-SUFFIX,carbon.com,Geosite-apple
 HOST-SUFFIX,carekit.org,Geosite-apple
 HOST-SUFFIX,casque-fr.com,Geosite-apple

@@ -1,6 +1,6 @@
 # quantumultx/extended/geosite-geolocation-not-cn.list — 由 surge-rules 自动转换（源：rules/extended/geosite-geolocation-not-cn.list）
 
-# ── 默认（27307 条）──
+# ── 默认（27315 条）──
 HOST,1password.drift.click,Geosite-geolocation-not-cn
 HOST,3dns-1.adobe.com,Geosite-geolocation-not-cn
 HOST,3dns-2.adobe.com,Geosite-geolocation-not-cn
@@ -82,6 +82,7 @@ HOST,bnetcmsus-a.akamaihd.net,Geosite-geolocation-not-cn
 HOST,bnetproduct-a.akamaihd.net,Geosite-geolocation-not-cn
 HOST,bnetshopus.akamaized.net,Geosite-geolocation-not-cn
 HOST,brightcove.imgix.net,Geosite-geolocation-not-cn
+HOST,builds.dotnet.microsoft.com,Geosite-geolocation-not-cn
 HOST,bybit-exchange.github.io,Geosite-geolocation-not-cn
 HOST,bybit.ada.support,Geosite-geolocation-not-cn
 HOST,c.ppy.sh,Geosite-geolocation-not-cn
@@ -184,6 +185,7 @@ HOST,dlmobilegarena-a.akamaihd.net,Geosite-geolocation-not-cn
 HOST,dmqdd6hw24ucf.cloudfront.net,Geosite-geolocation-not-cn
 HOST,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com,Geosite-geolocation-not-cn
 HOST,docker-pinata-support.s3.amazonaws.com,Geosite-geolocation-not-cn
+HOST,dotnetcli.trafficmanager.net,Geosite-geolocation-not-cn
 HOST,doy2mn9upadnk.cloudfront.net,Geosite-geolocation-not-cn
 HOST,dqd0jw5gvbchn.cloudfront.net,Geosite-geolocation-not-cn
 HOST,dqrpb9wgowsf5.cloudfront.net,Geosite-geolocation-not-cn
@@ -552,6 +554,7 @@ HOST,steamusercontent-a.akamaihd.net,Geosite-geolocation-not-cn
 HOST,steamuserimages-a.akamaihd.net,Geosite-geolocation-not-cn
 HOST,steamvideo-a.akamaihd.net,Geosite-geolocation-not-cn
 HOST,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com,Geosite-geolocation-not-cn
+HOST,sundry-star-net-geo.trafficmanager.net,Geosite-geolocation-not-cn
 HOST,supercell.helpshift.com,Geosite-geolocation-not-cn
 HOST,supercell.zendesk.com,Geosite-geolocation-not-cn
 HOST,t.ssp.hinet.net,Geosite-geolocation-not-cn
@@ -1164,6 +1167,7 @@ HOST-SUFFIX,51lieqi.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,51luoben.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,51luoli.info,Geosite-geolocation-not-cn
 HOST-SUFFIX,51mh.app,Geosite-geolocation-not-cn
+HOST-SUFFIX,51papaya.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,51pincha.cc,Geosite-geolocation-not-cn
 HOST-SUFFIX,51tuqiang.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,520aa.tv,Geosite-geolocation-not-cn
@@ -6985,6 +6989,7 @@ HOST-SUFFIX,cybertrust.co.jp,Geosite-geolocation-not-cn
 HOST-SUFFIX,cybertrust.ne.jp,Geosite-geolocation-not-cn
 HOST-SUFFIX,cyberx.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,cygames.co.jp,Geosite-geolocation-not-cn
+HOST-SUFFIX,cygames.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,cygames.jp,Geosite-geolocation-not-cn
 HOST-SUFFIX,cygwin.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,cylink.pro,Geosite-geolocation-not-cn
@@ -7167,6 +7172,7 @@ HOST-SUFFIX,dealtree.org,Geosite-geolocation-not-cn
 HOST-SUFFIX,deasians.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,debank.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,debian.org,Geosite-geolocation-not-cn
+HOST-SUFFIX,debot.ai,Geosite-geolocation-not-cn
 HOST-SUFFIX,debug.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,debugproject.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,decentr.net,Geosite-geolocation-not-cn
@@ -20382,6 +20388,7 @@ HOST-SUFFIX,reiporno.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,relateiq.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,religionnews.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,remirepo.net,Geosite-geolocation-not-cn
+HOST-SUFFIX,remna.dev,Geosite-geolocation-not-cn
 HOST-SUFFIX,remna.st,Geosite-geolocation-not-cn
 HOST-SUFFIX,rencapbank.ru,Geosite-geolocation-not-cn
 HOST-SUFFIX,renchead.com,Geosite-geolocation-not-cn
@@ -26712,6 +26719,7 @@ HOST-SUFFIX,yavtube.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,yaya.cyou,Geosite-geolocation-not-cn
 HOST-SUFFIX,yayadizhi.xyz,Geosite-geolocation-not-cn
 HOST-SUFFIX,yazhouse8.com,Geosite-geolocation-not-cn
+HOST-SUFFIX,yb-payment.ru,Geosite-geolocation-not-cn
 HOST-SUFFIX,yccdn.ru,Geosite-geolocation-not-cn
 HOST-SUFFIX,yclients.com,Geosite-geolocation-not-cn
 HOST-SUFFIX,ycombinator.com,Geosite-geolocation-not-cn

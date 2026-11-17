@@ -2,12 +2,12 @@
 
 各平台由 Surge canonical 列表转换；丢弃数 = 该平台不支持的规则类型。
 
-- merged/ai.list（源 143 条）： clash 142 条/丢 1；loon 143 条/丢 0；shadowrocket 143 条/丢 0；quantumultx 140 条/丢 3；v2ray 138 条/丢 2；singbox 141 条/丢 2
-- merged/china.list（源 6980 条）： clash 6934 条/丢 46；loon 6974 条/丢 6；shadowrocket 6974 条/丢 6；quantumultx 6973 条/丢 7；v2ray 6824 条/丢 53；singbox 6933 条/丢 47
-- merged/global.list（源 7736 条）： clash 7705 条/丢 31；loon 7716 条/丢 20；shadowrocket 7716 条/丢 20；quantumultx 7716 条/丢 20；v2ray 7648 条/丢 51；singbox 7705 条/丢 31
+- merged/ai.list（源 146 条）： clash 145 条/丢 1；loon 146 条/丢 0；shadowrocket 146 条/丢 0；quantumultx 143 条/丢 3；v2ray 141 条/丢 2；singbox 144 条/丢 2
+- merged/china.list（源 6966 条）： clash 6920 条/丢 46；loon 6960 条/丢 6；shadowrocket 6960 条/丢 6；quantumultx 6959 条/丢 7；v2ray 6810 条/丢 53；singbox 6919 条/丢 47
+- merged/global.list（源 9552 条）： clash 9521 条/丢 31；loon 9532 条/丢 20；shadowrocket 9532 条/丢 20；quantumultx 9532 条/丢 20；v2ray 9466 条/丢 51；singbox 9521 条/丢 31
 - merged/social.list（源 705 条）： clash 705 条/丢 0；loon 699 条/丢 6；shadowrocket 699 条/丢 6；quantumultx 693 条/丢 12；v2ray 614 条/丢 12；singbox 698 条/丢 7
-- merged/streaming.list（源 5099 条）： clash 5041 条/丢 58；loon 5081 条/丢 18；shadowrocket 5081 条/丢 18；quantumultx 5080 条/丢 19；v2ray 3403 条/丢 75；singbox 5042 条/丢 57
-- service/apple.list（源 4172 条）： clash 4149 条/丢 23；loon 4159 条/丢 13；shadowrocket 4159 条/丢 13；quantumultx 4159 条/丢 13；v2ray 4116 条/丢 36；singbox 4149 条/丢 23
+- merged/streaming.list（源 6950 条）： clash 6892 条/丢 58；loon 6932 条/丢 18；shadowrocket 6932 条/丢 18；quantumultx 6931 条/丢 19；v2ray 5252 条/丢 75；singbox 6893 条/丢 57
+- service/apple.list（源 6013 条）： clash 5990 条/丢 23；loon 6000 条/丢 13；shadowrocket 6000 条/丢 13；quantumultx 6000 条/丢 13；v2ray 5959 条/丢 36；singbox 5990 条/丢 23
 - service/bilibili.list（源 140 条）： clash 136 条/丢 4；loon 134 条/丢 6；shadowrocket 134 条/丢 6；quantumultx 134 条/丢 6；v2ray 122 条/丢 10；singbox 136 条/丢 4
 - service/claude.list（源 3 条）： clash 3 条/丢 0；loon 3 条/丢 0；shadowrocket 3 条/丢 0；quantumultx 3 条/丢 0；v2ray 3 条/丢 0；singbox 3 条/丢 0
 - service/copilot.list（源 51 条）： clash 51 条/丢 0；loon 51 条/丢 0；shadowrocket 51 条/丢 0；quantumultx 49 条/丢 2；v2ray 47 条/丢 2；singbox 49 条/丢 2
@@ -15,7 +15,7 @@
 - service/facebook.list（源 593 条）： clash 593 条/丢 0；loon 593 条/丢 0；shadowrocket 593 条/丢 0；quantumultx 592 条/丢 1；v2ray 555 条/丢 1；singbox 592 条/丢 1
 - service/gemini.list（源 14 条）： clash 14 条/丢 0；loon 14 条/丢 0；shadowrocket 14 条/丢 0；quantumultx 14 条/丢 0；v2ray 14 条/丢 0；singbox 14 条/丢 0
 - service/github.list（源 31 条）： clash 31 条/丢 0；loon 31 条/丢 0；shadowrocket 31 条/丢 0；quantumultx 31 条/丢 0；v2ray 31 条/丢 0；singbox 31 条/丢 0
-- service/google.list（源 1201 条）： clash 1198 条/丢 3；loon 1196 条/丢 5；shadowrocket 1196 条/丢 5；quantumultx 1196 条/丢 5；v2ray 1188 条/丢 8；singbox 1198 条/丢 3
+- service/google.list（源 1160 条）： clash 1157 条/丢 3；loon 1155 条/丢 5；shadowrocket 1155 条/丢 5；quantumultx 1155 条/丢 5；v2ray 1147 条/丢 8；singbox 1157 条/丢 3
 - service/instagram.list（源 76 条）： clash 76 条/丢 0；loon 76 条/丢 0；shadowrocket 76 条/丢 0；quantumultx 76 条/丢 0；v2ray 76 条/丢 0；singbox 76 条/丢 0
 - service/microsoft.list（源 856 条）： clash 853 条/丢 3；loon 854 条/丢 2；shadowrocket 854 条/丢 2；quantumultx 854 条/丢 2；v2ray 851 条/丢 5；singbox 853 条/丢 3
 - service/netflix.list（源 1630 条）： clash 1629 条/丢 1；loon 1629 条/丢 1；shadowrocket 1629 条/丢 1；quantumultx 1629 条/丢 1；v2ray 37 条/丢 2；singbox 1629 条/丢 1
@@ -28,28 +28,28 @@
 - service/twitter.list（源 33 条）： clash 33 条/丢 0；loon 33 条/丢 0；shadowrocket 33 条/丢 0；quantumultx 33 条/丢 0；v2ray 27 条/丢 0；singbox 33 条/丢 0
 - service/whatsapp.list（源 30 条）： clash 30 条/丢 0；loon 30 条/丢 0；shadowrocket 30 条/丢 0；quantumultx 30 条/丢 0；v2ray 15 条/丢 0；singbox 30 条/丢 0
 - service/youtube.list（源 195 条）： clash 188 条/丢 7；loon 195 条/丢 0；shadowrocket 195 条/丢 0；quantumultx 195 条/丢 0；v2ray 185 条/丢 7；singbox 188 条/丢 7
-- company/apple.list（源 4172 条）： clash 4149 条/丢 23；loon 4159 条/丢 13；shadowrocket 4159 条/丢 13；quantumultx 4159 条/丢 13；v2ray 4116 条/丢 36；singbox 4149 条/丢 23
-- company/google.list（源 1399 条）： clash 1389 条/丢 10；loon 1394 条/丢 5；shadowrocket 1394 条/丢 5；quantumultx 1394 条/丢 5；v2ray 1379 条/丢 15；singbox 1389 条/丢 10
+- company/apple.list（源 6013 条）： clash 5990 条/丢 23；loon 6000 条/丢 13；shadowrocket 6000 条/丢 13；quantumultx 6000 条/丢 13；v2ray 5959 条/丢 36；singbox 5990 条/丢 23
+- company/google.list（源 1358 条）： clash 1348 条/丢 10；loon 1353 条/丢 5；shadowrocket 1353 条/丢 5；quantumultx 1353 条/丢 5；v2ray 1338 条/丢 15；singbox 1348 条/丢 10
 - company/meta.list（源 617 条）： clash 617 条/丢 0；loon 617 条/丢 0；shadowrocket 617 条/丢 0；quantumultx 616 条/丢 1；v2ray 564 条/丢 1；singbox 616 条/丢 1
 - company/microsoft.list（源 906 条）： clash 903 条/丢 3；loon 904 条/丢 2；shadowrocket 904 条/丢 2；quantumultx 902 条/丢 4；v2ray 897 条/丢 7；singbox 901 条/丢 5
 - extended/acl4ssr-banad.list（源 1596 条）： clash 1596 条/丢 0；loon 1596 条/丢 0；shadowrocket 1596 条/丢 0；quantumultx 1596 条/丢 0；v2ray 1577 条/丢 0；singbox 1596 条/丢 0
-- extended/cats-adrules.list（源 208513 条）： clash 208513 条/丢 0；loon 208513 条/丢 0；shadowrocket 208513 条/丢 0；quantumultx 208513 条/丢 0；v2ray 208513 条/丢 0；singbox 208513 条/丢 0
-- extended/geosite-apple.list（源 1792 条）： clash 1792 条/丢 0；loon 1792 条/丢 0；shadowrocket 1792 条/丢 0；quantumultx 1792 条/丢 0；v2ray 1792 条/丢 0；singbox 1792 条/丢 0
+- extended/cats-adrules.list（源 210730 条）： clash 210730 条/丢 0；loon 210730 条/丢 0；shadowrocket 210730 条/丢 0；quantumultx 210730 条/丢 0；v2ray 210730 条/丢 0；singbox 210730 条/丢 0
+- extended/geosite-apple.list（源 1796 条）： clash 1796 条/丢 0；loon 1796 条/丢 0；shadowrocket 1796 条/丢 0；quantumultx 1796 条/丢 0；v2ray 1796 条/丢 0；singbox 1796 条/丢 0
 - extended/geosite-category-ads-all.list（源 908 条）： clash 908 条/丢 0；loon 908 条/丢 0；shadowrocket 908 条/丢 0；quantumultx 908 条/丢 0；v2ray 908 条/丢 0；singbox 908 条/丢 0
 - extended/geosite-geolocation-cn.list（源 5437 条）： clash 5437 条/丢 0；loon 5437 条/丢 0；shadowrocket 5437 条/丢 0；quantumultx 5437 条/丢 0；v2ray 5437 条/丢 0；singbox 5437 条/丢 0
-- extended/geosite-geolocation-not-cn.list（源 27307 条）： clash 27307 条/丢 0；loon 27307 条/丢 0；shadowrocket 27307 条/丢 0；quantumultx 27307 条/丢 0；v2ray 27307 条/丢 0；singbox 27307 条/丢 0
-- extended/geosite-gfw.list（源 4433 条）： clash 4433 条/丢 0；loon 4433 条/丢 0；shadowrocket 4433 条/丢 0；quantumultx 4433 条/丢 0；v2ray 4433 条/丢 0；singbox 4433 条/丢 0
+- extended/geosite-geolocation-not-cn.list（源 27315 条）： clash 27315 条/丢 0；loon 27315 条/丢 0；shadowrocket 27315 条/丢 0；quantumultx 27315 条/丢 0；v2ray 27315 条/丢 0；singbox 27315 条/丢 0
+- extended/geosite-gfw.list（源 4434 条）： clash 4434 条/丢 0；loon 4434 条/丢 0；shadowrocket 4434 条/丢 0；quantumultx 4434 条/丢 0；v2ray 4434 条/丢 0；singbox 4434 条/丢 0
 - extended/geosite-github.list（源 66 条）： clash 66 条/丢 0；loon 66 条/丢 0；shadowrocket 66 条/丢 0；quantumultx 66 条/丢 0；v2ray 66 条/丢 0；singbox 66 条/丢 0
 - extended/geosite-google.list（源 1078 条）： clash 1078 条/丢 0；loon 1078 条/丢 0；shadowrocket 1078 条/丢 0；quantumultx 1078 条/丢 0；v2ray 1078 条/丢 0；singbox 1078 条/丢 0
-- extended/geosite-microsoft.list（源 757 条）： clash 757 条/丢 0；loon 757 条/丢 0；shadowrocket 757 条/丢 0；quantumultx 757 条/丢 0；v2ray 757 条/丢 0；singbox 757 条/丢 0
+- extended/geosite-microsoft.list（源 760 条）： clash 760 条/丢 0；loon 760 条/丢 0；shadowrocket 760 条/丢 0；quantumultx 760 条/丢 0；v2ray 760 条/丢 0；singbox 760 条/丢 0
 - extended/geosite-netflix.list（源 24 条）： clash 24 条/丢 0；loon 24 条/丢 0；shadowrocket 24 条/丢 0；quantumultx 24 条/丢 0；v2ray 24 条/丢 0；singbox 24 条/丢 0
 - extended/geosite-openai.list（源 24 条）： clash 24 条/丢 0；loon 24 条/丢 0；shadowrocket 24 条/丢 0；quantumultx 24 条/丢 0；v2ray 24 条/丢 0；singbox 24 条/丢 0
 - extended/geosite-telegram.list（源 21 条）： clash 21 条/丢 0；loon 21 条/丢 0；shadowrocket 21 条/丢 0；quantumultx 21 条/丢 0；v2ray 21 条/丢 0；singbox 21 条/丢 0
 - extended/geosite-youtube.list（源 190 条）： clash 190 条/丢 0；loon 190 条/丢 0；shadowrocket 190 条/丢 0；quantumultx 190 条/丢 0；v2ray 190 条/丢 0；singbox 190 条/丢 0
-- extended/johnshall-adblock.list（源 52696 条）： clash 52696 条/丢 0；loon 52696 条/丢 0；shadowrocket 52696 条/丢 0；quantumultx 52696 条/丢 0；v2ray 52544 条/丢 0；singbox 52696 条/丢 0
-- merged/ads.list（源 426939 条）： clash 426939 条/丢 0；loon 426939 条/丢 0；shadowrocket 426939 条/丢 0；quantumultx 426939 条/丢 0；v2ray 426939 条/丢 0；singbox 426939 条/丢 0
-- extended/adguard-sdns.list（源 189412 条）： clash 189412 条/丢 0；loon 189412 条/丢 0；shadowrocket 189412 条/丢 0；quantumultx 189412 条/丢 0；v2ray 189412 条/丢 0；singbox 189412 条/丢 0
-- extended/gfwlist.list（源 4380 条）： clash 4380 条/丢 0；loon 4380 条/丢 0；shadowrocket 4380 条/丢 0；quantumultx 4380 条/丢 0；v2ray 4380 条/丢 0；singbox 4380 条/丢 0
+- extended/johnshall-adblock.list（源 53124 条）： clash 53124 条/丢 0；loon 53124 条/丢 0；shadowrocket 53124 条/丢 0；quantumultx 53124 条/丢 0；v2ray 52972 条/丢 0；singbox 53124 条/丢 0
+- merged/ads.list（源 430385 条）： clash 430385 条/丢 0；loon 430385 条/丢 0；shadowrocket 430385 条/丢 0；quantumultx 430385 条/丢 0；v2ray 430385 条/丢 0；singbox 430385 条/丢 0
+- extended/adguard-sdns.list（源 190121 条）： clash 190121 条/丢 0；loon 190121 条/丢 0；shadowrocket 190121 条/丢 0；quantumultx 190121 条/丢 0；v2ray 190121 条/丢 0；singbox 190121 条/丢 0
+- extended/gfwlist.list（源 4381 条）： clash 4381 条/丢 0；loon 4381 条/丢 0；shadowrocket 4381 条/丢 0；quantumultx 4381 条/丢 0；v2ray 4381 条/丢 0；singbox 4381 条/丢 0
 - extended/goodbyeads.list（源 277779 条）： clash 277779 条/丢 0；loon 277779 条/丢 0；shadowrocket 277779 条/丢 0；quantumultx 277779 条/丢 0；v2ray 277779 条/丢 0；singbox 277779 条/丢 0
 - extended/heidai-domains.list（源 241657 条）： clash 241657 条/丢 0；loon 241657 条/丢 0；shadowrocket 241657 条/丢 0；quantumultx 241657 条/丢 0；v2ray 241657 条/丢 0；singbox 241657 条/丢 0
-- extended/stevenblack.list（源 77859 条）： clash 77859 条/丢 0；loon 77859 条/丢 0；shadowrocket 77859 条/丢 0；quantumultx 77859 条/丢 0；v2ray 77859 条/丢 0；singbox 77859 条/丢 0
+- extended/stevenblack.list（源 75748 条）： clash 75748 条/丢 0；loon 75748 条/丢 0；shadowrocket 75748 条/丢 0；quantumultx 75748 条/丢 0；v2ray 75748 条/丢 0；singbox 75748 条/丢 0

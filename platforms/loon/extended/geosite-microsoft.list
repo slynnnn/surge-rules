@@ -1,6 +1,6 @@
 # loon/extended/geosite-microsoft.list — 由 surge-rules 自动转换（源：rules/extended/geosite-microsoft.list）
 
-# ── 默认（757 条）──
+# ── 默认（760 条）──
 DOMAIN,az764295.vo.msecnd.net
 DOMAIN,azure.microsoft.com
 DOMAIN,azuremarketplace.microsoft.com
@@ -11,6 +11,7 @@ DOMAIN,azurestackhubuat.download.prss.microsoft.com
 DOMAIN,b.c2r.ts.cdn.office.net
 DOMAIN,bingsettingssearch.trafficmanager.net
 DOMAIN,bj1.api.bing.com
+DOMAIN,builds.dotnet.microsoft.com
 DOMAIN,cbdstest.download.prss.microsoft.com
 DOMAIN,cn.windowssearch.com
 DOMAIN,collaborate.download.prss.microsoft.com
@@ -26,6 +27,7 @@ DOMAIN,dc.applicationinsights.azure.com
 DOMAIN,dc.services.visualstudio.com
 DOMAIN,default.exp-tas.com
 DOMAIN,developer.microsoft.com
+DOMAIN,dotnetcli.trafficmanager.net
 DOMAIN,download.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,dreamspark.download.prss.microsoft.com
@@ -105,6 +107,7 @@ DOMAIN,statics.teams.cdn.office.net
 DOMAIN,storecorefulfillment.download.prss.microsoft.com
 DOMAIN,storeedge.microsoft.com
 DOMAIN,storeedgefd.dsx.mp.microsoft.com
+DOMAIN,sundry-star-net-geo.trafficmanager.net
 DOMAIN,surface.download.prss.microsoft.com
 DOMAIN,surface.downloads.prss.microsoft.com
 DOMAIN,vlportal.download.prss.microsoft.com

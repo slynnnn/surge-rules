@@ -78,8 +78,9 @@ HOST-SUFFIX,bing-shopping.microsoft-falcon.io,AI
 HOST-SUFFIX,challenges.cloudflare.com,AI
 HOST-SUFFIX,edgeservices.bing.com,AI
 
-# ── 其他 AI（55 条）──
+# ── 其他 AI（58 条）──
 HOST,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe,AI
+HOST,aicode.googleapis.com,AI
 HOST,aida.googleapis.com,AI
 HOST,aisandbox-pa.googleapis.com,AI
 HOST,alkalicore-pa.clients6.google.com,AI
@@ -87,7 +88,9 @@ HOST,antigravity-unleash.goog,AI
 HOST,antigravity.google,AI
 HOST,api.github.com,AI
 HOST,api.jetbrains.ai,AI
+HOST,cloud.zed.dev,AI
 HOST,daily-cloudcode-pa.googleapis.com,AI
+HOST,daily-cloudcode-pa.sandbox.googleapis.com,AI
 HOST,gateway.ai.cloudflare.com,AI
 HOST,gemini.google.com,AI
 HOST,inference.codeium.com,AI

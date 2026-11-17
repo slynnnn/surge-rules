@@ -1,6 +1,6 @@
 # extended/geosite-gfw.list — MetaCubeX geosite:gfw
 # 源：MetaCubeX/meta-rules-dat（GPL-3.0）
-# 规则数：4433
+# 规则数：4434
 # 扩展集：不进 Ochiai.conf 默认引用链，按 rules/extended/README.md 说明按需引用
 
 DOMAIN-SUFFIX,000webhost.com
@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,500px.org
 DOMAIN-SUFFIX,51.ca
 DOMAIN-SUFFIX,51jav.org
 DOMAIN-SUFFIX,51luoben.com
+DOMAIN-SUFFIX,51papaya.com
 DOMAIN-SUFFIX,5278.cc
 DOMAIN-SUFFIX,611study.com
 DOMAIN-SUFFIX,611study.icu

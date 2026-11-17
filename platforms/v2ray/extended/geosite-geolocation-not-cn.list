@@ -1,6 +1,6 @@
 # v2ray/extended/geosite-geolocation-not-cn.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
 
-# ── 默认（27307 条）──
+# ── 默认（27315 条）──
 full:1password.drift.click
 full:3dns-1.adobe.com
 full:3dns-2.adobe.com
@@ -82,6 +82,7 @@ full:bnetcmsus-a.akamaihd.net
 full:bnetproduct-a.akamaihd.net
 full:bnetshopus.akamaized.net
 full:brightcove.imgix.net
+full:builds.dotnet.microsoft.com
 full:bybit-exchange.github.io
 full:bybit.ada.support
 full:c.ppy.sh
@@ -184,6 +185,7 @@ full:dlmobilegarena-a.akamaihd.net
 full:dmqdd6hw24ucf.cloudfront.net
 full:docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 full:docker-pinata-support.s3.amazonaws.com
+full:dotnetcli.trafficmanager.net
 full:doy2mn9upadnk.cloudfront.net
 full:dqd0jw5gvbchn.cloudfront.net
 full:dqrpb9wgowsf5.cloudfront.net
@@ -552,6 +554,7 @@ full:steamusercontent-a.akamaihd.net
 full:steamuserimages-a.akamaihd.net
 full:steamvideo-a.akamaihd.net
 full:straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+full:sundry-star-net-geo.trafficmanager.net
 full:supercell.helpshift.com
 full:supercell.zendesk.com
 full:t.ssp.hinet.net
@@ -1164,6 +1167,7 @@ domain:51lieqi.com
 domain:51luoben.com
 domain:51luoli.info
 domain:51mh.app
+domain:51papaya.com
 domain:51pincha.cc
 domain:51tuqiang.com
 domain:520aa.tv
@@ -6985,6 +6989,7 @@ domain:cybertrust.co.jp
 domain:cybertrust.ne.jp
 domain:cyberx.com
 domain:cygames.co.jp
+domain:cygames.com
 domain:cygames.jp
 domain:cygwin.com
 domain:cylink.pro
@@ -7167,6 +7172,7 @@ domain:dealtree.org
 domain:deasians.com
 domain:debank.com
 domain:debian.org
+domain:debot.ai
 domain:debug.com
 domain:debugproject.com
 domain:decentr.net
@@ -20382,6 +20388,7 @@ domain:reiporno.com
 domain:relateiq.com
 domain:religionnews.com
 domain:remirepo.net
+domain:remna.dev
 domain:remna.st
 domain:rencapbank.ru
 domain:renchead.com
@@ -26712,6 +26719,7 @@ domain:yavtube.com
 domain:yaya.cyou
 domain:yayadizhi.xyz
 domain:yazhouse8.com
+domain:yb-payment.ru
 domain:yccdn.ru
 domain:yclients.com
 domain:ycombinator.com

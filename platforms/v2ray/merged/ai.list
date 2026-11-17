@@ -76,8 +76,9 @@ domain:bing-shopping.microsoft-falcon.io
 domain:challenges.cloudflare.com
 domain:edgeservices.bing.com
 
-# ── 其他 AI（54 条）──
+# ── 其他 AI（57 条）──
 full:7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
+full:aicode.googleapis.com
 full:aida.googleapis.com
 full:aisandbox-pa.googleapis.com
 full:alkalicore-pa.clients6.google.com
@@ -85,7 +86,9 @@ full:antigravity-unleash.goog
 full:antigravity.google
 full:api.github.com
 full:api.jetbrains.ai
+full:cloud.zed.dev
 full:daily-cloudcode-pa.googleapis.com
+full:daily-cloudcode-pa.sandbox.googleapis.com
 full:gateway.ai.cloudflare.com
 full:gemini.google.com
 full:inference.codeium.com

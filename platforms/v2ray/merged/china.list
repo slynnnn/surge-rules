@@ -334,12 +334,10 @@ domain:zggbdszt.com.cn
 domain:zggbdszt.net.cn
 domain:zygbdszt.net.cn
 
-# ── 国内站点（6325 条）──
-full:api.alibabacloud.com
+# ── 国内站点（6306 条）──
 full:api.blipsandchitz.me
 full:cdp.cloud.unity3d.com
 full:client.amplifi.com
-full:cn.alibabacloud.com
 full:cn.download.nvidia.com
 full:config.ubnt.com
 full:config.uca.cloud.unity3d.com
@@ -355,8 +353,6 @@ full:kms.03k.org
 full:media.cdn.queniuqe.com
 full:ocsp.globalsign.com
 full:ocsp2.globalsign.com
-full:status.alibabacloud.com
-full:steamcommunity-a.akamaihd.net
 full:time.izatcloud.net
 full:time.xtracloud.net
 full:umami.mao.fan
@@ -1100,7 +1096,6 @@ domain:baozou.com
 domain:baozoumanhua.com
 domain:baseopendev.com
 domain:batchat.com
-domain:battle.net
 domain:battlecare.net
 domain:baydn.com
 domain:bayescom.com
@@ -2096,7 +2091,6 @@ domain:didapinche.com
 domain:didialift.com
 domain:didichuxing.com
 domain:didistatic.com
-domain:digicert.com
 domain:digitalcnzz.com
 domain:digitaling.com
 domain:dili360.com
@@ -2600,8 +2594,6 @@ domain:funmob.top
 domain:funnycore.com
 domain:funshion.com
 domain:funshion.net
-domain:futu5.com
-domain:futunn.com
 domain:fuwai.com
 domain:fuwj.com
 domain:fxbaogao.com
@@ -2641,7 +2633,6 @@ domain:game234.com
 domain:gameabc.com
 domain:gamebonfire.com
 domain:gameitop.com
-domain:gameloft.com
 domain:gameloop.com
 domain:gamemei.com
 domain:gamepp.com
@@ -2939,7 +2930,6 @@ domain:hisensekf.com
 domain:hisilicon.com
 domain:hismarttv.com
 domain:hitevision-solutions.com
-domain:hiwifi.com
 domain:hiyd.com
 domain:hjapi.com
 domain:hkgcloudcs.com
@@ -3898,7 +3888,6 @@ domain:liblib.art
 domain:liblib.cloud
 domain:liblib.tv
 domain:libvideo.com
-domain:licdn.com
 domain:liepin.com
 domain:lietou-static.com
 domain:lietou.com
@@ -3930,8 +3919,6 @@ domain:liulishuo.com
 domain:liunn.com
 domain:liuxiaoer.com
 domain:liuxing.com
-domain:live.com
-domain:live.net
 domain:live800.com
 domain:livecdnstatic.com
 domain:livesaascdn.com
@@ -4236,11 +4223,9 @@ domain:msanjia.com
 domain:msauth.net
 domain:mscbsc.com
 domain:msecnd.net
-domain:msedge.net
 domain:mshare.cc
 domain:mslmc.net
 domain:msmartlife.com
-domain:msn.com
 domain:msocdn.com
 domain:msstatic.com
 domain:mszdld.com
@@ -4360,6 +4345,7 @@ domain:nfoservers.com
 domain:nfpeople.com
 domain:ngabbs.com
 domain:ngacn.cc
+domain:nia-teams.com
 domain:nic.xin
 domain:nicaifu.com
 domain:nicezhuanye.com
@@ -4426,7 +4412,6 @@ domain:oncdp.com
 domain:oneapm.com
 domain:onedns.net
 domain:onegreen.net
-domain:onenote.com
 domain:onenote.net
 domain:oneplus.com
 domain:oneplus.net
@@ -5163,7 +5148,6 @@ domain:sxsimg.com
 domain:sxtvs.com
 domain:sxyygh.com
 domain:sydw8.com
-domain:symcd.com
 domain:sys321.com
 domain:syxlgame.com
 domain:sz-jlc.com
@@ -5497,7 +5481,6 @@ domain:tr-testboe.net
 domain:tracup.com
 domain:trademessenger.com
 domain:trae.guru
-domain:trello.com
 domain:trellocdn.com
 domain:tripcdn.com
 domain:tritoninfo.net
@@ -6208,7 +6191,6 @@ domain:xqymuy.com
 domain:xsa239.com
 domain:xsgtvacct.com
 domain:xslb.net
-domain:xteko.com
 domain:xuanchuanyi.com
 domain:xue51.com
 domain:xueche.com
@@ -6608,7 +6590,6 @@ domain:znds.com
 domain:znnu.com
 domain:znztv.com
 domain:zofund.com
-domain:zoho.com
 domain:zol.com
 domain:zongheng.com
 domain:zpb365.com
@@ -6661,14 +6642,16 @@ domain:zztfly.com
 domain:zzzcaculator.top
 domain:zzzmap.com
 
-# ── Sukka 国内（175 条）──
+# ── Sukka 国内（180 条）──
 full:7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
 full:acg.tv
+full:app.jianguoyun.com
 full:app.viayoo.com
 full:assets1.xboxlive.cn
 full:assets2.xboxlive.cn
 full:b23.tv
 full:cdnstatic.tencentcs.com
+full:comet.jianguoyun.com
 full:dns.pub
 full:doh.pub
 full:dot.pub
@@ -6714,6 +6697,7 @@ domain:baiducontent.com
 domain:baidupcs.com
 domain:baidustatic.com
 domain:baishancdnx.cn
+domain:battle.net
 domain:blzstatic.cn
 domain:boc.cn
 domain:bytecdn.cn
@@ -6748,6 +6732,8 @@ domain:email.cn
 domain:feelgood.cn
 domain:feishu.cn
 domain:flyme.cn
+domain:futu5.com
+domain:futunn.com
 domain:gaokao.cn
 domain:gov.cn
 domain:gtimg.cn

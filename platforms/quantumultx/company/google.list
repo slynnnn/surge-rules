@@ -1,6 +1,6 @@
 # quantumultx/company/google.list — 由 surge-rules 自动转换（源：rules/company/google.list）
 
-# ── google（1196 条）──
+# ── google（1155 条）──
 HOST,2mdn-cn.net,Google
 HOST,2mdn.net,Google
 HOST,admob-cn.com,Google
@@ -281,7 +281,6 @@ HOST-SUFFIX,ampproject.com,Google
 HOST-SUFFIX,ampproject.net,Google
 HOST-SUFFIX,ampproject.org,Google
 HOST-SUFFIX,analytics-alv.google.com,Google
-HOST-SUFFIX,android,Google
 HOST-SUFFIX,android.com,Google
 HOST-SUFFIX,androidify.com,Google
 HOST-SUFFIX,androidtv.com,Google
@@ -302,10 +301,8 @@ HOST-SUFFIX,appbridge.it,Google
 HOST-SUFFIX,apps5.oingo.com,Google
 HOST-SUFFIX,appspot.com,Google
 HOST-SUFFIX,apture.com,Google
-HOST-SUFFIX,ar,Google
 HOST-SUFFIX,area120.com,Google
 HOST-SUFFIX,asp-cc.com,Google
-HOST-SUFFIX,au,Google
 HOST-SUFFIX,autodraw.com,Google
 HOST-SUFFIX,avail.googleflights.net,Google
 HOST-SUFFIX,bandpage.com,Google
@@ -397,8 +394,6 @@ HOST-SUFFIX,blogspot.td,Google
 HOST-SUFFIX,blogspot.tw,Google
 HOST-SUFFIX,blogspot.ug,Google
 HOST-SUFFIX,blogspot.vn,Google
-HOST-SUFFIX,bo,Google
-HOST-SUFFIX,br,Google
 HOST-SUFFIX,brocaproject.com,Google
 HOST-SUFFIX,brotli.org,Google
 HOST-SUFFIX,bumpshare.com,Google
@@ -420,7 +415,6 @@ HOST-SUFFIX,certificate-transparency.org,Google
 HOST-SUFFIX,charlestonroadregistry.com,Google
 HOST-SUFFIX,chat.gle,Google
 HOST-SUFFIX,checkin.gstatic.com,Google
-HOST-SUFFIX,chrome,Google
 HOST-SUFFIX,chrome.com,Google
 HOST-SUFFIX,chromebook.com,Google
 HOST-SUFFIX,chromecast.com,Google
@@ -440,7 +434,6 @@ HOST-SUFFIX,cloudfunctions.net,Google
 HOST-SUFFIX,cloudproxy.app,Google
 HOST-SUFFIX,cloudrobotics.com,Google
 HOST-SUFFIX,cn.widevine.com,Google
-HOST-SUFFIX,co,Google
 HOST-SUFFIX,cobrasearch.com,Google
 HOST-SUFFIX,codespot.com,Google
 HOST-SUFFIX,connectivitycheck.gstatic.com,Google
@@ -460,7 +453,6 @@ HOST-SUFFIX,crr.com,Google
 HOST-SUFFIX,crrev.com,Google
 HOST-SUFFIX,cs4hs.com,Google
 HOST-SUFFIX,csi.gstatic.com,Google
-HOST-SUFFIX,cu,Google
 HOST-SUFFIX,dart.dev,Google
 HOST-SUFFIX,dartlang.org,Google
 HOST-SUFFIX,dartpad.dev,Google
@@ -468,7 +460,6 @@ HOST-SUFFIX,dartsearch-cn.net,Google
 HOST-SUFFIX,dartsearch.net,Google
 HOST-SUFFIX,data-vocabulary.org,Google
 HOST-SUFFIX,dataliberation.org,Google
-HOST-SUFFIX,dclk,Google
 HOST-SUFFIX,debug.com,Google
 HOST-SUFFIX,debugproject.com,Google
 HOST-SUFFIX,deepmind.com,Google
@@ -484,7 +475,6 @@ HOST-SUFFIX,digitalassetlinks.org,Google
 HOST-SUFFIX,digitalattackmap.com,Google
 HOST-SUFFIX,dl.google.com,Google
 HOST-SUFFIX,dl.l.google.com,Google
-HOST-SUFFIX,do,Google
 HOST-SUFFIX,docs.new,Google
 HOST-SUFFIX,doubleclick-cn.net,Google
 HOST-SUFFIX,doubleclick.cn,Google
@@ -493,8 +483,6 @@ HOST-SUFFIX,doubleclick.net,Google
 HOST-SUFFIX,download.mlcc.google.com,Google
 HOST-SUFFIX,download.qatp1.net,Google
 HOST-SUFFIX,download.tensorflow.google.com,Google
-HOST-SUFFIX,ec,Google
-HOST-SUFFIX,eg,Google
 HOST-SUFFIX,episodic.com,Google
 HOST-SUFFIX,fastlane.ci,Google
 HOST-SUFFIX,fastlane.tools,Google
@@ -530,7 +518,6 @@ HOST-SUFFIX,g1.gstatic.com,Google
 HOST-SUFFIX,g2.gstatic.com,Google
 HOST-SUFFIX,g3.gstatic.com,Google
 HOST-SUFFIX,gateway.dev,Google
-HOST-SUFFIX,gbiz,Google
 HOST-SUFFIX,gcp.gvt2.com,Google
 HOST-SUFFIX,gcr.io,Google
 HOST-SUFFIX,geller-pa.googleapis.com,Google
@@ -552,9 +539,7 @@ HOST-SUFFIX,getoutline.org,Google
 HOST-SUFFIX,ggoogle.com,Google
 HOST-SUFFIX,gipscorp.com,Google
 HOST-SUFFIX,gkecnapps.cn,Google
-HOST-SUFFIX,gle,Google
 HOST-SUFFIX,globaledu.org,Google
-HOST-SUFFIX,gmail,Google
 HOST-SUFFIX,gmail.com,Google
 HOST-SUFFIX,gmodules.com,Google
 HOST-SUFFIX,go-lang.com,Google
@@ -570,11 +555,9 @@ HOST-SUFFIX,golang.org,Google
 HOST-SUFFIX,gonglchuangl.net,Google
 HOST-SUFFIX,gongyichuangyi.net,Google
 HOST-SUFFIX,goo.gl,Google
-HOST-SUFFIX,goog,Google
 HOST-SUFFIX,googel.com,Google
 HOST-SUFFIX,googil.com,Google
 HOST-SUFFIX,googl.com,Google
-HOST-SUFFIX,google,Google
 HOST-SUFFIX,google-access.net,Google
 HOST-SUFFIX,google-analytics-cn.com,Google
 HOST-SUFFIX,google-analytics.com,Google
@@ -843,9 +826,7 @@ HOST-SUFFIX,gstatic.com,Google
 HOST-SUFFIX,gstaticadssl.l.google.com,Google
 HOST-SUFFIX,gstaticcnapps.cn,Google
 HOST-SUFFIX,gsuite.com,Google
-HOST-SUFFIX,gt,Google
 HOST-SUFFIX,gtm.oasisfeng.com,Google
-HOST-SUFFIX,guge,Google
 HOST-SUFFIX,gv.com,Google
 HOST-SUFFIX,gvt0.com,Google
 HOST-SUFFIX,gvt1-cn.com,Google
@@ -856,13 +837,11 @@ HOST-SUFFIX,gvt6.com,Google
 HOST-SUFFIX,gvt7.com,Google
 HOST-SUFFIX,gvt9.com,Google
 HOST-SUFFIX,gwtproject.org,Google
-HOST-SUFFIX,hangout,Google
 HOST-SUFFIX,haplorrhini.com,Google
 HOST-SUFFIX,hdrplusdata.org,Google
 HOST-SUFFIX,hey.boo,Google
 HOST-SUFFIX,hey.gle,Google
 HOST-SUFFIX,hindiweb.com,Google
-HOST-SUFFIX,hk,Google
 HOST-SUFFIX,howtogetmo.co.uk,Google
 HOST-SUFFIX,html5rocks.com,Google
 HOST-SUFFIX,hwgo.com,Google
@@ -890,7 +869,6 @@ HOST-SUFFIX,labs.google.com,Google
 HOST-SUFFIX,labstailwind.pa.googleapis.com,Google
 HOST-SUFFIX,lanternal.com,Google
 HOST-SUFFIX,like.com,Google
-HOST-SUFFIX,ly,Google
 HOST-SUFFIX,madewithcode.com,Google
 HOST-SUFFIX,mail-ads.google.com,Google
 HOST-SUFFIX,makersuite.google.com,Google
@@ -903,14 +881,10 @@ HOST-SUFFIX,mobileads.google.com,Google
 HOST-SUFFIX,mobileview.page,Google
 HOST-SUFFIX,monitoring.qpdp1.net,Google
 HOST-SUFFIX,moodstocks.com,Google
-HOST-SUFFIX,mx,Google
-HOST-SUFFIX,my,Google
 HOST-SUFFIX,near.by,Google
 HOST-SUFFIX,nest.com,Google
 HOST-SUFFIX,neverware.com,Google
 HOST-SUFFIX,new.day,Google
-HOST-SUFFIX,nexus,Google
-HOST-SUFFIX,ni,Google
 HOST-SUFFIX,nomulus.foo,Google
 HOST-SUFFIX,notebook.google,Google
 HOST-SUFFIX,notebook.google.com,Google
@@ -933,7 +907,6 @@ HOST-SUFFIX,openthread.io,Google
 HOST-SUFFIX,openweave.io,Google
 HOST-SUFFIX,openxla.org,Google
 HOST-SUFFIX,orbitera.com,Google
-HOST-SUFFIX,pa,Google
 HOST-SUFFIX,page.link,Google
 HOST-SUFFIX,pagead-googlehosted.l.google.com,Google
 HOST-SUFFIX,pagead.l.google.com,Google
@@ -943,9 +916,7 @@ HOST-SUFFIX,panoramio.com,Google
 HOST-SUFFIX,partnerad.l.google.com,Google
 HOST-SUFFIX,partylikeits1986.org,Google
 HOST-SUFFIX,paxlicense.org,Google
-HOST-SUFFIX,pe,Google
 HOST-SUFFIX,performanceparameters.googleapis.com,Google
-HOST-SUFFIX,ph,Google
 HOST-SUFFIX,picasa.com,Google
 HOST-SUFFIX,picasaweb.com,Google
 HOST-SUFFIX,picasaweb.net,Google
@@ -953,7 +924,6 @@ HOST-SUFFIX,picasaweb.org,Google
 HOST-SUFFIX,picnik.com,Google
 HOST-SUFFIX,pittpatt.com,Google
 HOST-SUFFIX,pixate.com,Google
-HOST-SUFFIX,pk,Google
 HOST-SUFFIX,pkg.go.dev,Google
 HOST-SUFFIX,pki-goog.l.google.com,Google
 HOST-SUFFIX,pki.goog,Google
@@ -966,7 +936,6 @@ HOST-SUFFIX,plus.codes,Google
 HOST-SUFFIX,polymer-project.org,Google
 HOST-SUFFIX,polymerproject.org,Google
 HOST-SUFFIX,postini.com,Google
-HOST-SUFFIX,pr,Google
 HOST-SUFFIX,privacysandbox.com,Google
 HOST-SUFFIX,proactivebackend-pa.googleapis.com,Google
 HOST-SUFFIX,prod-controlbe.floonet.goog,Google
@@ -976,7 +945,6 @@ HOST-SUFFIX,projectara.com,Google
 HOST-SUFFIX,projectbaseline.com,Google
 HOST-SUFFIX,pub.dev,Google
 HOST-SUFFIX,publishproxy.com,Google
-HOST-SUFFIX,py,Google
 HOST-SUFFIX,qagpublic.qatp1.net,Google
 HOST-SUFFIX,qgadmin.qcpp1.net,Google
 HOST-SUFFIX,qiao-cn.com,Google
@@ -1090,7 +1058,6 @@ HOST-SUFFIX,screenwisetrends.com,Google
 HOST-SUFFIX,screenwisetrendspanel.com,Google
 HOST-SUFFIX,service.urchin.com,Google
 HOST-SUFFIX,services.googleapis.cn,Google
-HOST-SUFFIX,sg,Google
 HOST-SUFFIX,shattered.io,Google
 HOST-SUFFIX,sheets.new,Google
 HOST-SUFFIX,slides.new,Google
@@ -1111,7 +1078,6 @@ HOST-SUFFIX,stxmosquito.com,Google
 HOST-SUFFIX,stxmosquitoproject.com,Google
 HOST-SUFFIX,stxmosquitoproject.net,Google
 HOST-SUFFIX,stxmosquitoproject.org,Google
-HOST-SUFFIX,sv,Google
 HOST-SUFFIX,synergyse.com,Google
 HOST-SUFFIX,tac.googleapis.com,Google
 HOST-SUFFIX,teachparentstech.org,Google
@@ -1126,11 +1092,8 @@ HOST-SUFFIX,thinkwithgoogle.com,Google
 HOST-SUFFIX,tiltbrush.com,Google
 HOST-SUFFIX,tools.google.com,Google
 HOST-SUFFIX,tools.l.google.com,Google
-HOST-SUFFIX,tr,Google
-HOST-SUFFIX,tw,Google
 HOST-SUFFIX,txcloud.net,Google
 HOST-SUFFIX,txvia.com,Google
-HOST-SUFFIX,ua,Google
 HOST-SUFFIX,unfiltered.news,Google
 HOST-SUFFIX,update.crashlytics.com,Google
 HOST-SUFFIX,update.googleapis.com,Google
@@ -1138,7 +1101,6 @@ HOST-SUFFIX,urchin.com,Google
 HOST-SUFFIX,useplannr.com,Google
 HOST-SUFFIX,usvimosquito.com,Google
 HOST-SUFFIX,usvimosquitoproject.com,Google
-HOST-SUFFIX,uy,Google
 HOST-SUFFIX,v8.dev,Google
 HOST-SUFFIX,v8project.org,Google
 HOST-SUFFIX,velostrata.com,Google
@@ -1147,7 +1109,6 @@ HOST-SUFFIX,verilylifesciences.com,Google
 HOST-SUFFIX,verilystudyhub.com,Google
 HOST-SUFFIX,verilystudywatch.com,Google
 HOST-SUFFIX,verilystudywatch.org,Google
-HOST-SUFFIX,vn,Google
 HOST-SUFFIX,wallet.com,Google
 HOST-SUFFIX,waveprotocol.org,Google
 HOST-SUFFIX,waymo.com,Google
@@ -1178,14 +1139,12 @@ HOST-SUFFIX,x.company,Google
 HOST-SUFFIX,x.team,Google
 HOST-SUFFIX,xn--9kr7l.com,Google
 HOST-SUFFIX,xn--9trs65b.com,Google
-HOST-SUFFIX,xn--flw351e,Google
 HOST-SUFFIX,xn--flw351e.com,Google
 HOST-SUFFIX,xn--ggle-55da.com,Google
 HOST-SUFFIX,xn--gogl-0nd52e.com,Google
 HOST-SUFFIX,xn--gogl-1nd42e.com,Google
 HOST-SUFFIX,xn--ngstr-lra8j.com,Google
 HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Google
-HOST-SUFFIX,xn--qcka1pmc,Google
 HOST-SUFFIX,xplr.co,Google
 HOST-SUFFIX,zukunftswerkstatt.de,Google
 HOST-SUFFIX,zynamics.com,Google

@@ -1,6 +1,6 @@
 # extended/gfwlist.txt — GFWList 域名集
 # 源：gfwlist/gfwlist（LGPL-2.1）
-# 域名数：4380
+# 域名数：4381
 # 扩展集：不进 Ochiai.conf 默认引用链，按 rules/extended/README.md 说明按需引用
 
 000webhost.com
@@ -50,6 +50,7 @@
 51.ca
 51jav.org
 51luoben.com
+51papaya.com
 5278.cc
 611study.com
 611study.icu

@@ -1,6 +1,6 @@
 # extended/geosite-apple.list — MetaCubeX geosite:apple
 # 源：MetaCubeX/meta-rules-dat（GPL-3.0）
-# 规则数：1792
+# 规则数：1796
 # 扩展集：不进 Ochiai.conf 默认引用链，按 rules/extended/README.md 说明按需引用
 
 DOMAIN,a1.mzstatic.com
@@ -75,6 +75,7 @@ DOMAIN,communities.apple.com
 DOMAIN,configuration-lb.ls-apple.com.akadns.net
 DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net
+DOMAIN,configuration.ls.apple.com
 DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,crl.apple.com
 DOMAIN,cstat.apple.com
@@ -160,9 +161,11 @@ DOMAIN,mesu.apple.com
 DOMAIN,misc-assets.itunes.apple.com
 DOMAIN,ml.cdn-apple.com
 DOMAIN,music.apple.com
+DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,musicstatus.music.apple.com
 DOMAIN,mvod.itunes.apple.com
 DOMAIN,myapp.itunes.apple.com
+DOMAIN,mzstorekit.itunes.apple.com
 DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com
 DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com
 DOMAIN,np-edge.itunes.apple.com
@@ -984,6 +987,7 @@ DOMAIN-SUFFIX,calendarserver.org
 DOMAIN-SUFFIX,camelphat.com
 DOMAIN-SUFFIX,camelspaceeffect.com
 DOMAIN-SUFFIX,canada-beatsbydre.com
+DOMAIN-SUFFIX,captive.apple.com
 DOMAIN-SUFFIX,carbon.com
 DOMAIN-SUFFIX,carekit.org
 DOMAIN-SUFFIX,casque-fr.com

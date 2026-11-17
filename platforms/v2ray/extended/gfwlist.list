@@ -1,6 +1,6 @@
 # v2ray/extended/gfwlist.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
 
-# ── 域名集（4380 条）──
+# ── 域名集（4381 条）──
 full:000webhost.com
 full:0rz.tw
 full:1-apple.com.tw
@@ -48,6 +48,7 @@ full:500px.org
 full:51.ca
 full:51jav.org
 full:51luoben.com
+full:51papaya.com
 full:5278.cc
 full:611study.com
 full:611study.icu

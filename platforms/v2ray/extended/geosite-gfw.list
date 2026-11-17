@@ -1,6 +1,6 @@
 # v2ray/extended/geosite-gfw.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
 
-# ── 默认（4433 条）──
+# ── 默认（4434 条）──
 domain:000webhost.com
 domain:0rz.tw
 domain:1-apple.com.tw
@@ -49,6 +49,7 @@ domain:500px.org
 domain:51.ca
 domain:51jav.org
 domain:51luoben.com
+domain:51papaya.com
 domain:5278.cc
 domain:611study.com
 domain:611study.icu

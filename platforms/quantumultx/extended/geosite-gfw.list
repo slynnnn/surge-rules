@@ -1,6 +1,6 @@
 # quantumultx/extended/geosite-gfw.list — 由 surge-rules 自动转换（源：rules/extended/geosite-gfw.list）
 
-# ── 默认（4433 条）──
+# ── 默认（4434 条）──
 HOST-SUFFIX,000webhost.com,Geosite-gfw
 HOST-SUFFIX,0rz.tw,Geosite-gfw
 HOST-SUFFIX,1-apple.com.tw,Geosite-gfw
@@ -49,6 +49,7 @@ HOST-SUFFIX,500px.org,Geosite-gfw
 HOST-SUFFIX,51.ca,Geosite-gfw
 HOST-SUFFIX,51jav.org,Geosite-gfw
 HOST-SUFFIX,51luoben.com,Geosite-gfw
+HOST-SUFFIX,51papaya.com,Geosite-gfw
 HOST-SUFFIX,5278.cc,Geosite-gfw
 HOST-SUFFIX,611study.com,Geosite-gfw
 HOST-SUFFIX,611study.icu,Geosite-gfw
