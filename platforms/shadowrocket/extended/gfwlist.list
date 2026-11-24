@@ -1,6 +1,6 @@
 # shadowrocket/extended/gfwlist.list — 由 surge-rules 自动转换（源：rules/extended/gfwlist.txt）
 
-# ── 域名集（4381 条）──
+# ── 域名集（4409 条）──
 DOMAIN,000webhost.com
 DOMAIN,0rz.tw
 DOMAIN,1-apple.com.tw
@@ -762,6 +762,8 @@ DOMAIN,clyp.it
 DOMAIN,cmcn.org
 DOMAIN,cmegroup.com
 DOMAIN,cmi.org.tw
+DOMAIN,cmmedia.com.tw
+DOMAIN,cmoney.tw
 DOMAIN,cms.gov
 DOMAIN,cmule.com
 DOMAIN,cmx.im
@@ -776,6 +778,7 @@ DOMAIN,cnbeta.com.tw
 DOMAIN,cnd.org
 DOMAIN,cnnews.chosun.com
 DOMAIN,cnpolitics.org
+DOMAIN,cnyes.com
 DOMAIN,co.ng.mil
 DOMAIN,coat.co.jp
 DOMAIN,cobinhood.com
@@ -1018,6 +1021,7 @@ DOMAIN,dt18.com
 DOMAIN,dtiblog.com
 DOMAIN,dtic.mil
 DOMAIN,dubox.com
+DOMAIN,duck.ai
 DOMAIN,duck.com
 DOMAIN,duckduckgo.com
 DOMAIN,duckmylife.com
@@ -1043,6 +1047,7 @@ DOMAIN,e-classical.com.tw
 DOMAIN,e-gold.com
 DOMAIN,e-hentai.org
 DOMAIN,e-hentaidb.com
+DOMAIN,e-info.org.tw
 DOMAIN,e-zone.com.hk
 DOMAIN,e123.hk
 DOMAIN,e621.net
@@ -1367,9 +1372,9 @@ DOMAIN,gab.com
 DOMAIN,gabocorp.com
 DOMAIN,gagaoolala.com
 DOMAIN,galenwu.com
-DOMAIN,game735.com
 DOMAIN,gamer.com.tw
 DOMAIN,gamez.com.tw
+DOMAIN,gamma.app
 DOMAIN,ganjing.com
 DOMAIN,ganjingworld.com
 DOMAIN,gaoming.net
@@ -1740,6 +1745,7 @@ DOMAIN,greatfire.org
 DOMAIN,greatfire.us7.list-manage.com
 DOMAIN,greatfirevpn.com
 DOMAIN,greatfirewallofchina.org
+DOMAIN,greenbean.media
 DOMAIN,greenpeace.org
 DOMAIN,greenvpn.net
 DOMAIN,grindr.com
@@ -1839,13 +1845,16 @@ DOMAIN,hka8964.wordpress.com
 DOMAIN,hkanews.wordpress.com
 DOMAIN,hkbookcity.com
 DOMAIN,hkchronicles.com
+DOMAIN,hkcitycreation.com
 DOMAIN,hkcnews.com
 DOMAIN,hkcoc.com
 DOMAIN,hkcoc.weather.com.hk
+DOMAIN,hkcourtnews.com
 DOMAIN,hkdc.us
 DOMAIN,hkej.com
 DOMAIN,hket.com
 DOMAIN,hkfaa.com
+DOMAIN,hkfeature.com
 DOMAIN,hkgalden.com
 DOMAIN,hkgolden.com
 DOMAIN,hkgpao.com
@@ -2254,6 +2263,7 @@ DOMAIN,library-access.sk
 DOMAIN,library.usc.cuhk.edu.hk
 DOMAIN,libredd.it
 DOMAIN,lifemiles.com
+DOMAIN,lifesitenews.com
 DOMAIN,lighten.org.tw
 DOMAIN,lighti.me
 DOMAIN,lightnovel.cn
@@ -2262,6 +2272,7 @@ DOMAIN,lih.kg
 DOMAIN,lihkg.com
 DOMAIN,like.com
 DOMAIN,lilaoshibushinilaoshi.com
+DOMAIN,limedia.tw
 DOMAIN,line-apps.com
 DOMAIN,line-scdn.net
 DOMAIN,line.me
@@ -2357,6 +2368,7 @@ DOMAIN,marxist.net
 DOMAIN,marxists.org
 DOMAIN,mas.to
 DOMAIN,mash.to
+DOMAIN,master-insight.com
 DOMAIN,mastodon.cloud
 DOMAIN,mastodon.host
 DOMAIN,mastodon.online
@@ -2372,6 +2384,7 @@ DOMAIN,matters.news
 DOMAIN,matters.town
 DOMAIN,matthewdgreen.wordpress.com
 DOMAIN,mattwilcox.net
+DOMAIN,mc.yandex.ru
 DOMAIN,mcadforums.com
 DOMAIN,mcaf.ee
 DOMAIN,mceindex.com
@@ -2493,6 +2506,7 @@ DOMAIN,momoshop.com.tw
 DOMAIN,mondex.org
 DOMAIN,money-link.com.tw
 DOMAIN,moneydj.com
+DOMAIN,moneynet.com.tw
 DOMAIN,monica.im
 DOMAIN,monitorchina.org
 DOMAIN,monocloud.me
@@ -2532,6 +2546,7 @@ DOMAIN,muzi.com
 DOMAIN,muzi.net
 DOMAIN,muzu.tv
 DOMAIN,mvg.jp
+DOMAIN,my-formosa.com.tw
 DOMAIN,my-private-network.co.uk
 DOMAIN,my.pcloud.com
 DOMAIN,myaudiocast.com
@@ -2615,6 +2630,7 @@ DOMAIN,newtalk.tw
 DOMAIN,newthuhole.com
 DOMAIN,newyorker.com
 DOMAIN,nexon.com
+DOMAIN,nextapple.com
 DOMAIN,nextdigital.com.hk
 DOMAIN,nexton-net.jp
 DOMAIN,nexttv.com.tw
@@ -2810,6 +2826,7 @@ DOMAIN,parse.com
 DOMAIN,parsevideo.com
 DOMAIN,partnerstack.xyz
 DOMAIN,passion.com
+DOMAIN,passiontimes.hk
 DOMAIN,paste.ee
 DOMAIN,pastie.org
 DOMAIN,patreon.com
@@ -2988,6 +3005,7 @@ DOMAIN,ptwxz.com
 DOMAIN,pubu.com.tw
 DOMAIN,puffinbrowser.com
 DOMAIN,pullfolio.co
+DOMAIN,pulsehknews.com
 DOMAIN,pure18.com
 DOMAIN,pureconcepts.net
 DOMAIN,pureinsight.org
@@ -3214,6 +3232,7 @@ DOMAIN,shadowsocks.be
 DOMAIN,shadowsocks.com.hk
 DOMAIN,shadowsocks.org
 DOMAIN,shahit.biz
+DOMAIN,shanghainationalparty.com
 DOMAIN,share-videos.se
 DOMAIN,share.america.gov
 DOMAIN,sharecool.org
@@ -3253,6 +3272,7 @@ DOMAIN,sinchew.com.my
 DOMAIN,sing-box.sagernet.org
 DOMAIN,singaporepools.com.sg
 DOMAIN,singlelogin.se
+DOMAIN,singpao.com.hk
 DOMAIN,singtao.com
 DOMAIN,singtaousa.com
 DOMAIN,sinoants.com
@@ -3319,6 +3339,7 @@ DOMAIN,sosreader.com
 DOMAIN,sotwe.com
 DOMAIN,soubory.com
 DOMAIN,soulcaliburhentai.net
+DOMAIN,soulogic.com
 DOMAIN,soundcloud.com
 DOMAIN,soundofhope.org
 DOMAIN,soundon.fm
@@ -3460,6 +3481,7 @@ DOMAIN,taiwanhot.net
 DOMAIN,taiwanjustice.net
 DOMAIN,taiwanncf.org.tw
 DOMAIN,taiwannews.com.tw
+DOMAIN,taiwantoday.tw
 DOMAIN,taiwantt.org.tw
 DOMAIN,talkatone.com
 DOMAIN,talkboxapp.com
@@ -3524,6 +3546,7 @@ DOMAIN,thebodyshop-usa.com
 DOMAIN,thecenter.mit.edu
 DOMAIN,thechasernews.co.uk
 DOMAIN,thechinacollection.org
+DOMAIN,thecollectivehk.com
 DOMAIN,theconversation.com
 DOMAIN,thedalailamamovie.com
 DOMAIN,thediplomat.com
@@ -3539,18 +3562,22 @@ DOMAIN,thehun.net
 DOMAIN,theinitium.com
 DOMAIN,theintercept.com
 DOMAIN,thenewslens.com
+DOMAIN,theonlinecitizen.com
 DOMAIN,thepiratebay.org
 DOMAIN,theporndude.com
 DOMAIN,theportalwiki.com
 DOMAIN,theprint.in
 DOMAIN,thesaturdaypaper.com.au
+DOMAIN,thestandard.com.hk
 DOMAIN,thestandnews.com
+DOMAIN,thestar.com
 DOMAIN,thetatoken.org
 DOMAIN,thetibetpost.com
 DOMAIN,thetvdb.com
 DOMAIN,theweek.com
 DOMAIN,thewgo.org
 DOMAIN,thewirechina.com
+DOMAIN,thewitnesshk.com
 DOMAIN,theync.com
 DOMAIN,thinkchina.sg
 DOMAIN,thinkgeek.com
@@ -4121,6 +4148,7 @@ DOMAIN,wo3ttt.wordpress.com
 DOMAIN,woeser.com
 DOMAIN,wokar.org
 DOMAIN,wolfax.com
+DOMAIN,womany.net
 DOMAIN,wombo.ai
 DOMAIN,woolyss.com
 DOMAIN,woopie.jp

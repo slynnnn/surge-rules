@@ -1,6 +1,6 @@
 # VERIFY-LOG
 
-验证时间：2026-11-17 22:41 UTC
+验证时间：2026-11-24 22:41 UTC
 
 ## 链接存活：34 个引用，死链 0
 
@@ -15,7 +15,7 @@
 | 域名 | 预期 | 实际落点 | 同时命中 |
 |---|---|---|---|
 | chatgpt.com | AI | AI ✓ | AI, 流媒体 |
-| claude.ai | AI | AI ✓ | AI, 流媒体, 节点选择 |
+| claude.ai | AI | AI ✓ | AI, 节点选择 |
 | gemini.google.com | AI | AI ✓ | AI, 流媒体, 节点选择 |
 | copilot.microsoft.com | AI | AI ✓ | AI, 流媒体, 节点选择, DIRECT |
 | perplexity.ai | AI | AI ✓ | AI, 流媒体, 节点选择 |

@@ -1,6 +1,6 @@
 # loon/extended/geosite-google.list — 由 surge-rules 自动转换（源：rules/extended/geosite-google.list）
 
-# ── 默认（1078 条）──
+# ── 默认（1079 条）──
 DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
 DOMAIN,admob-cn.com
@@ -447,6 +447,7 @@ DOMAIN-SUFFIX,g.page
 DOMAIN-SUFFIX,gateway.dev
 DOMAIN-SUFFIX,gbiz
 DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,gemma.ai
 DOMAIN-SUFFIX,gerritcodereview.com
 DOMAIN-SUFFIX,get.app
 DOMAIN-SUFFIX,get.dev

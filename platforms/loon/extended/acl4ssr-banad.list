@@ -1,6 +1,6 @@
 # loon/extended/acl4ssr-banad.list — 由 surge-rules 自动转换（源：rules/extended/acl4ssr-banad.list）
 
-# ── 默认（1596 条）──
+# ── 默认（1598 条）──
 DOMAIN,adsmind.apdcdn.tc.qq.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,adsmind.tc.qq.com
@@ -29,7 +29,6 @@ DOMAIN-KEYWORD,guanggao
 DOMAIN-KEYWORD,omgmta
 DOMAIN-KEYWORD,omgmtaw
 DOMAIN-KEYWORD,omniture
-DOMAIN-KEYWORD,openx
 DOMAIN-KEYWORD,partnerad
 DOMAIN-KEYWORD,pingfore
 DOMAIN-KEYWORD,socdm
@@ -1072,6 +1071,9 @@ DOMAIN-SUFFIX,onepush.query.yahoo.com
 DOMAIN-SUFFIX,onetad.com
 DOMAIN-SUFFIX,openapi-news.meizu.com
 DOMAIN-SUFFIX,openrcv.baidu.com
+DOMAIN-SUFFIX,openx.net
+DOMAIN-SUFFIX,openxenterprise.com
+DOMAIN-SUFFIX,openxmarket.asia
 DOMAIN-SUFFIX,optaim.com
 DOMAIN-SUFFIX,optimix.asia
 DOMAIN-SUFFIX,optimix.cn

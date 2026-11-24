@@ -1,6 +1,6 @@
 # v2ray/extended/geosite-geolocation-cn.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
 
-# ── 默认（5437 条）──
+# ── 默认（5458 条）──
 full:ai.zhaomi.cn
 full:api.blipsandchitz.me
 full:app.moegirl.org.cn
@@ -144,6 +144,8 @@ domain:1ppt.com
 domain:1ting.com
 domain:1tyy.cn
 domain:1xhh.cn
+domain:1y.com
+domain:1ycdn.com
 domain:1zhe.com
 domain:20130123.com
 domain:21cnjy.com
@@ -349,6 +351,7 @@ domain:58lovepet.com
 domain:58pic.com
 domain:58uxd.com
 domain:58v5.cn
+domain:58wos.com.cn
 domain:58xinghuo.cn
 domain:58xinghuo.com
 domain:58xueche.com
@@ -522,6 +525,7 @@ domain:aixifan.com
 domain:aiyunxiao.com
 domain:aizgtc.com
 domain:aizhan.com
+domain:ajkimg.com
 domain:ajzq.com
 domain:akikocorp.cn
 domain:akspeedy.com
@@ -680,6 +684,9 @@ domain:baijiayun.com
 domain:baikemy.com
 domain:baimiao.tech
 domain:baimiaoapp.com
+domain:baishan.com
+domain:baishancdnx.cn
+domain:baishancloud.com
 domain:baishinetwork.com
 domain:baixing.com
 domain:baixing.net
@@ -1112,6 +1119,7 @@ domain:chuapp.com
 domain:chugou360.com
 domain:chuimg.com
 domain:chujingapp.com
+domain:chunithm.wahlap.com
 domain:chunyu.mobi
 domain:chunyuyisheng.com
 domain:chushi.cool
@@ -1682,6 +1690,7 @@ domain:ebscn.com
 domain:ebtrust.com
 domain:eceshi.com
 domain:echargenet.com
+domain:echooai.com
 domain:ecjobhome.com
 domain:eckwai.com
 domain:ecloud-gdu.com
@@ -1783,8 +1792,10 @@ domain:fastcom.com.cn
 domain:favonis.cloud
 domain:favonis.com
 domain:favonis.space
+domain:faw-vw.com
 domain:faw.cn
 domain:faxingbao.com
+domain:fazhipro.com
 domain:fbank.com
 domain:fbstatic.cn
 domain:fcbox.com
@@ -2430,6 +2441,7 @@ domain:ibobscs.com
 domain:iboxpay.com
 domain:ibuychem.com
 domain:icaidao.com
+domain:icc.link
 domain:iceo.com.cn
 domain:ichangtou.com
 domain:iciba.com
@@ -3037,6 +3049,7 @@ domain:ledu.com
 domain:leelen.com
 domain:leetcode-cn.com
 domain:leetcode.cn
+domain:lefile.cn
 domain:lehuipay.com
 domain:leigod.cn
 domain:leigod.com
@@ -3058,6 +3071,8 @@ domain:lenovocloudos.com
 domain:lenovocust.cn
 domain:lenovoeservice.com
 domain:lenovofile.com
+domain:lenovofoundation.cn
+domain:lenovofuturecenter.com
 domain:lenovogame.com
 domain:lenovoimage.cn
 domain:lenovoimage.com
@@ -3161,13 +3176,10 @@ domain:lrts.me
 domain:ls66.cn
 domain:lsbj365.com
 domain:lsplayer.com
-domain:lu.com
 domain:lubiao.wiki
 domain:luckincoffeecdn.com
 domain:luckyair.net
 domain:ludashi.com
-domain:lufax.com
-domain:lufaxcdn.com
 domain:lufunds.com
 domain:luhua.cn
 domain:lulian.cn
@@ -3209,6 +3221,7 @@ domain:magedu.com
 domain:maiche.com
 domain:mail4399.com
 domain:maimai.cn
+domain:maimai.wahlap.com
 domain:maimemo.com
 domain:maimemostatus.com
 domain:maindown4399.com
@@ -3836,6 +3849,7 @@ domain:qms-report-o.api.leiniao.com
 domain:qms-report-t.api.leiniao.com
 domain:qnsdk.com
 domain:qnssl.com
+domain:qpmcn.com
 domain:qq.design
 domain:qq163.com
 domain:qq163.net
@@ -3937,6 +3951,7 @@ domain:rwkv.cn
 domain:rwkv.com
 domain:rzrc114.com
 domain:s0n.cn
+domain:saasfz.com
 domain:saasops.tech
 domain:saayaa.com
 domain:saduck.top
@@ -3955,6 +3970,7 @@ domain:sao.cn
 domain:saolife.com
 domain:saraba1st.com
 domain:sast.fun
+domain:saxyit.com
 domain:sbsjk.com
 domain:sc96655.com
 domain:scbaijia.com
@@ -4341,6 +4357,7 @@ domain:tfcaijing.com
 domain:tfzq.com
 domain:tgbus.com
 domain:tggfl.com
+domain:tgk-wcaime.wahlap.com
 domain:tgpro.top
 domain:tgprocs.net
 domain:th-music.com
@@ -4462,6 +4479,7 @@ domain:travelsky.com.cn
 domain:travelskymobile.cn
 domain:tritoninfo.net
 domain:trjcn.com
+domain:trpcdn.com
 domain:trpcdn.net
 domain:trunktech.com
 domain:trustasia.cn
@@ -4660,6 +4678,7 @@ domain:vtdd.vip
 domain:vxhcm.com
 domain:vzuu.com
 domain:wahaha.com.cn
+domain:wahlap.net
 domain:waifushangcheng.com
 domain:wallstcn.com
 domain:wallstreetcn.com
@@ -5296,6 +5315,8 @@ domain:zhanqi.tv
 domain:zhanzhang.net
 domain:zhaodanji.com
 domain:zhaokao.net
+domain:zhaoliangji.com
+domain:zhaoliangjipc.com
 domain:zhaomi.cn
 domain:zhaomishijie.com
 domain:zhaopin.cn

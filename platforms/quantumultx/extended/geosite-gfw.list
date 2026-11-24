@@ -1,6 +1,6 @@
 # quantumultx/extended/geosite-gfw.list — 由 surge-rules 自动转换（源：rules/extended/geosite-gfw.list）
 
-# ── 默认（4434 条）──
+# ── 默认（4462 条）──
 HOST-SUFFIX,000webhost.com,Geosite-gfw
 HOST-SUFFIX,0rz.tw,Geosite-gfw
 HOST-SUFFIX,1-apple.com.tw,Geosite-gfw
@@ -825,6 +825,8 @@ HOST-SUFFIX,clyp.it,Geosite-gfw
 HOST-SUFFIX,cmcn.org,Geosite-gfw
 HOST-SUFFIX,cmegroup.com,Geosite-gfw
 HOST-SUFFIX,cmi.org.tw,Geosite-gfw
+HOST-SUFFIX,cmmedia.com.tw,Geosite-gfw
+HOST-SUFFIX,cmoney.tw,Geosite-gfw
 HOST-SUFFIX,cms.gov,Geosite-gfw
 HOST-SUFFIX,cmule.com,Geosite-gfw
 HOST-SUFFIX,cmx.im,Geosite-gfw
@@ -838,6 +840,7 @@ HOST-SUFFIX,cnbeta.com.tw,Geosite-gfw
 HOST-SUFFIX,cnd.org,Geosite-gfw
 HOST-SUFFIX,cnnews.chosun.com,Geosite-gfw
 HOST-SUFFIX,cnpolitics.org,Geosite-gfw
+HOST-SUFFIX,cnyes.com,Geosite-gfw
 HOST-SUFFIX,co.ng.mil,Geosite-gfw
 HOST-SUFFIX,coat.co.jp,Geosite-gfw
 HOST-SUFFIX,cobinhood.com,Geosite-gfw
@@ -1080,6 +1083,7 @@ HOST-SUFFIX,dt18.com,Geosite-gfw
 HOST-SUFFIX,dtiblog.com,Geosite-gfw
 HOST-SUFFIX,dtic.mil,Geosite-gfw
 HOST-SUFFIX,dubox.com,Geosite-gfw
+HOST-SUFFIX,duck.ai,Geosite-gfw
 HOST-SUFFIX,duck.com,Geosite-gfw
 HOST-SUFFIX,duckduckgo.com,Geosite-gfw
 HOST-SUFFIX,duckmylife.com,Geosite-gfw
@@ -1105,6 +1109,7 @@ HOST-SUFFIX,e-classical.com.tw,Geosite-gfw
 HOST-SUFFIX,e-gold.com,Geosite-gfw
 HOST-SUFFIX,e-hentai.org,Geosite-gfw
 HOST-SUFFIX,e-hentaidb.com,Geosite-gfw
+HOST-SUFFIX,e-info.org.tw,Geosite-gfw
 HOST-SUFFIX,e-zone.com.hk,Geosite-gfw
 HOST-SUFFIX,e123.hk,Geosite-gfw
 HOST-SUFFIX,e621.net,Geosite-gfw
@@ -1428,9 +1433,9 @@ HOST-SUFFIX,gab.com,Geosite-gfw
 HOST-SUFFIX,gabocorp.com,Geosite-gfw
 HOST-SUFFIX,gagaoolala.com,Geosite-gfw
 HOST-SUFFIX,galenwu.com,Geosite-gfw
-HOST-SUFFIX,game735.com,Geosite-gfw
 HOST-SUFFIX,gamer.com.tw,Geosite-gfw
 HOST-SUFFIX,gamez.com.tw,Geosite-gfw
+HOST-SUFFIX,gamma.app,Geosite-gfw
 HOST-SUFFIX,ganjing.com,Geosite-gfw
 HOST-SUFFIX,ganjingworld.com,Geosite-gfw
 HOST-SUFFIX,gaoming.net,Geosite-gfw
@@ -1803,6 +1808,7 @@ HOST-SUFFIX,greatfire.org,Geosite-gfw
 HOST-SUFFIX,greatfire.us7.list-manage.com,Geosite-gfw
 HOST-SUFFIX,greatfirevpn.com,Geosite-gfw
 HOST-SUFFIX,greatfirewallofchina.org,Geosite-gfw
+HOST-SUFFIX,greenbean.media,Geosite-gfw
 HOST-SUFFIX,greenpeace.org,Geosite-gfw
 HOST-SUFFIX,greenvpn.net,Geosite-gfw
 HOST-SUFFIX,grindr.com,Geosite-gfw
@@ -1900,13 +1906,16 @@ HOST-SUFFIX,hk.jiepang.com,Geosite-gfw
 HOST-SUFFIX,hk01.com,Geosite-gfw
 HOST-SUFFIX,hkbookcity.com,Geosite-gfw
 HOST-SUFFIX,hkchronicles.com,Geosite-gfw
+HOST-SUFFIX,hkcitycreation.com,Geosite-gfw
 HOST-SUFFIX,hkcnews.com,Geosite-gfw
 HOST-SUFFIX,hkcoc.com,Geosite-gfw
 HOST-SUFFIX,hkcoc.weather.com.hk,Geosite-gfw
+HOST-SUFFIX,hkcourtnews.com,Geosite-gfw
 HOST-SUFFIX,hkdc.us,Geosite-gfw
 HOST-SUFFIX,hkej.com,Geosite-gfw
 HOST-SUFFIX,hket.com,Geosite-gfw
 HOST-SUFFIX,hkfaa.com,Geosite-gfw
+HOST-SUFFIX,hkfeature.com,Geosite-gfw
 HOST-SUFFIX,hkgalden.com,Geosite-gfw
 HOST-SUFFIX,hkgolden.com,Geosite-gfw
 HOST-SUFFIX,hkgpao.com,Geosite-gfw
@@ -2311,6 +2320,7 @@ HOST-SUFFIX,library-access.sk,Geosite-gfw
 HOST-SUFFIX,library.usc.cuhk.edu.hk,Geosite-gfw
 HOST-SUFFIX,libredd.it,Geosite-gfw
 HOST-SUFFIX,lifemiles.com,Geosite-gfw
+HOST-SUFFIX,lifesitenews.com,Geosite-gfw
 HOST-SUFFIX,lighten.org.tw,Geosite-gfw
 HOST-SUFFIX,lighti.me,Geosite-gfw
 HOST-SUFFIX,lightnovel.cn,Geosite-gfw
@@ -2319,6 +2329,7 @@ HOST-SUFFIX,lih.kg,Geosite-gfw
 HOST-SUFFIX,lihkg.com,Geosite-gfw
 HOST-SUFFIX,like.com,Geosite-gfw
 HOST-SUFFIX,lilaoshibushinilaoshi.com,Geosite-gfw
+HOST-SUFFIX,limedia.tw,Geosite-gfw
 HOST-SUFFIX,line-apps.com,Geosite-gfw
 HOST-SUFFIX,line-scdn.net,Geosite-gfw
 HOST-SUFFIX,line.me,Geosite-gfw
@@ -2414,6 +2425,7 @@ HOST-SUFFIX,marxist.net,Geosite-gfw
 HOST-SUFFIX,marxists.org,Geosite-gfw
 HOST-SUFFIX,mas.to,Geosite-gfw
 HOST-SUFFIX,mash.to,Geosite-gfw
+HOST-SUFFIX,master-insight.com,Geosite-gfw
 HOST-SUFFIX,mastodon.cloud,Geosite-gfw
 HOST-SUFFIX,mastodon.host,Geosite-gfw
 HOST-SUFFIX,mastodon.online,Geosite-gfw
@@ -2428,6 +2440,7 @@ HOST-SUFFIX,matrix.org,Geosite-gfw
 HOST-SUFFIX,matters.news,Geosite-gfw
 HOST-SUFFIX,matters.town,Geosite-gfw
 HOST-SUFFIX,mattwilcox.net,Geosite-gfw
+HOST-SUFFIX,mc.yandex.ru,Geosite-gfw
 HOST-SUFFIX,mcadforums.com,Geosite-gfw
 HOST-SUFFIX,mcaf.ee,Geosite-gfw
 HOST-SUFFIX,mceindex.com,Geosite-gfw
@@ -2548,6 +2561,7 @@ HOST-SUFFIX,momoshop.com.tw,Geosite-gfw
 HOST-SUFFIX,mondex.org,Geosite-gfw
 HOST-SUFFIX,money-link.com.tw,Geosite-gfw
 HOST-SUFFIX,moneydj.com,Geosite-gfw
+HOST-SUFFIX,moneynet.com.tw,Geosite-gfw
 HOST-SUFFIX,monica.im,Geosite-gfw
 HOST-SUFFIX,monitorchina.org,Geosite-gfw
 HOST-SUFFIX,monocloud.me,Geosite-gfw
@@ -2587,6 +2601,7 @@ HOST-SUFFIX,muzi.com,Geosite-gfw
 HOST-SUFFIX,muzi.net,Geosite-gfw
 HOST-SUFFIX,muzu.tv,Geosite-gfw
 HOST-SUFFIX,mvg.jp,Geosite-gfw
+HOST-SUFFIX,my-formosa.com.tw,Geosite-gfw
 HOST-SUFFIX,my-private-network.co.uk,Geosite-gfw
 HOST-SUFFIX,my.pcloud.com,Geosite-gfw
 HOST-SUFFIX,myaudiocast.com,Geosite-gfw
@@ -2670,6 +2685,7 @@ HOST-SUFFIX,newtalk.tw,Geosite-gfw
 HOST-SUFFIX,newthuhole.com,Geosite-gfw
 HOST-SUFFIX,newyorker.com,Geosite-gfw
 HOST-SUFFIX,nexon.com,Geosite-gfw
+HOST-SUFFIX,nextapple.com,Geosite-gfw
 HOST-SUFFIX,nextdigital.com.hk,Geosite-gfw
 HOST-SUFFIX,nexton-net.jp,Geosite-gfw
 HOST-SUFFIX,nexttv.com.tw,Geosite-gfw
@@ -2865,6 +2881,7 @@ HOST-SUFFIX,parse.com,Geosite-gfw
 HOST-SUFFIX,parsevideo.com,Geosite-gfw
 HOST-SUFFIX,partnerstack.xyz,Geosite-gfw
 HOST-SUFFIX,passion.com,Geosite-gfw
+HOST-SUFFIX,passiontimes.hk,Geosite-gfw
 HOST-SUFFIX,paste.ee,Geosite-gfw
 HOST-SUFFIX,pastie.org,Geosite-gfw
 HOST-SUFFIX,patreon.com,Geosite-gfw
@@ -3044,6 +3061,7 @@ HOST-SUFFIX,ptwxz.com,Geosite-gfw
 HOST-SUFFIX,pubu.com.tw,Geosite-gfw
 HOST-SUFFIX,puffinbrowser.com,Geosite-gfw
 HOST-SUFFIX,pullfolio.co,Geosite-gfw
+HOST-SUFFIX,pulsehknews.com,Geosite-gfw
 HOST-SUFFIX,pure18.com,Geosite-gfw
 HOST-SUFFIX,pureconcepts.net,Geosite-gfw
 HOST-SUFFIX,pureinsight.org,Geosite-gfw
@@ -3270,6 +3288,7 @@ HOST-SUFFIX,shadowsocks.be,Geosite-gfw
 HOST-SUFFIX,shadowsocks.com.hk,Geosite-gfw
 HOST-SUFFIX,shadowsocks.org,Geosite-gfw
 HOST-SUFFIX,shahit.biz,Geosite-gfw
+HOST-SUFFIX,shanghainationalparty.com,Geosite-gfw
 HOST-SUFFIX,share-videos.se,Geosite-gfw
 HOST-SUFFIX,share.america.gov,Geosite-gfw
 HOST-SUFFIX,sharecool.org,Geosite-gfw
@@ -3309,6 +3328,7 @@ HOST-SUFFIX,sinchew.com.my,Geosite-gfw
 HOST-SUFFIX,sing-box.sagernet.org,Geosite-gfw
 HOST-SUFFIX,singaporepools.com.sg,Geosite-gfw
 HOST-SUFFIX,singlelogin.se,Geosite-gfw
+HOST-SUFFIX,singpao.com.hk,Geosite-gfw
 HOST-SUFFIX,singtao.com,Geosite-gfw
 HOST-SUFFIX,singtaousa.com,Geosite-gfw
 HOST-SUFFIX,sinoants.com,Geosite-gfw
@@ -3375,6 +3395,7 @@ HOST-SUFFIX,sosreader.com,Geosite-gfw
 HOST-SUFFIX,sotwe.com,Geosite-gfw
 HOST-SUFFIX,soubory.com,Geosite-gfw
 HOST-SUFFIX,soulcaliburhentai.net,Geosite-gfw
+HOST-SUFFIX,soulogic.com,Geosite-gfw
 HOST-SUFFIX,soundcloud.com,Geosite-gfw
 HOST-SUFFIX,soundofhope.org,Geosite-gfw
 HOST-SUFFIX,soundon.fm,Geosite-gfw
@@ -3515,6 +3536,7 @@ HOST-SUFFIX,taiwanhot.net,Geosite-gfw
 HOST-SUFFIX,taiwanjustice.net,Geosite-gfw
 HOST-SUFFIX,taiwanncf.org.tw,Geosite-gfw
 HOST-SUFFIX,taiwannews.com.tw,Geosite-gfw
+HOST-SUFFIX,taiwantoday.tw,Geosite-gfw
 HOST-SUFFIX,taiwantt.org.tw,Geosite-gfw
 HOST-SUFFIX,talkatone.com,Geosite-gfw
 HOST-SUFFIX,talkboxapp.com,Geosite-gfw
@@ -3579,6 +3601,7 @@ HOST-SUFFIX,thebodyshop-usa.com,Geosite-gfw
 HOST-SUFFIX,thecenter.mit.edu,Geosite-gfw
 HOST-SUFFIX,thechasernews.co.uk,Geosite-gfw
 HOST-SUFFIX,thechinacollection.org,Geosite-gfw
+HOST-SUFFIX,thecollectivehk.com,Geosite-gfw
 HOST-SUFFIX,theconversation.com,Geosite-gfw
 HOST-SUFFIX,thedalailamamovie.com,Geosite-gfw
 HOST-SUFFIX,thediplomat.com,Geosite-gfw
@@ -3594,18 +3617,22 @@ HOST-SUFFIX,thehun.net,Geosite-gfw
 HOST-SUFFIX,theinitium.com,Geosite-gfw
 HOST-SUFFIX,theintercept.com,Geosite-gfw
 HOST-SUFFIX,thenewslens.com,Geosite-gfw
+HOST-SUFFIX,theonlinecitizen.com,Geosite-gfw
 HOST-SUFFIX,thepiratebay.org,Geosite-gfw
 HOST-SUFFIX,theporndude.com,Geosite-gfw
 HOST-SUFFIX,theportalwiki.com,Geosite-gfw
 HOST-SUFFIX,theprint.in,Geosite-gfw
 HOST-SUFFIX,thesaturdaypaper.com.au,Geosite-gfw
+HOST-SUFFIX,thestandard.com.hk,Geosite-gfw
 HOST-SUFFIX,thestandnews.com,Geosite-gfw
+HOST-SUFFIX,thestar.com,Geosite-gfw
 HOST-SUFFIX,thetatoken.org,Geosite-gfw
 HOST-SUFFIX,thetibetpost.com,Geosite-gfw
 HOST-SUFFIX,thetvdb.com,Geosite-gfw
 HOST-SUFFIX,theweek.com,Geosite-gfw
 HOST-SUFFIX,thewgo.org,Geosite-gfw
 HOST-SUFFIX,thewirechina.com,Geosite-gfw
+HOST-SUFFIX,thewitnesshk.com,Geosite-gfw
 HOST-SUFFIX,theync.com,Geosite-gfw
 HOST-SUFFIX,thinkchina.sg,Geosite-gfw
 HOST-SUFFIX,thinkgeek.com,Geosite-gfw
@@ -4177,6 +4204,7 @@ HOST-SUFFIX,wo.tc,Geosite-gfw
 HOST-SUFFIX,woeser.com,Geosite-gfw
 HOST-SUFFIX,wokar.org,Geosite-gfw
 HOST-SUFFIX,wolfax.com,Geosite-gfw
+HOST-SUFFIX,womany.net,Geosite-gfw
 HOST-SUFFIX,wombo.ai,Geosite-gfw
 HOST-SUFFIX,woolyss.com,Geosite-gfw
 HOST-SUFFIX,woopie.jp,Geosite-gfw

@@ -1,6 +1,6 @@
 # quantumultx/extended/geosite-geolocation-cn.list — 由 surge-rules 自动转换（源：rules/extended/geosite-geolocation-cn.list）
 
-# ── 默认（5437 条）──
+# ── 默认（5458 条）──
 HOST,ai.zhaomi.cn,Geosite-geolocation-cn
 HOST,api.blipsandchitz.me,Geosite-geolocation-cn
 HOST,app.moegirl.org.cn,Geosite-geolocation-cn
@@ -144,6 +144,8 @@ HOST-SUFFIX,1ppt.com,Geosite-geolocation-cn
 HOST-SUFFIX,1ting.com,Geosite-geolocation-cn
 HOST-SUFFIX,1tyy.cn,Geosite-geolocation-cn
 HOST-SUFFIX,1xhh.cn,Geosite-geolocation-cn
+HOST-SUFFIX,1y.com,Geosite-geolocation-cn
+HOST-SUFFIX,1ycdn.com,Geosite-geolocation-cn
 HOST-SUFFIX,1zhe.com,Geosite-geolocation-cn
 HOST-SUFFIX,20130123.com,Geosite-geolocation-cn
 HOST-SUFFIX,21cnjy.com,Geosite-geolocation-cn
@@ -349,6 +351,7 @@ HOST-SUFFIX,58lovepet.com,Geosite-geolocation-cn
 HOST-SUFFIX,58pic.com,Geosite-geolocation-cn
 HOST-SUFFIX,58uxd.com,Geosite-geolocation-cn
 HOST-SUFFIX,58v5.cn,Geosite-geolocation-cn
+HOST-SUFFIX,58wos.com.cn,Geosite-geolocation-cn
 HOST-SUFFIX,58xinghuo.cn,Geosite-geolocation-cn
 HOST-SUFFIX,58xinghuo.com,Geosite-geolocation-cn
 HOST-SUFFIX,58xueche.com,Geosite-geolocation-cn
@@ -522,6 +525,7 @@ HOST-SUFFIX,aixifan.com,Geosite-geolocation-cn
 HOST-SUFFIX,aiyunxiao.com,Geosite-geolocation-cn
 HOST-SUFFIX,aizgtc.com,Geosite-geolocation-cn
 HOST-SUFFIX,aizhan.com,Geosite-geolocation-cn
+HOST-SUFFIX,ajkimg.com,Geosite-geolocation-cn
 HOST-SUFFIX,ajzq.com,Geosite-geolocation-cn
 HOST-SUFFIX,akikocorp.cn,Geosite-geolocation-cn
 HOST-SUFFIX,akspeedy.com,Geosite-geolocation-cn
@@ -680,6 +684,9 @@ HOST-SUFFIX,baijiayun.com,Geosite-geolocation-cn
 HOST-SUFFIX,baikemy.com,Geosite-geolocation-cn
 HOST-SUFFIX,baimiao.tech,Geosite-geolocation-cn
 HOST-SUFFIX,baimiaoapp.com,Geosite-geolocation-cn
+HOST-SUFFIX,baishan.com,Geosite-geolocation-cn
+HOST-SUFFIX,baishancdnx.cn,Geosite-geolocation-cn
+HOST-SUFFIX,baishancloud.com,Geosite-geolocation-cn
 HOST-SUFFIX,baishinetwork.com,Geosite-geolocation-cn
 HOST-SUFFIX,baixing.com,Geosite-geolocation-cn
 HOST-SUFFIX,baixing.net,Geosite-geolocation-cn
@@ -1112,6 +1119,7 @@ HOST-SUFFIX,chuapp.com,Geosite-geolocation-cn
 HOST-SUFFIX,chugou360.com,Geosite-geolocation-cn
 HOST-SUFFIX,chuimg.com,Geosite-geolocation-cn
 HOST-SUFFIX,chujingapp.com,Geosite-geolocation-cn
+HOST-SUFFIX,chunithm.wahlap.com,Geosite-geolocation-cn
 HOST-SUFFIX,chunyu.mobi,Geosite-geolocation-cn
 HOST-SUFFIX,chunyuyisheng.com,Geosite-geolocation-cn
 HOST-SUFFIX,chushi.cool,Geosite-geolocation-cn
@@ -1682,6 +1690,7 @@ HOST-SUFFIX,ebscn.com,Geosite-geolocation-cn
 HOST-SUFFIX,ebtrust.com,Geosite-geolocation-cn
 HOST-SUFFIX,eceshi.com,Geosite-geolocation-cn
 HOST-SUFFIX,echargenet.com,Geosite-geolocation-cn
+HOST-SUFFIX,echooai.com,Geosite-geolocation-cn
 HOST-SUFFIX,ecjobhome.com,Geosite-geolocation-cn
 HOST-SUFFIX,eckwai.com,Geosite-geolocation-cn
 HOST-SUFFIX,ecloud-gdu.com,Geosite-geolocation-cn
@@ -1783,8 +1792,10 @@ HOST-SUFFIX,fastcom.com.cn,Geosite-geolocation-cn
 HOST-SUFFIX,favonis.cloud,Geosite-geolocation-cn
 HOST-SUFFIX,favonis.com,Geosite-geolocation-cn
 HOST-SUFFIX,favonis.space,Geosite-geolocation-cn
+HOST-SUFFIX,faw-vw.com,Geosite-geolocation-cn
 HOST-SUFFIX,faw.cn,Geosite-geolocation-cn
 HOST-SUFFIX,faxingbao.com,Geosite-geolocation-cn
+HOST-SUFFIX,fazhipro.com,Geosite-geolocation-cn
 HOST-SUFFIX,fbank.com,Geosite-geolocation-cn
 HOST-SUFFIX,fbstatic.cn,Geosite-geolocation-cn
 HOST-SUFFIX,fcbox.com,Geosite-geolocation-cn
@@ -2430,6 +2441,7 @@ HOST-SUFFIX,ibobscs.com,Geosite-geolocation-cn
 HOST-SUFFIX,iboxpay.com,Geosite-geolocation-cn
 HOST-SUFFIX,ibuychem.com,Geosite-geolocation-cn
 HOST-SUFFIX,icaidao.com,Geosite-geolocation-cn
+HOST-SUFFIX,icc.link,Geosite-geolocation-cn
 HOST-SUFFIX,iceo.com.cn,Geosite-geolocation-cn
 HOST-SUFFIX,ichangtou.com,Geosite-geolocation-cn
 HOST-SUFFIX,iciba.com,Geosite-geolocation-cn
@@ -3037,6 +3049,7 @@ HOST-SUFFIX,ledu.com,Geosite-geolocation-cn
 HOST-SUFFIX,leelen.com,Geosite-geolocation-cn
 HOST-SUFFIX,leetcode-cn.com,Geosite-geolocation-cn
 HOST-SUFFIX,leetcode.cn,Geosite-geolocation-cn
+HOST-SUFFIX,lefile.cn,Geosite-geolocation-cn
 HOST-SUFFIX,lehuipay.com,Geosite-geolocation-cn
 HOST-SUFFIX,leigod.cn,Geosite-geolocation-cn
 HOST-SUFFIX,leigod.com,Geosite-geolocation-cn
@@ -3058,6 +3071,8 @@ HOST-SUFFIX,lenovocloudos.com,Geosite-geolocation-cn
 HOST-SUFFIX,lenovocust.cn,Geosite-geolocation-cn
 HOST-SUFFIX,lenovoeservice.com,Geosite-geolocation-cn
 HOST-SUFFIX,lenovofile.com,Geosite-geolocation-cn
+HOST-SUFFIX,lenovofoundation.cn,Geosite-geolocation-cn
+HOST-SUFFIX,lenovofuturecenter.com,Geosite-geolocation-cn
 HOST-SUFFIX,lenovogame.com,Geosite-geolocation-cn
 HOST-SUFFIX,lenovoimage.cn,Geosite-geolocation-cn
 HOST-SUFFIX,lenovoimage.com,Geosite-geolocation-cn
@@ -3161,13 +3176,10 @@ HOST-SUFFIX,lrts.me,Geosite-geolocation-cn
 HOST-SUFFIX,ls66.cn,Geosite-geolocation-cn
 HOST-SUFFIX,lsbj365.com,Geosite-geolocation-cn
 HOST-SUFFIX,lsplayer.com,Geosite-geolocation-cn
-HOST-SUFFIX,lu.com,Geosite-geolocation-cn
 HOST-SUFFIX,lubiao.wiki,Geosite-geolocation-cn
 HOST-SUFFIX,luckincoffeecdn.com,Geosite-geolocation-cn
 HOST-SUFFIX,luckyair.net,Geosite-geolocation-cn
 HOST-SUFFIX,ludashi.com,Geosite-geolocation-cn
-HOST-SUFFIX,lufax.com,Geosite-geolocation-cn
-HOST-SUFFIX,lufaxcdn.com,Geosite-geolocation-cn
 HOST-SUFFIX,lufunds.com,Geosite-geolocation-cn
 HOST-SUFFIX,luhua.cn,Geosite-geolocation-cn
 HOST-SUFFIX,lulian.cn,Geosite-geolocation-cn
@@ -3209,6 +3221,7 @@ HOST-SUFFIX,magedu.com,Geosite-geolocation-cn
 HOST-SUFFIX,maiche.com,Geosite-geolocation-cn
 HOST-SUFFIX,mail4399.com,Geosite-geolocation-cn
 HOST-SUFFIX,maimai.cn,Geosite-geolocation-cn
+HOST-SUFFIX,maimai.wahlap.com,Geosite-geolocation-cn
 HOST-SUFFIX,maimemo.com,Geosite-geolocation-cn
 HOST-SUFFIX,maimemostatus.com,Geosite-geolocation-cn
 HOST-SUFFIX,maindown4399.com,Geosite-geolocation-cn
@@ -3836,6 +3849,7 @@ HOST-SUFFIX,qms-report-o.api.leiniao.com,Geosite-geolocation-cn
 HOST-SUFFIX,qms-report-t.api.leiniao.com,Geosite-geolocation-cn
 HOST-SUFFIX,qnsdk.com,Geosite-geolocation-cn
 HOST-SUFFIX,qnssl.com,Geosite-geolocation-cn
+HOST-SUFFIX,qpmcn.com,Geosite-geolocation-cn
 HOST-SUFFIX,qq.design,Geosite-geolocation-cn
 HOST-SUFFIX,qq163.com,Geosite-geolocation-cn
 HOST-SUFFIX,qq163.net,Geosite-geolocation-cn
@@ -3937,6 +3951,7 @@ HOST-SUFFIX,rwkv.cn,Geosite-geolocation-cn
 HOST-SUFFIX,rwkv.com,Geosite-geolocation-cn
 HOST-SUFFIX,rzrc114.com,Geosite-geolocation-cn
 HOST-SUFFIX,s0n.cn,Geosite-geolocation-cn
+HOST-SUFFIX,saasfz.com,Geosite-geolocation-cn
 HOST-SUFFIX,saasops.tech,Geosite-geolocation-cn
 HOST-SUFFIX,saayaa.com,Geosite-geolocation-cn
 HOST-SUFFIX,saduck.top,Geosite-geolocation-cn
@@ -3955,6 +3970,7 @@ HOST-SUFFIX,sao.cn,Geosite-geolocation-cn
 HOST-SUFFIX,saolife.com,Geosite-geolocation-cn
 HOST-SUFFIX,saraba1st.com,Geosite-geolocation-cn
 HOST-SUFFIX,sast.fun,Geosite-geolocation-cn
+HOST-SUFFIX,saxyit.com,Geosite-geolocation-cn
 HOST-SUFFIX,sbsjk.com,Geosite-geolocation-cn
 HOST-SUFFIX,sc96655.com,Geosite-geolocation-cn
 HOST-SUFFIX,scbaijia.com,Geosite-geolocation-cn
@@ -4341,6 +4357,7 @@ HOST-SUFFIX,tfcaijing.com,Geosite-geolocation-cn
 HOST-SUFFIX,tfzq.com,Geosite-geolocation-cn
 HOST-SUFFIX,tgbus.com,Geosite-geolocation-cn
 HOST-SUFFIX,tggfl.com,Geosite-geolocation-cn
+HOST-SUFFIX,tgk-wcaime.wahlap.com,Geosite-geolocation-cn
 HOST-SUFFIX,tgpro.top,Geosite-geolocation-cn
 HOST-SUFFIX,tgprocs.net,Geosite-geolocation-cn
 HOST-SUFFIX,th-music.com,Geosite-geolocation-cn
@@ -4462,6 +4479,7 @@ HOST-SUFFIX,travelsky.com.cn,Geosite-geolocation-cn
 HOST-SUFFIX,travelskymobile.cn,Geosite-geolocation-cn
 HOST-SUFFIX,tritoninfo.net,Geosite-geolocation-cn
 HOST-SUFFIX,trjcn.com,Geosite-geolocation-cn
+HOST-SUFFIX,trpcdn.com,Geosite-geolocation-cn
 HOST-SUFFIX,trpcdn.net,Geosite-geolocation-cn
 HOST-SUFFIX,trunktech.com,Geosite-geolocation-cn
 HOST-SUFFIX,trustasia.cn,Geosite-geolocation-cn
@@ -4660,6 +4678,7 @@ HOST-SUFFIX,vtdd.vip,Geosite-geolocation-cn
 HOST-SUFFIX,vxhcm.com,Geosite-geolocation-cn
 HOST-SUFFIX,vzuu.com,Geosite-geolocation-cn
 HOST-SUFFIX,wahaha.com.cn,Geosite-geolocation-cn
+HOST-SUFFIX,wahlap.net,Geosite-geolocation-cn
 HOST-SUFFIX,waifushangcheng.com,Geosite-geolocation-cn
 HOST-SUFFIX,wallstcn.com,Geosite-geolocation-cn
 HOST-SUFFIX,wallstreetcn.com,Geosite-geolocation-cn
@@ -5296,6 +5315,8 @@ HOST-SUFFIX,zhanqi.tv,Geosite-geolocation-cn
 HOST-SUFFIX,zhanzhang.net,Geosite-geolocation-cn
 HOST-SUFFIX,zhaodanji.com,Geosite-geolocation-cn
 HOST-SUFFIX,zhaokao.net,Geosite-geolocation-cn
+HOST-SUFFIX,zhaoliangji.com,Geosite-geolocation-cn
+HOST-SUFFIX,zhaoliangjipc.com,Geosite-geolocation-cn
 HOST-SUFFIX,zhaomi.cn,Geosite-geolocation-cn
 HOST-SUFFIX,zhaomishijie.com,Geosite-geolocation-cn
 HOST-SUFFIX,zhaopin.cn,Geosite-geolocation-cn

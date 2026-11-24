@@ -1,6 +1,6 @@
 # clash/extended/geosite-category-ads-all.list — 由 surge-rules 自动转换（源：rules/extended/geosite-category-ads-all.list）
 
-# ── 默认（908 条）──
+# ── 默认（909 条）──
 DOMAIN,1l-hit.mail.ru
 DOMAIN,1l-hit.vkplay.ru
 DOMAIN,ad-channel.diwodiwo.xyz
@@ -829,6 +829,7 @@ DOMAIN-SUFFIX,tce.alicdn.com
 DOMAIN-SUFFIX,tcss.qq.com
 DOMAIN-SUFFIX,tdsdk.cpatrk.net
 DOMAIN-SUFFIX,telecome.cn
+DOMAIN-SUFFIX,tencentads.com
 DOMAIN-SUFFIX,testads.api.my7v.com
 DOMAIN-SUFFIX,theta.sogoucdn.com
 DOMAIN-SUFFIX,tjqonline.cn

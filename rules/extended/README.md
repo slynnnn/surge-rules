@@ -7,23 +7,23 @@
 
 | 文件 | 来源 | 许可证 | 形态 | 条数 |
 |---|---|---|---|---|
-| stevenblack.txt | StevenBlack/hosts | MIT | 域名集 | 75748 |
+| stevenblack.txt | StevenBlack/hosts | MIT | 域名集 | 81320 |
 | goodbyeads.txt | jerryn70/GoodbyeAds | MIT | 域名集 | 277779 |
-| adguard-sdns.txt | AdguardTeam/AdguardSDNSFilter | GPL-3.0 | 域名集 | 190121 |
+| adguard-sdns.txt | AdguardTeam/AdguardSDNSFilter | GPL-3.0 | 域名集 | 193734 |
 | heidai-domains.txt | 217heidai/adblockfilters | GPL-3.0 | 域名集 | 241657 |
-| gfwlist.txt | gfwlist/gfwlist | LGPL-2.1 | 域名集 | 4381 |
-| cats-adrules.list | Cats-Team/AdRules | 0BSD | typed 规则 | 210730 |
-| johnshall-adblock.list | Johnshall/Shadowrocket-ADBlock-Rules-Forever | CC-BY-SA-4.0 | typed 规则 | 53124 |
-| acl4ssr-banad.list | ACL4SSR/ACL4SSR | CC-BY-SA-4.0 | typed 规则 | 1596 |
-| geosite-category-ads-all.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 908 |
-| geosite-geolocation-cn.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 5437 |
-| geosite-geolocation-not-cn.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 27315 |
-| geosite-gfw.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 4434 |
+| gfwlist.txt | gfwlist/gfwlist | LGPL-2.1 | 域名集 | 4409 |
+| cats-adrules.list | Cats-Team/AdRules | 0BSD | typed 规则 | 214470 |
+| johnshall-adblock.list | Johnshall/Shadowrocket-ADBlock-Rules-Forever | CC-BY-SA-4.0 | typed 规则 | 53592 |
+| acl4ssr-banad.list | ACL4SSR/ACL4SSR | CC-BY-SA-4.0 | typed 规则 | 1598 |
+| geosite-category-ads-all.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 909 |
+| geosite-geolocation-cn.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 5458 |
+| geosite-geolocation-not-cn.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 27228 |
+| geosite-gfw.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 4462 |
 | geosite-telegram.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 21 |
 | geosite-youtube.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 190 |
 | geosite-netflix.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 24 |
-| geosite-google.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 1078 |
+| geosite-google.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 1079 |
 | geosite-github.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 66 |
 | geosite-openai.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 24 |
 | geosite-microsoft.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 760 |
-| geosite-apple.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 1796 |
+| geosite-apple.list | MetaCubeX/meta-rules-dat | GPL-3.0 | typed 规则 | 1666 |

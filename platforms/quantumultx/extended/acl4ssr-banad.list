@@ -1,6 +1,6 @@
 # quantumultx/extended/acl4ssr-banad.list — 由 surge-rules 自动转换（源：rules/extended/acl4ssr-banad.list）
 
-# ── 默认（1596 条）──
+# ── 默认（1598 条）──
 HOST,adsmind.apdcdn.tc.qq.com,Acl4ssr-banad
 HOST,adsmind.gdtimg.com,Acl4ssr-banad
 HOST,adsmind.tc.qq.com,Acl4ssr-banad
@@ -29,7 +29,6 @@ HOST-KEYWORD,guanggao,Acl4ssr-banad
 HOST-KEYWORD,omgmta,Acl4ssr-banad
 HOST-KEYWORD,omgmtaw,Acl4ssr-banad
 HOST-KEYWORD,omniture,Acl4ssr-banad
-HOST-KEYWORD,openx,Acl4ssr-banad
 HOST-KEYWORD,partnerad,Acl4ssr-banad
 HOST-KEYWORD,pingfore,Acl4ssr-banad
 HOST-KEYWORD,socdm,Acl4ssr-banad
@@ -1072,6 +1071,9 @@ HOST-SUFFIX,onepush.query.yahoo.com,Acl4ssr-banad
 HOST-SUFFIX,onetad.com,Acl4ssr-banad
 HOST-SUFFIX,openapi-news.meizu.com,Acl4ssr-banad
 HOST-SUFFIX,openrcv.baidu.com,Acl4ssr-banad
+HOST-SUFFIX,openx.net,Acl4ssr-banad
+HOST-SUFFIX,openxenterprise.com,Acl4ssr-banad
+HOST-SUFFIX,openxmarket.asia,Acl4ssr-banad
 HOST-SUFFIX,optaim.com,Acl4ssr-banad
 HOST-SUFFIX,optimix.asia,Acl4ssr-banad
 HOST-SUFFIX,optimix.cn,Acl4ssr-banad

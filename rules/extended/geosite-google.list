@@ -1,6 +1,6 @@
 # extended/geosite-google.list — MetaCubeX geosite:google
 # 源：MetaCubeX/meta-rules-dat（GPL-3.0）
-# 规则数：1078
+# 规则数：1079
 # 扩展集：不进 Ochiai.conf 默认引用链，按 rules/extended/README.md 说明按需引用
 
 DOMAIN,2mdn-cn.net
@@ -449,6 +449,7 @@ DOMAIN-SUFFIX,g.page
 DOMAIN-SUFFIX,gateway.dev
 DOMAIN-SUFFIX,gbiz
 DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,gemma.ai
 DOMAIN-SUFFIX,gerritcodereview.com
 DOMAIN-SUFFIX,get.app
 DOMAIN-SUFFIX,get.dev

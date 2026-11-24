@@ -1,6 +1,6 @@
 # extended/acl4ssr-banad.list — ACL4SSR BanAD + BanProgramAD
 # 源：ACL4SSR/ACL4SSR（CC-BY-SA-4.0）
-# 规则数：1596
+# 规则数：1598
 # 扩展集：不进 Ochiai.conf 默认引用链，按 rules/extended/README.md 说明按需引用
 
 DOMAIN,adsmind.apdcdn.tc.qq.com
@@ -31,7 +31,6 @@ DOMAIN-KEYWORD,guanggao
 DOMAIN-KEYWORD,omgmta
 DOMAIN-KEYWORD,omgmtaw
 DOMAIN-KEYWORD,omniture
-DOMAIN-KEYWORD,openx
 DOMAIN-KEYWORD,partnerad
 DOMAIN-KEYWORD,pingfore
 DOMAIN-KEYWORD,socdm
@@ -1074,6 +1073,9 @@ DOMAIN-SUFFIX,onepush.query.yahoo.com
 DOMAIN-SUFFIX,onetad.com
 DOMAIN-SUFFIX,openapi-news.meizu.com
 DOMAIN-SUFFIX,openrcv.baidu.com
+DOMAIN-SUFFIX,openx.net
+DOMAIN-SUFFIX,openxenterprise.com
+DOMAIN-SUFFIX,openxmarket.asia
 DOMAIN-SUFFIX,optaim.com
 DOMAIN-SUFFIX,optimix.asia
 DOMAIN-SUFFIX,optimix.cn

@@ -1,6 +1,6 @@
 # extended/geosite-category-ads-all.list — MetaCubeX geosite:category-ads-all
 # 源：MetaCubeX/meta-rules-dat（GPL-3.0）
-# 规则数：908
+# 规则数：909
 # 扩展集：不进 Ochiai.conf 默认引用链，按 rules/extended/README.md 说明按需引用
 
 DOMAIN,1l-hit.mail.ru
@@ -831,6 +831,7 @@ DOMAIN-SUFFIX,tce.alicdn.com
 DOMAIN-SUFFIX,tcss.qq.com
 DOMAIN-SUFFIX,tdsdk.cpatrk.net
 DOMAIN-SUFFIX,telecome.cn
+DOMAIN-SUFFIX,tencentads.com
 DOMAIN-SUFFIX,testads.api.my7v.com
 DOMAIN-SUFFIX,theta.sogoucdn.com
 DOMAIN-SUFFIX,tjqonline.cn

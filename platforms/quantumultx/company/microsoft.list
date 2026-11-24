@@ -1,6 +1,6 @@
 # quantumultx/company/microsoft.list — 由 surge-rules 自动转换（源：rules/company/microsoft.list）
 
-# ── microsoft（854 条）──
+# ── microsoft（857 条）──
 HOST,az764295.vo.msecnd.net,Microsoft
 HOST,azure.microsoft.com,Microsoft
 HOST,azuremarketplace.microsoft.com,Microsoft
@@ -11,6 +11,7 @@ HOST,azurestackhubuat.download.prss.microsoft.com,Microsoft
 HOST,b.c2r.ts.cdn.office.net,Microsoft
 HOST,bingsettingssearch.trafficmanager.net,Microsoft
 HOST,bj1.api.bing.com,Microsoft
+HOST,builds.dotnet.microsoft.com,Microsoft
 HOST,cbdstest.download.prss.microsoft.com,Microsoft
 HOST,cn.windowssearch.com,Microsoft
 HOST,collaborate.download.prss.microsoft.com,Microsoft
@@ -21,6 +22,7 @@ HOST,dc.applicationinsights.azure.com,Microsoft
 HOST,dc.services.visualstudio.com,Microsoft
 HOST,default.exp-tas.com,Microsoft
 HOST,developer.microsoft.com,Microsoft
+HOST,dotnetcli.trafficmanager.net,Microsoft
 HOST,download.microsoft.com,Microsoft
 HOST,download.visualstudio.microsoft.com,Microsoft
 HOST,dreamspark.download.prss.microsoft.com,Microsoft
@@ -77,6 +79,7 @@ HOST,statics.teams.cdn.office.net,Microsoft
 HOST,storecorefulfillment.download.prss.microsoft.com,Microsoft
 HOST,storeedge.microsoft.com,Microsoft
 HOST,storeedgefd.dsx.mp.microsoft.com,Microsoft
+HOST,sundry-star-net-geo.trafficmanager.net,Microsoft
 HOST,surface.download.prss.microsoft.com,Microsoft
 HOST,surface.downloads.prss.microsoft.com,Microsoft
 HOST,vlportal.download.prss.microsoft.com,Microsoft

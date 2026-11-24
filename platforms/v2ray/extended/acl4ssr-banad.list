@@ -1,6 +1,6 @@
 # v2ray/extended/acl4ssr-banad.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
 
-# ── 默认（1577 条）──
+# ── 默认（1579 条）──
 full:adsmind.apdcdn.tc.qq.com
 full:adsmind.gdtimg.com
 full:adsmind.tc.qq.com
@@ -29,7 +29,6 @@ keyword:guanggao
 keyword:omgmta
 keyword:omgmtaw
 keyword:omniture
-keyword:openx
 keyword:partnerad
 keyword:pingfore
 keyword:socdm
@@ -1072,6 +1071,9 @@ domain:onepush.query.yahoo.com
 domain:onetad.com
 domain:openapi-news.meizu.com
 domain:openrcv.baidu.com
+domain:openx.net
+domain:openxenterprise.com
+domain:openxmarket.asia
 domain:optaim.com
 domain:optimix.asia
 domain:optimix.cn

@@ -1,6 +1,6 @@
 # quantumultx/extended/geosite-category-ads-all.list — 由 surge-rules 自动转换（源：rules/extended/geosite-category-ads-all.list）
 
-# ── 默认（908 条）──
+# ── 默认（909 条）──
 HOST,1l-hit.mail.ru,Geosite-category-ads-all
 HOST,1l-hit.vkplay.ru,Geosite-category-ads-all
 HOST,ad-channel.diwodiwo.xyz,Geosite-category-ads-all
@@ -829,6 +829,7 @@ HOST-SUFFIX,tce.alicdn.com,Geosite-category-ads-all
 HOST-SUFFIX,tcss.qq.com,Geosite-category-ads-all
 HOST-SUFFIX,tdsdk.cpatrk.net,Geosite-category-ads-all
 HOST-SUFFIX,telecome.cn,Geosite-category-ads-all
+HOST-SUFFIX,tencentads.com,Geosite-category-ads-all
 HOST-SUFFIX,testads.api.my7v.com,Geosite-category-ads-all
 HOST-SUFFIX,theta.sogoucdn.com,Geosite-category-ads-all
 HOST-SUFFIX,tjqonline.cn,Geosite-category-ads-all

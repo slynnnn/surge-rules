@@ -1,6 +1,6 @@
 # quantumultx/extended/gfwlist.list — 由 surge-rules 自动转换（源：rules/extended/gfwlist.txt）
 
-# ── 域名集（4381 条）──
+# ── 域名集（4409 条）──
 HOST,000webhost.com,Gfwlist
 HOST,0rz.tw,Gfwlist
 HOST,1-apple.com.tw,Gfwlist
@@ -762,6 +762,8 @@ HOST,clyp.it,Gfwlist
 HOST,cmcn.org,Gfwlist
 HOST,cmegroup.com,Gfwlist
 HOST,cmi.org.tw,Gfwlist
+HOST,cmmedia.com.tw,Gfwlist
+HOST,cmoney.tw,Gfwlist
 HOST,cms.gov,Gfwlist
 HOST,cmule.com,Gfwlist
 HOST,cmx.im,Gfwlist
@@ -776,6 +778,7 @@ HOST,cnbeta.com.tw,Gfwlist
 HOST,cnd.org,Gfwlist
 HOST,cnnews.chosun.com,Gfwlist
 HOST,cnpolitics.org,Gfwlist
+HOST,cnyes.com,Gfwlist
 HOST,co.ng.mil,Gfwlist
 HOST,coat.co.jp,Gfwlist
 HOST,cobinhood.com,Gfwlist
@@ -1018,6 +1021,7 @@ HOST,dt18.com,Gfwlist
 HOST,dtiblog.com,Gfwlist
 HOST,dtic.mil,Gfwlist
 HOST,dubox.com,Gfwlist
+HOST,duck.ai,Gfwlist
 HOST,duck.com,Gfwlist
 HOST,duckduckgo.com,Gfwlist
 HOST,duckmylife.com,Gfwlist
@@ -1043,6 +1047,7 @@ HOST,e-classical.com.tw,Gfwlist
 HOST,e-gold.com,Gfwlist
 HOST,e-hentai.org,Gfwlist
 HOST,e-hentaidb.com,Gfwlist
+HOST,e-info.org.tw,Gfwlist
 HOST,e-zone.com.hk,Gfwlist
 HOST,e123.hk,Gfwlist
 HOST,e621.net,Gfwlist
@@ -1367,9 +1372,9 @@ HOST,gab.com,Gfwlist
 HOST,gabocorp.com,Gfwlist
 HOST,gagaoolala.com,Gfwlist
 HOST,galenwu.com,Gfwlist
-HOST,game735.com,Gfwlist
 HOST,gamer.com.tw,Gfwlist
 HOST,gamez.com.tw,Gfwlist
+HOST,gamma.app,Gfwlist
 HOST,ganjing.com,Gfwlist
 HOST,ganjingworld.com,Gfwlist
 HOST,gaoming.net,Gfwlist
@@ -1740,6 +1745,7 @@ HOST,greatfire.org,Gfwlist
 HOST,greatfire.us7.list-manage.com,Gfwlist
 HOST,greatfirevpn.com,Gfwlist
 HOST,greatfirewallofchina.org,Gfwlist
+HOST,greenbean.media,Gfwlist
 HOST,greenpeace.org,Gfwlist
 HOST,greenvpn.net,Gfwlist
 HOST,grindr.com,Gfwlist
@@ -1839,13 +1845,16 @@ HOST,hka8964.wordpress.com,Gfwlist
 HOST,hkanews.wordpress.com,Gfwlist
 HOST,hkbookcity.com,Gfwlist
 HOST,hkchronicles.com,Gfwlist
+HOST,hkcitycreation.com,Gfwlist
 HOST,hkcnews.com,Gfwlist
 HOST,hkcoc.com,Gfwlist
 HOST,hkcoc.weather.com.hk,Gfwlist
+HOST,hkcourtnews.com,Gfwlist
 HOST,hkdc.us,Gfwlist
 HOST,hkej.com,Gfwlist
 HOST,hket.com,Gfwlist
 HOST,hkfaa.com,Gfwlist
+HOST,hkfeature.com,Gfwlist
 HOST,hkgalden.com,Gfwlist
 HOST,hkgolden.com,Gfwlist
 HOST,hkgpao.com,Gfwlist
@@ -2254,6 +2263,7 @@ HOST,library-access.sk,Gfwlist
 HOST,library.usc.cuhk.edu.hk,Gfwlist
 HOST,libredd.it,Gfwlist
 HOST,lifemiles.com,Gfwlist
+HOST,lifesitenews.com,Gfwlist
 HOST,lighten.org.tw,Gfwlist
 HOST,lighti.me,Gfwlist
 HOST,lightnovel.cn,Gfwlist
@@ -2262,6 +2272,7 @@ HOST,lih.kg,Gfwlist
 HOST,lihkg.com,Gfwlist
 HOST,like.com,Gfwlist
 HOST,lilaoshibushinilaoshi.com,Gfwlist
+HOST,limedia.tw,Gfwlist
 HOST,line-apps.com,Gfwlist
 HOST,line-scdn.net,Gfwlist
 HOST,line.me,Gfwlist
@@ -2357,6 +2368,7 @@ HOST,marxist.net,Gfwlist
 HOST,marxists.org,Gfwlist
 HOST,mas.to,Gfwlist
 HOST,mash.to,Gfwlist
+HOST,master-insight.com,Gfwlist
 HOST,mastodon.cloud,Gfwlist
 HOST,mastodon.host,Gfwlist
 HOST,mastodon.online,Gfwlist
@@ -2372,6 +2384,7 @@ HOST,matters.news,Gfwlist
 HOST,matters.town,Gfwlist
 HOST,matthewdgreen.wordpress.com,Gfwlist
 HOST,mattwilcox.net,Gfwlist
+HOST,mc.yandex.ru,Gfwlist
 HOST,mcadforums.com,Gfwlist
 HOST,mcaf.ee,Gfwlist
 HOST,mceindex.com,Gfwlist
@@ -2493,6 +2506,7 @@ HOST,momoshop.com.tw,Gfwlist
 HOST,mondex.org,Gfwlist
 HOST,money-link.com.tw,Gfwlist
 HOST,moneydj.com,Gfwlist
+HOST,moneynet.com.tw,Gfwlist
 HOST,monica.im,Gfwlist
 HOST,monitorchina.org,Gfwlist
 HOST,monocloud.me,Gfwlist
@@ -2532,6 +2546,7 @@ HOST,muzi.com,Gfwlist
 HOST,muzi.net,Gfwlist
 HOST,muzu.tv,Gfwlist
 HOST,mvg.jp,Gfwlist
+HOST,my-formosa.com.tw,Gfwlist
 HOST,my-private-network.co.uk,Gfwlist
 HOST,my.pcloud.com,Gfwlist
 HOST,myaudiocast.com,Gfwlist
@@ -2615,6 +2630,7 @@ HOST,newtalk.tw,Gfwlist
 HOST,newthuhole.com,Gfwlist
 HOST,newyorker.com,Gfwlist
 HOST,nexon.com,Gfwlist
+HOST,nextapple.com,Gfwlist
 HOST,nextdigital.com.hk,Gfwlist
 HOST,nexton-net.jp,Gfwlist
 HOST,nexttv.com.tw,Gfwlist
@@ -2810,6 +2826,7 @@ HOST,parse.com,Gfwlist
 HOST,parsevideo.com,Gfwlist
 HOST,partnerstack.xyz,Gfwlist
 HOST,passion.com,Gfwlist
+HOST,passiontimes.hk,Gfwlist
 HOST,paste.ee,Gfwlist
 HOST,pastie.org,Gfwlist
 HOST,patreon.com,Gfwlist
@@ -2988,6 +3005,7 @@ HOST,ptwxz.com,Gfwlist
 HOST,pubu.com.tw,Gfwlist
 HOST,puffinbrowser.com,Gfwlist
 HOST,pullfolio.co,Gfwlist
+HOST,pulsehknews.com,Gfwlist
 HOST,pure18.com,Gfwlist
 HOST,pureconcepts.net,Gfwlist
 HOST,pureinsight.org,Gfwlist
@@ -3214,6 +3232,7 @@ HOST,shadowsocks.be,Gfwlist
 HOST,shadowsocks.com.hk,Gfwlist
 HOST,shadowsocks.org,Gfwlist
 HOST,shahit.biz,Gfwlist
+HOST,shanghainationalparty.com,Gfwlist
 HOST,share-videos.se,Gfwlist
 HOST,share.america.gov,Gfwlist
 HOST,sharecool.org,Gfwlist
@@ -3253,6 +3272,7 @@ HOST,sinchew.com.my,Gfwlist
 HOST,sing-box.sagernet.org,Gfwlist
 HOST,singaporepools.com.sg,Gfwlist
 HOST,singlelogin.se,Gfwlist
+HOST,singpao.com.hk,Gfwlist
 HOST,singtao.com,Gfwlist
 HOST,singtaousa.com,Gfwlist
 HOST,sinoants.com,Gfwlist
@@ -3319,6 +3339,7 @@ HOST,sosreader.com,Gfwlist
 HOST,sotwe.com,Gfwlist
 HOST,soubory.com,Gfwlist
 HOST,soulcaliburhentai.net,Gfwlist
+HOST,soulogic.com,Gfwlist
 HOST,soundcloud.com,Gfwlist
 HOST,soundofhope.org,Gfwlist
 HOST,soundon.fm,Gfwlist
@@ -3460,6 +3481,7 @@ HOST,taiwanhot.net,Gfwlist
 HOST,taiwanjustice.net,Gfwlist
 HOST,taiwanncf.org.tw,Gfwlist
 HOST,taiwannews.com.tw,Gfwlist
+HOST,taiwantoday.tw,Gfwlist
 HOST,taiwantt.org.tw,Gfwlist
 HOST,talkatone.com,Gfwlist
 HOST,talkboxapp.com,Gfwlist
@@ -3524,6 +3546,7 @@ HOST,thebodyshop-usa.com,Gfwlist
 HOST,thecenter.mit.edu,Gfwlist
 HOST,thechasernews.co.uk,Gfwlist
 HOST,thechinacollection.org,Gfwlist
+HOST,thecollectivehk.com,Gfwlist
 HOST,theconversation.com,Gfwlist
 HOST,thedalailamamovie.com,Gfwlist
 HOST,thediplomat.com,Gfwlist
@@ -3539,18 +3562,22 @@ HOST,thehun.net,Gfwlist
 HOST,theinitium.com,Gfwlist
 HOST,theintercept.com,Gfwlist
 HOST,thenewslens.com,Gfwlist
+HOST,theonlinecitizen.com,Gfwlist
 HOST,thepiratebay.org,Gfwlist
 HOST,theporndude.com,Gfwlist
 HOST,theportalwiki.com,Gfwlist
 HOST,theprint.in,Gfwlist
 HOST,thesaturdaypaper.com.au,Gfwlist
+HOST,thestandard.com.hk,Gfwlist
 HOST,thestandnews.com,Gfwlist
+HOST,thestar.com,Gfwlist
 HOST,thetatoken.org,Gfwlist
 HOST,thetibetpost.com,Gfwlist
 HOST,thetvdb.com,Gfwlist
 HOST,theweek.com,Gfwlist
 HOST,thewgo.org,Gfwlist
 HOST,thewirechina.com,Gfwlist
+HOST,thewitnesshk.com,Gfwlist
 HOST,theync.com,Gfwlist
 HOST,thinkchina.sg,Gfwlist
 HOST,thinkgeek.com,Gfwlist
@@ -4121,6 +4148,7 @@ HOST,wo3ttt.wordpress.com,Gfwlist
 HOST,woeser.com,Gfwlist
 HOST,wokar.org,Gfwlist
 HOST,wolfax.com,Gfwlist
+HOST,womany.net,Gfwlist
 HOST,wombo.ai,Gfwlist
 HOST,woolyss.com,Gfwlist
 HOST,woopie.jp,Gfwlist

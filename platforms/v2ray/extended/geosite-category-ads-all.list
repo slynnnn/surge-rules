@@ -1,6 +1,6 @@
 # v2ray/extended/geosite-category-ads-all.list — geosite 源格式（domain:/full:/keyword:/regexp:），由 surge-rules 自动转换
 
-# ── 默认（908 条）──
+# ── 默认（909 条）──
 full:1l-hit.mail.ru
 full:1l-hit.vkplay.ru
 full:ad-channel.diwodiwo.xyz
@@ -829,6 +829,7 @@ domain:tce.alicdn.com
 domain:tcss.qq.com
 domain:tdsdk.cpatrk.net
 domain:telecome.cn
+domain:tencentads.com
 domain:testads.api.my7v.com
 domain:theta.sogoucdn.com
 domain:tjqonline.cn
